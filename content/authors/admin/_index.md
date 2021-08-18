@@ -11,7 +11,7 @@ role: Professor of Statistics
 # Organizations/Affiliations to show in About widget
 organizations:
 - name: University of Southampton 
-  url: https://www.sujitsahu.com/
+  url: https://www.southampton.ac.uk/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
@@ -51,7 +51,7 @@ social:
   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/sujit-sahu
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/
@@ -70,7 +70,7 @@ email: ""
 highlight_name: false
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Sujit Sahu is a professor of Statisics at the University of Southampton. His research interests include Bayesian modeling of spatio-temporal data.  
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
 
