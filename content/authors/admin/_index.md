@@ -67,8 +67,7 @@ email: "S.K.Sahu@soton.ac.uk"
 highlight_name: false
 ---
 
-Sujit Sahu is a professor of Statisics at the University of Southampton. His research interests include Bayesian modeling of spatio-temporal data.  
+Sujit Sahu is a professor of Statistics at the University of Southampton. He is interested in Bayesian computation and modeling especially for spatio-temporal data.  
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/2021_sahuresume.pdf" "newtab" >}}resumé{{< /staticref >}}.
