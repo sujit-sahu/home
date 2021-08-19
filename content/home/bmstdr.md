@@ -9,8 +9,8 @@ headless: true
 # Order that this section appears on the page.
 weight: 40
 
-title: Experience
-subtitle:
+title: R package 'bmstdr'
+subtitle: Please download from github. 
 
 # Date format for experience
 #   Refer to https://wowchemy.com/docs/customization/#date-format
@@ -21,8 +21,8 @@ date_format: Jan 2006
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-experience:
-  - title: CEO
+Functions:
+  - title: Bsptime
     company: GenCoin
     company_url: ''
     company_logo: org-gc
@@ -36,7 +36,7 @@ experience:
         * Modelling
         * Deploying
         
-  - title: Professor of Statistics
+  - Bcarime: Fit CAR models for aerial data
     company: University X
     company_url: ''
     company_logo: org-x

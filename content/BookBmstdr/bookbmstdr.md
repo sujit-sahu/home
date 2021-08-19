@@ -10,7 +10,7 @@ headless: true
 weight: 30
 
 title: Bayesian Modeling of Spatio-Temporal Data with R
-subtitle: Chapman and Hall (In press)
+subtitle: Chapman and Hall (Out now)
 
 content:
   # Page type to display. E.g. post, talk, publication...

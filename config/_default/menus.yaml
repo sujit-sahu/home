@@ -11,8 +11,8 @@ main:
     url: '#featured'
     weight: 20
   - name: BookBmstdr
-    url: '#bookbmstdr'
-    weight: 30
+    url: 'BookBmstdr/'
+    weight: 12
   - name: bmstdr
     url: '#bmstdr'
     weight: 40
