@@ -7,38 +7,32 @@ main:
   - name: Home
     url: '#about'
     weight: 10
-  - name: Posts
-    url: '#posts'
+  - name: Publications
+    url: '#featured'
     weight: 20
+  - name: BookBmstdr
+    url: '#bookbmstdr'
+    weight: 30
+  - name: bmstdr
+    url: '#bmstdr'
+    weight: 40
+  - name: Teaching
+    url: '#teach'
+    weight: 50
   - name: Projects
     url: '#projects'
-    weight: 30
+    weight: 60
   - name: Talks
     url: '#talks'
-<<<<<<< HEAD
-  - name: '#Teaching'
-    url: '#teach'
     weight: 70
+  - name: Projects
+    url: '#projects'
   - name: Contact
     url: '#contact'
     weight: 80
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
-  - name: CV
-    url: uploads/2021_sahuresume.pdf
-    weight: 90
-=======
-    weight: 40
-  - name: Publications
-    url: '#featured'
-    weight: 50
-  - name: Contact
-    url: '#contact'
-    weight: 60
-
-# Link to a PDF of your resume/CV from the menu.
-# To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
 #  - name: CV
-#    url: uploads/resume.pdf
-#    weight: 70
->>>>>>> parent of 9e93a77... menu commit
+#    url: uploads/2021_sahuresume.pdf
+#    weight: 90
+
