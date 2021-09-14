@@ -37,11 +37,11 @@ design:
   view: 1
 ---
 
-<!---
+
 {{% callout note %}}
 Quickly discover relevant content by [filtering publications](./publication/).
 {{% /callout %}}
--->
+
 
 
 See also my <a href="https://scholar.google.co.uk/citations?user=5TaCEasAAAAJ&hl=en"> Google Citation Profile.</a>
@@ -53,9 +53,9 @@ See also my <a href="https://scholar.google.co.uk/citations?user=5TaCEasAAAAJ&hl
 
 <ol reversed> 
 
-<li>Sahu, S. K. and Boehning, D. (2021) <a href="../projects/sptime_covid.pdf"> 
+<li>Sahu, S. K. and Boehning, D. (2021) <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8114675/"> 
  Bayesian spatio-temporal joint disease mapping of Covid-19 cases and deaths in local authorities of England.
- </a> <i> Spatial Statistics. </i>
+ </a> <i> Spatial Statistics. </i> doi: 10.1016/j.spasta.2021.100519. 
 
 
 <li> Hammond, M.L., Beaulieu, C., Henson, S.A. and Sahu, S. K.  (2020)

@@ -1,0 +1,63 @@
+<title>Sample Size Determination</title>
+
+<BODY BACKGROUND="/images/background.jpg" >
+<p>
+<b> <h3> <center>A  Bayesian  
+sample size determination method with practical applications
+ </center> </h3> </b>
+ 
+<center>
+Sujit K. Sahu and T. M. Fred Smith 
+</center>       
+
+
+
+<b>
+<h4>          
+ SUMMARY 
+ </h4> </b>
+</center>
+<p>
+
+
+
+<p>
+
+The problem motivating this article is the determination of sample size in  clinical 
+trials under normal likelihoods and at the substantive testing stage of a 
+financial audit where normality is not an appropriate assumption. 
+A combination of analytical and simulation based techniques within the 
+Bayesian framework is proposed. The  framework accommodates 
+two different prior distributions: one is the general purpose fitting prior 
+distribution used in Bayesian analysis and the other is the expert subjective 
+ prior distribution, the sampling prior which is believed  to generate the parameter values
+which in turn generate the data. We obtain many   
+theoretical results and one key  result is that 
+typical non-informative prior distributions lead to very small 
+sample sizes. On the other hand,  a  very informative 
+prior distribution may either lead to a very small or a very large sample 
+size depending on the location of the centre of the prior distribution and 
+the hypothesized value of the parameter. 
+The methods developed here are quite general and can be applied 
+to other sample size determination (SSD) problems. 
+A  number of numerical illustrations which bring out many other 
+aspects of the optimum sample size are given. 
+<p>
+Key words:  Auditing; Bayesian inference; book values; fitting prior; 
+mixture distribution; rare errors; simulation based approach;  sampling prior; 
+taints.
+
+<hr>
+
+<a href="ssd.pdf"> Click here </a> to download. 
+
+<hr>
+
+
+<a href="../../index.phtml" > Back to </a> my page. 
+<address>
+S.K.Sahu@maths.soton.ac.uk 
+</address>
+<p>
+
+
