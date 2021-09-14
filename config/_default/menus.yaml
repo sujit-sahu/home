@@ -7,12 +7,15 @@ main:
   - name: Home
     url: '#about'
     weight: 10
+  - name: Employment
+    url: '#experience'
+    weight: 15
   - name: Publications
     url: '#featured'
-    weight: 11
+    weight: 20
   - name: BookBmstdr
     url: 'landing/'
-    weight: 20
+    weight: 30
   - name: R package bmstdr
     url: '#bmstdr'
     weight: 40
