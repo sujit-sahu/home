@@ -37,10 +37,11 @@ design:
   view: 1
 ---
 
+<!---
 {{% callout note %}}
 Quickly discover relevant content by [filtering publications](./publication/).
 {{% /callout %}}
-
+-->
 
 
 See also my <a href="https://scholar.google.co.uk/citations?user=5TaCEasAAAAJ&hl=en"> Google Citation Profile.</a>
