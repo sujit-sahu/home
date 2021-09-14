@@ -9,11 +9,11 @@ main:
     weight: 10
   - name: Publications
     url: '#featured'
-    weight: 20
+    weight: 11
   - name: BookBmstdr
-    url: 'BookBmstdr/'
-    weight: 12
-  - name: bmstdr
+    url: 'landing/'
+    weight: 20
+  - name: R package bmstdr
     url: '#bmstdr'
     weight: 40
   - name: Teaching
@@ -22,11 +22,6 @@ main:
   - name: Projects
     url: '#projects'
     weight: 60
-  - name: Talks
-    url: '#talks'
-    weight: 70
-  - name: Projects
-    url: '#projects'
   - name: Contact
     url: '#contact'
     weight: 80
