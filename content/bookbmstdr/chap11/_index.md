@@ -23,13 +23,14 @@ header:
   image: ""
 ---
       Parallel to Chapter 8, this chapter showcases four examples of areal and temporal areal unit data sets. The examples are on: 
-    <ol>
-      <li> <a href="../Rcode/Chap11_Kenya.html"> Assessing childhood vaccination coverage in Kenya </a>
-      <li>  <a href="../Rcode/Chap11_USA.html"> Assessing trend in cancer rates in the USA </a>
-      <li>  <a href="../Rcode/Chap11_eng.html"> Localized modeling of hospitalization data from England </a>
-	<li> <a href="../Rcode/Chap11_london.html"> Assessing trend in child poverty in London </a>
-    </ol>
-    <p>
+
+<ol>
+<li> <a href="../Rcode/Chap11_Kenya.html"> Assessing childhood vaccination coverage in Kenya </a>
+<li>  <a href="../Rcode/Chap11_USA.html"> Assessing trend in cancer rates in the USA </a>
+<li>  <a href="../Rcode/Chap11_eng.html"> Localized modeling of hospitalization data from England </a>
+<li> <a href="../Rcode/Chap11_london.html"> Assessing trend in child poverty in London </a>
+</ol>
+<p>
     All the model fitting  is done using the  <i>Bcartime</i> model fitting function in the  <i>bmstdr</i> package.
 The fitted model object is then explored for making several types of inference required
 in different practical settings. The full version of the
