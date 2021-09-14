@@ -9,22 +9,22 @@ main:
     weight: 10
   - name: Employment
     url: '#experience'
-    weight: 15
+    weight: 20
   - name: Publications
     url: '#featured'
-    weight: 20
-  - name: BookBmstdr
-    url: 'landing/'
     weight: 30
+  - name: Book Bmstdr
+    url: 'bookbmstdr/'
+    weight: 40
   - name: R package bmstdr
     url: '#bmstdr'
-    weight: 40
+    weight: 50
   - name: Teaching
     url: '#teach'
-    weight: 50
+    weight: 60
   - name: Projects
     url: '#projects'
-    weight: 60
+    weight: 70
   - name: Contact
     url: '#contact'
     weight: 80
