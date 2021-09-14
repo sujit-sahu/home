@@ -85,7 +85,7 @@ https://rss.onlinelibrary.wiley.com/doi/10.1111/rssc.12385. </a>
 
 
 <li> Nicolis, O. Diaz,  M., Sahu, S. K.  and Marin, J. C. (2019)
-		<a href="static/papers/nicolis_etal_final.pdf"> Bayesian spatio-temporal modelling for estimating short-term exposure to air pollution in Santiago de Chile. </a> <i> Environmetrics, </i>  <b> 30, </b>  doi: 10.1002/env.2574
+		<a href="papers/nicolis_etal_final.pdf"> Bayesian spatio-temporal modelling for estimating short-term exposure to air pollution in Santiago de Chile. </a> <i> Environmetrics, </i>  <b> 30, </b>  doi: 10.1002/env.2574
 
 <li> Bass, M. R. and Sahu, S. K. (2019)
 <a href="https://doi.org/10.1080/10618600.2018.1482761">
