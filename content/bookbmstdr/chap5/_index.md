@@ -24,6 +24,7 @@ header:
 ---
 
 <a href="../Rcode/Chapter5.html"> R code for reproducing the examples in Chapter 5. </a>
+<p>
 This chapter introduces the underlying concepts behind the powerful and popular computation methods used to make
 Bayesian inference for complex but parametric modeling problems. Presented with two simple running examples the chapter
 defines the methods of Monte Carlo, importance sampling, rejection sampling, Markov chain, Metropolis-Hastings algorithm, Gibbs sampler,
