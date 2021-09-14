@@ -72,7 +72,7 @@ If you are interested in:
 <li> <font color="#008000" face="arial" size="5"> environmental statistics </font> you will have the opportunity to learn modelling of large climate and air pollution data sets. You can aim  to  <font color=#008080" face="arial">`go green' </font>  with Prof Sahu! </i>
 <p>
  A third year Mathematics BSc student, Ms Jinran Zhan,  worked on a very similar project in 2018-2019 and
-based on the project it has been possible to publish the research paper: <a href="Precip_JSM_proceedings_2020.pdf"> Spatio-temporal Bayesian modeling of precipitation using rain gauge data from the Hubbard Brook Experimental Forest, New Hampshire, USA. </a>
+based on the project it has been possible to publish the research paper: <a href="projects/Precip_JSM_proceedings_2020.pdf"> Spatio-temporal Bayesian modeling of precipitation using rain gauge data from the Hubbard Brook Experimental Forest, New Hampshire, USA. </a>
 
 
 <li> <font color="#0000FF" face="arial" size="5">  data science </font> you will learn spatio-temporal regression models 
@@ -82,7 +82,7 @@ You will  have ample chance to learn   <i> to swim with data. </i>
 
 <p>  During 2019-2020 
 Witaya Bamrungpong,  a student in our MSc in
-Data & Decision Analytics worked on <a href="Presentation_Witaya_31411029.pdf"> data science
+Data & Decision Analytics worked on <a href="projects/Presentation_Witaya_31411029.pdf"> data science
 project on air pollution modelling </a> which secured him the <b> top prize </b> from Boeing for 19/20 CORMSIS MSc Maths OR students. 
 
 
