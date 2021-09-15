@@ -23,11 +23,11 @@ main:
     url: '#teach'
     weight: 60
   - name: Projects
-    url: '#projects'
+    url: 'projects/'
     weight: 70
-  - name: Contact
-    url: '#contact'
-    weight: 80
   - name: Student opinion
     url: '#commentslider'
+    weight: 80
+  - name: Contact
+    url: '#contact'
     weight: 90
