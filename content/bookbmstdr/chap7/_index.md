@@ -23,7 +23,6 @@ header:
   image: ""
 ---
 
-<a href="../Rcode/Chapter7.html"> R code for reproducing the examples in Chapter 7. </a>
  
 This is the main methodological chapter which discusses spatio-temporal modeling for point referenced continuous  data.
 As in the preceding  chapter  it obtains exact theoretical results for a simple separable spatio-temporal model which serves as the
@@ -33,6 +32,11 @@ fitted and compared using the <i>Bsptime </i> command in the   <i>bmstdr </i> pa
 packages such as <i>spTimer,  rstan,  INLA </i> and <i>spBayes </i>. The <i>nysptime</i> data set is used as a running example
 to illustrate all the methods. 
 
-    
+<p>    
+<a href="../Rcode/Chapter7.html"> R code for reproducing the examples in Chapter 7. </a>
+
+
+{{< gallery album="chap7figures" >}}
+
 
 

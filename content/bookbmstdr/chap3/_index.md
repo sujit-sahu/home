@@ -23,7 +23,6 @@ header:
   image: ""
 ---
 
-<a href="../Rcode/Chapter3.html">  R code for reproducing the examples in Chapter 3. </a>
 <p> 
 	This chapter emphasizes the need to carry out Exploratory Data Analysis (EDA) before embarking on any modeling
 endeavor. EDA techniques introduced include non-spatial techniques such as histogram, pairwise scatter plots;
@@ -36,5 +35,9 @@ spatial methods such as variogram and Kriging; and temporal exploration such as 
 <li> <i> engdeaths:</i> areal unit weekly temporal data on Covid-19 mortality in England, 
 </ol>
   Familiarity of these data sets is crucial for understanding the modeling performed in the  later chapters.
-  
+  <p>
 
+<a href="../Rcode/Chapter3.html">  R code for reproducing the examples in Chapter 3. </a>
+
+	
+{{< gallery album="chap3figures" >}}

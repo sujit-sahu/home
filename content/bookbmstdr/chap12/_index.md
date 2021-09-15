@@ -32,4 +32,6 @@ what has been presented in the earlier chapters of this book and relevant parts 
 The chapter also discusses the use  of GP in Bayesian calibration of computer codes. 
 
 
+{{< gallery album="chap12figures" >}}
+
 

@@ -23,8 +23,6 @@ header:
   image: ""
 ---
 
-<a href="../Rcode/Chapter5.html"> R code for reproducing the examples in Chapter 5. </a>
-<p>
 This chapter introduces the underlying concepts behind the powerful and popular computation methods used to make
 Bayesian inference for complex but parametric modeling problems. Presented with two simple running examples the chapter
 defines the methods of Monte Carlo, importance sampling, rejection sampling, Markov chain, Metropolis-Hastings algorithm, Gibbs sampler,
@@ -35,4 +33,11 @@ diagnostics, run length and the number of chains are discussed from a practical 
 Exact and MCMC estimated  values of Bayesian model choice criteria such as the DIC and WAIC for a simple normal-normal
 example are compared.  Exercises are provided to check understanding. 
 
+<p>
 
+<a href="../Rcode/Chapter5.html"> R code for reproducing the examples in Chapter 5. </a>
+<p>
+
+
+	
+{{< gallery album="chap5figures" >}}

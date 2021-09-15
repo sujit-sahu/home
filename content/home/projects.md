@@ -98,6 +98,11 @@ Here is a direct quote from a BSc final year student in 2020-2021:
 "I loved learning about and exploring different modelling techniques in Statistics. I can confidently say that it was the best module I have taken in my fourth year studying BSc Mathematics with Spanish. <p> 
 At times it was really challenging but my supervisor Sujit Sahu guided me patiently and effectively which helped me progress with my research, thus making it fun, engaging and very enjoyable. <p>
 It was a great pleasure to work with Sujit and I greatly appreciate the work he has put in. The constant support provided encouraged me to aspire for a deeper understanding of the topic."
+<p> 
+Here is a quote from another student: 
+
+"In terms of feedback, I just wanted to say thank you for all the help you gave me, particularly in my last-minute panic to get it all done! I found the topic very interesting and something I could see myself doing in my future career. I enjoyed completing the project as it gave a better insight to what a career in data may involve, through cleaning and analyzing data and then writing a final report. You continued to push me to achieve my best."
+
 
 
 <h2>
@@ -120,4 +125,80 @@ analyse a brand new spatio-temporal data set of their choice.
 <li> It is possible to mix and match the above, i.e. theoretical development, application analytics and software development,
 depending on your  own interest and dedication.   
 <p>
+
+
+
+
+<h2>
+Practical examples from projects done by past students:
+</h2> 
+
+<ol>
+
+<li> <h3> Number of Covid-19 deaths per million people upto September, 2020.  </h3>
+<img src="projects/covid_19_deaths.png" alt="global trend" width="800" height="500"/> 
+
+<li> <h3> Annual percentage trend in ocean chlorophyll levels.  </h3>
+<img src="projects/space_trend_longhurst.png" alt="global trend" width="900" height="500"/> 
+
+
+<li> <h3>  Average number of weekly covid deaths and levels of NO2 in England</h3>
+
+<table border=4 cellspacing=2 cellpadding=2>
+ <tr>
+  <td><img src="projects/observed_covid_death_rate.png" alt="Observed Covid death rate" width="450" height="400" /> </td>
+  <td>
+   <img src="projects/mean_no2_by_LA.png" alt="Mean NO2 levels" width="450" height="400" />
+  </td>
+ </tr>
+</table>
+
+
+<li> <h3> Annual average temperature in the north Atlantic in 2003 and 
+ average air pollution in New York. </h3>
+
+<table border=4 cellspacing=2 cellpadding=2>
+ <tr>
+  <td><img src="projects/temp_deep.png" alt="annual temperature" width="450" height="400" /> </td>
+  <td>
+   <img src="projects/predicted_ny.png" alt="air pollution in New York" width="450" height="400" />
+  </td>
+ </tr>
+</table>
+
+<li> <h3>  Annual precipitation and trend map of Hubbard Brook experimental forest in New Hampshire, USA</h3>
+
+<table border=4 cellspacing=2 cellpadding=2>
+ <tr>
+  <td><img src="projects/rolling_rain2010_hbes.png" alt="rolling average" width="450" height="400" /> </td>
+  <td>
+   <img src="projects/trend_wshed05-15.png" alt="trend map" width="450" height="400" />
+  </td>
+ </tr>
+</table>
+
+<li>  <h3> Air pollution modelling maps for eastern USA</h3>
+
+<table border=4 cellspacing=2 cellpadding=2>
+ <tr>
+  <td><img src="projects/grid_knots.png" alt="rolling average" width="450" height="400" /> </td>
+  <td>
+   <img src="projects/prob_3y_06_gt85.png" alt="trend map" width="450" height="400" />
+  </td>
+ </tr>
+</table>
+
+
+<li> <h3>  Air pollution and their sd  map of England and Wales. 
+</h3>
+<table border=4 cellspacing=2 cellpadding=2>
+ <tr>
+  <td><img src="projects/no2_la_2011.png" alt="rolling average" width="450" height="400" /> </td>
+  <td>
+   <img src="projects/no2_la_2011_sd.png" alt="trend map" width="450" height="400" />
+  </td>
+ </tr>
+</table>
+
+</ol>
 

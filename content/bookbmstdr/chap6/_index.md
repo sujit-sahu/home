@@ -23,8 +23,6 @@ header:
   image: ""
 ---
 
-<a href="../Rcode/Chapter6.html"> R code for reproducing the examples in Chapter 6. </a>
-
 This chapter introduces the general topic of practical Bayesian modeling and discusses its advantages over procedure based
 methods. The chapter discusses theoretical results for a simple linear regression model and also for a spatial model with known correlation
 parameter for point referenced data. These `exactly' computable models are treated as the starting  straw models
@@ -36,6 +34,11 @@ any of these packages, without the need to write package specific code,  is intr
 of model validation using four important statistics: root mean square error, mean absolute error, continuous ranked
   probability score and coverage. All these statistics are illustrated using the <i>nyspatial</i> data set.
   
-    
+<p>
+
+<a href="../Rcode/Chapter6.html"> R code for reproducing the examples in Chapter 6. </a>
+
+
+{{< gallery album="chap6figures" >}}
 
 

@@ -37,3 +37,5 @@ the derivations to understand the modeling presented in the subsequent chapters 
 interpret the results from a practical view point.
 
 
+	
+{{< gallery album="chap4figures" >}}

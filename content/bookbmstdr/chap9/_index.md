@@ -23,8 +23,6 @@ header:
   image: ""
 ---
 
-<a href="../Rcode/Chapter9.html"> R code for reproducing the examples in Chapter 9. </a>
-
 The topic of forecasting is discussed  in this chapter.  Several easy to use and scalable
 forecasting methods are presented for Gaussian data.  The first of these is an exact Bayesian method
 based on the separable spatio-temporal model discussed in Chapter 7. In this case we  evaluate
@@ -35,5 +33,11 @@ relevant statistics and diagrams such as the hit and false alarm  rates,
 sharpness diagram, probability integral transform diagram and a marginal calibration plot. 
 We compare the forecasting methods using daily ozone pollution data in the eastern United States
 for a two week period in July 2010.
+
+<p> 
+
+<a href="../Rcode/Chapter9.html"> R code for reproducing the examples in Chapter 9. </a>
+
+{{< gallery album="chap9figures" >}}
 
 

@@ -23,7 +23,6 @@ header:
   image: ""
 ---
 
-<a href="../Rcode/Chapter10.html"> R code for reproducing the examples in Chapter 10. </a>
 
  This chapter discusses Bayesian models for both areal and temporal areal  data. As areal unit data are often discrete
 counts, this chapter first provides a gentle introduction to the generalized linear models (GLM).  The linear predictor in the
@@ -34,3 +33,12 @@ based on bespoke code written in  <i>INLA</i> are made available through the <i>
 <i>Bcartime</i>.
 Model fitting, comparison and validation are illustrated using the Covid-19 mortality data sets <i>engtotals</i> and <i>engdeaths </i>
 present in the  <i>bmstdr</i> package. 
+
+<p>
+
+<a href="../Rcode/Chapter10.html"> R code for reproducing the examples in Chapter 10. </a>
+
+
+
+{{< gallery album="chap10figures" >}}
+
