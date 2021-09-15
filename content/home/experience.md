@@ -61,14 +61,14 @@ design:
   columns: '2'
 ---
 
-<h2> Post-graduate supervision </h2> 
+<h2> Post-graduate Supervision </h2> 
 <a href="phdstudents.html"> Here is a list of all my past post-docs, PhD and MSc students.  </a> 
 
-<h2> Research grants obtained </h2> 
-<a href="grants.html"> List of research grants. </a> 
+<h2> Research Grants Obtained </h2> 
+<a href="grants.html"> List of Research Grants. </a> 
 
-<h2> Education and experience </h2> 
+<h2> Education and Experience </h2> 
 
-<a href="education.html"> Education and Experience. </a> 
+<a href="education.html"> Educational Qualifications  and Experience. </a> 
 
-<h2> Employment history </h2> 
+<h2> Employment History </h2> 
