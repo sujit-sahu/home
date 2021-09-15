@@ -10,7 +10,7 @@ headless: true
 weight: 80
 
 title: Textbook publication
-subtitle: "Bayesian modeling of spatio-temporal data with R"
+subtitle: Bayesian modeling of spatio-temporal data with R
 
 content:
   # Page type to display. E.g. post, talk, publication...
