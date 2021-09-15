@@ -24,7 +24,7 @@ item:
     #   Deactivate an option by commenting out the line, prefixing it with `#`.
     overlay_color: '#85929E'  # An HTML color value.
     overlay_img: icon.png  # Image path relative to your `assets/media/` folder
-    overlay_filter: 0.1  # Darken the image. Value in range 0-1.
+    overlay_filter: 0.7  # Darken the image. Value in range 0-1.
     # Call to action button (optional).
     #   Activate the button by specifying a URL and button label below.
     #   Deactivate by commenting out parameters, prefixing lines with `#`.
@@ -37,11 +37,11 @@ item:
     align: center
     overlay_color: '#D98880'
     overlay_img: ''
-    overlay_filter: 0.5
+    overlay_filter: 0.7
   - title: A BSc Mathematics with Statistics Student 
     content: 'I just wanted to say thank you for all the help you gave me, particularly in my last-minute panic to get it all done! I found the topic very interesting and something I could see myself doing in my future career. I enjoyed completing the project as it gave a better insight to what a career in data may involve, through cleaning and analyzing data and then writing a final report. You continued to push me to achieve my best.😄'
     align: center
     overlay_color: '#333'
     overlay_img: ''
-    overlay_filter: 0.5
+    overlay_filter: 0.7
 ---
