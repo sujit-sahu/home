@@ -17,7 +17,7 @@ width: 80%
 
 item:
   - title: An MSc student 
-    content: 'I have learned a lot from Prof Sahus project. At first I was not sure if I liked all the coding in R. But he certainly made it easy for me to learn. 😄'
+    content: 'I have learned a lot from Prof Sahus project. At first I was not sure if I would like all the coding in R. But he certainly made it easy for me to learn. 😄'
     # Choose `center`, `left`, or `right` alignment.
     align: center
     # Overlay a color or image (optional).
