@@ -71,7 +71,7 @@ design:
 
 
 <h2>
-<font color="#FF00FF" face="arial" size="5"> Here is a copy of the   <a href="https://www.soton.ac.uk/~sks/bmbook/bmstdr-vignette.html"> bmstdr package vignette.</a> </font>
+<font color="#FF00FF" face="arial" size="5"> Here is a copy of the   <a href="/bmbook/bmstdr-vig_version.html"> bmstdr package vignette.</a> </font>
 </h2>
 
 
