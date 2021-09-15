@@ -1,9 +1,9 @@
 ---
-title: Example Project
-summary: An example of using the in-built project page.
+title: Projects for all BSc, MSc and PhD students
+summary: These are example projects.
 tags:
-- Deep Learning
-date: "2016-04-27T00:00:00Z"
+- Bayesian modeling
+date: "2021-09-15T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -16,26 +16,149 @@ links:
 - icon: twitter
   icon_pack: fab
   name: Follow
-  url: https://twitter.com/georgecushen
+  url: https://twitter.com/Sujit_K_Sahu
 url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
 
-# Slides (optional).
-#   Associate this project with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-slides: example
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+<h2>
+Prospective projects for all students  at <font color="#FF0000" face="arial"> BSc, </font>
+ <font color="#008080" face="arial"> MSc </font>
+ and
+<font color="#000080" face="arial">  PhD </font> levels.
+</h2>
 
-Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.
+<p>
+ Observations that vary in both space and time are called spatio-temporal data. Example data set includes air pollution,
+ precipitation, temperature, disease specific (Covid-19) case and death rates, brain imaging,
+ ocean characteristics such as temperature,  salinity and chlorophyll levels.
 
-Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.
+<p> Data science techniques are to be used to extract the scientific information, e.g. long term trend in global
+warming, hidden in these large data sets. Example of data science techniques include regression modelling and validation methods.
+Intuitively one can expect that spatio-temporal regression models that exploit the spatio-temporal dependence in the data
+will perform better than regression models with iid error distribution assumption.   
 
-Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.
+<h2>
+If you are interested in:
+</h2>
+<ul>
+<li> <font color="#008000" face="arial" size="5"> environmental statistics </font> you will have the opportunity to learn modelling of large climate and air pollution data sets. You can aim  to  <font color=#008080" face="arial">`go green' </font>  with Prof Sahu! </i>
+<p>
+ A third year Mathematics BSc student, Ms Jinran Zhan,  worked on a very similar project in 2018-2019 and
+based on the project it has been possible to publish the research paper: <a href="/projects/Precip_JSM_proceedings_2020.pdf"> Spatio-temporal Bayesian modeling of precipitation using rain gauge data from the Hubbard Brook Experimental Forest, New Hampshire, USA. </a>
 
-Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.
+
+<li> <font color="#0000FF" face="arial" size="5">  data science </font> you will learn spatio-temporal regression models 
+that outperfom independent error regression model in out of sample validation.
+ This is indeed true for most data sets and you will have the opportunity to experience these results yourself. 
+You will  have ample chance to learn   <i> to swim with data. </i>
+
+<p>  During 2019-2020 
+Witaya Bamrungpong,  a student in our MSc in
+Data & Decision Analytics worked on <a href="/projects/Presentation_Witaya_31411029.pdf"> data science
+project on air pollution modelling </a> which secured him the <b> top prize </b> from Boeing for 19/20 CORMSIS MSc Maths OR students. 
+
+
+<li> <font color="#800080" face="arial" size="5"> medical statistics,  </font> you will learn to perform Bayesian disease mapping for analysing live coronavirus pandemic  data. A research paper jointly written with Prof Dankmar Boehning is <a href="/projects/sptime_covid.pdf"> also available.</a>  
+</ul>
+
+
+<h2>
+If you are thinking of studying for PhD please email me.  You may also want to see my <a href="/publicationlist.html"> research publication list </a>  and <a href="/phdstudents.html"> supervision record.<a> 
+</h2>
+
+Getting started with each project is easy with the R-package <b> bmstdr </b> developed by  Prof Sahu.  The projects will also benefit from an accessible textbook currently being written by Prof Sahu on the same topic.
+ The projects will suit students with a wide range of interests in theory and application at all levels:
+<font color="#FF0000" face="arial"> BSc, </font>
+ <font color="#008080" face="arial"> MSc </font>
+ and
+<font color="#000080" face="arial">  PhD. </font> 
+<ul>
+<li> A mathematically strong and motivated student can develop the theory
+behind the modelling so that new models can be fitted.
+<li> A student with interests in data analytics and data science can
+analyse a brand new spatio-temporal data set of their choice. 
+<li> A student aiming to gain key skills in R programming can develop and enhance the  <b> bmstdr </b> package.
+<li> It is possible to mix and match the above, i.e. theoretical development, application analytics and software development,
+depending on your  own interest and dedication.   
+<p>
+
+
+
+
+<h2>
+Practical examples from projects done by past students:
+</h2> 
+
+<ol>
+
+<li> <h3> Number of Covid-19 deaths per million people upto September, 2020.  </h3>
+<img src="/projects/covid_19_deaths.png" alt="global trend" width="800" height="500"/> 
+
+<li> <h3> Annual percentage trend in ocean chlorophyll levels.  </h3>
+<img src="/projects/space_trend_longhurst.png" alt="global trend" width="900" height="500"/> 
+
+
+<li> <h3>  Average number of weekly covid deaths and levels of NO2 in England</h3>
+
+<table border=4 cellspacing=2 cellpadding=2>
+ <tr>
+  <td><img src="/projects/observed_covid_death_rate.png" alt="Observed Covid death rate" width="450" height="400" /> </td>
+  <td>
+   <img src="/projects/mean_no2_by_LA.png" alt="Mean NO2 levels" width="450" height="400" />
+  </td>
+ </tr>
+</table>
+
+
+<li> <h3> Annual average temperature in the north Atlantic in 2003 and 
+ average air pollution in New York. </h3>
+
+<table border=4 cellspacing=2 cellpadding=2>
+ <tr>
+  <td><img src="/projects/temp_deep.png" alt="annual temperature" width="450" height="400" /> </td>
+  <td>
+   <img src="/projects/predicted_ny.png" alt="air pollution in New York" width="450" height="400" />
+  </td>
+ </tr>
+</table>
+
+<li> <h3>  Annual precipitation and trend map of Hubbard Brook experimental forest in New Hampshire, USA</h3>
+
+<table border=4 cellspacing=2 cellpadding=2>
+ <tr>
+  <td><img src="/projects/rolling_rain2010_hbes.png" alt="rolling average" width="450" height="400" /> </td>
+  <td>
+   <img src="/projects/trend_wshed05-15.png" alt="trend map" width="450" height="400" />
+  </td>
+ </tr>
+</table>
+
+<li>  <h3> Air pollution modelling maps for eastern USA</h3>
+
+<table border=4 cellspacing=2 cellpadding=2>
+ <tr>
+  <td><img src="/projects/grid_knots.png" alt="rolling average" width="450" height="400" /> </td>
+  <td>
+   <img src="/projects/prob_3y_06_gt85.png" alt="trend map" width="450" height="400" />
+  </td>
+ </tr>
+</table>
+
+
+<li> <h3>  Air pollution and their sd  map of England and Wales. 
+</h3>
+<table border=4 cellspacing=2 cellpadding=2>
+ <tr>
+  <td><img src="/projects/no2_la_2011.png" alt="rolling average" width="450" height="400" /> </td>
+  <td>
+   <img src="/projects/no2_la_2011_sd.png" alt="trend map" width="450" height="400" />
+  </td>
+ </tr>
+</table>
+
+</ol>
+
