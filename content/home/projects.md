@@ -187,5 +187,3 @@ Practical examples from projects done by past students:
 
 </ol>
 
-<h1> Student Testimonials 
-</h1> 
