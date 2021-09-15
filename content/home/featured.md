@@ -6,8 +6,6 @@ widget: featured
 # This file represents a page section.
 headless: true
 
-# Order that this section appears on the page.
-# weight: 80
 
 title: Textbook publication
 subtitle: 'Bayesian modeling of spatio-temporal data with R'
