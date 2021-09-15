@@ -34,13 +34,13 @@ item:
     cta_icon: graduation-cap
   - title: A BSc Mathematics student 
     content: '😄 I loved learning about and exploring different modelling techniques in Statistics. I can confidently say that it was the best module I have taken in my fourth year. At times it was really challenging but Sujit guided me patiently and effectively which helped me progress with my research, thus making it fun, engaging and very enjoyable.  It was a great pleasure to work with Sujit and I greatly appreciate the work he has put in. The constant support provided encouraged me to aspire for a deeper understanding of the topic.'
-    align: left
+    align: center
     overlay_color: '#D98880'
     overlay_img: ''
     overlay_filter: 0.5
   - title: A final year student
     content: 'I just wanted to say thank you for all the help you gave me, particularly in my last-minute panic to get it all done! I found the topic very interesting and something I could see myself doing in my future career. I enjoyed completing the project as it gave a better insight to what a career in data may involve, through cleaning and analyzing data and then writing a final report. You continued to push me to achieve my best.😄'
-    align: right
+    align: center
     overlay_color: '#333'
     overlay_img: ''
     overlay_filter: 0.5
