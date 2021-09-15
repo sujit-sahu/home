@@ -1,6 +1,6 @@
 ---
-title: Projects offered to all BSc, MSc and PhD students
-subtitle: Examples of past projects 
+title: Research projects offered to all BSc, MSc and PhD students
+# subtitle: Examples of past projects 
 
 # linktitle: Book
 cms_exclude: true
@@ -163,9 +163,5 @@ Practical examples from projects done by past students:
 </table>
 
 </ol>
-
-
-
-{{< gallery album="bookalbum" >}}
 
 
