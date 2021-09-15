@@ -22,7 +22,7 @@ item:
     align: center
     # Overlay a color or image (optional).
     #   Deactivate an option by commenting out the line, prefixing it with `#`.
-    overlay_color: '#641E16'  # An HTML color value.
+    overlay_color: '#85929E'  # An HTML color value.
     overlay_img: icon.png  # Image path relative to your `assets/media/` folder
     overlay_filter: 0.1  # Darken the image. Value in range 0-1.
     # Call to action button (optional).
