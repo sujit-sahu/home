@@ -8,6 +8,8 @@ headless: true  # This file represents a page section.
 # Use `false` to disable animation or enter a time in ms, e.g. `5000` (5s).
 interval: false
 
+active: true 
+
 # Minimum slide height.
 # Specify a height to ensure a consistent height for each slide.
 height: 400px
