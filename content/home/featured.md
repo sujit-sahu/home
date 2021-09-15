@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 80
 
-title: Publications
+title: Textbook publication
 subtitle: "Bayesian modeling of spatio-temporal data with R"
 
 content:

@@ -37,7 +37,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://www.soton.ac.uk/~sks/bmbook/bmstdr.pdf'
+url_pdf: 'https://www.sujitsahu.com/bmbook/bmstdrbook.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
@@ -49,7 +49,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Sujit Sahu**]'
+  caption: 'Image credit: [**SKS**]'
   focal_point: ""
   preview_only: false
 
