@@ -15,8 +15,10 @@ font_size: L
 site_type: Person
 local_business_type: ''
 org_name: ''
-description: ''
-twitter: ''
+description: 'Professor of Statistics at the University of Southampton.
+Bayesian modeler and author of the book Bayesian Modeling of Spatio-Temporal
+Data with R. Also author of the R package bmstdr'
+twitter: 'SUJITSAHU2'
 
 
 # Contact (edit or remove options as required)
