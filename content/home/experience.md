@@ -25,7 +25,7 @@ experience:
   - title: Professor of Statistics
     company: University of Southampton
     company_url: 'https://www.southampton.ac.uk'
-    company_logo: org-x
+    company_logo: University_of_Southampton_Logo
     location: Southampton, UK
     date_start: '2013-06-01'
     date_end: ''
@@ -33,7 +33,7 @@ experience:
   - title: Senior Lecturer and Lecturer in  Statistics
     company: University of Southampton
     company_url: 'https://www.southampton.ac.uk'
-    company_logo: org-x
+    company_logo: University_of_Southampton_Logo
     location: Southampton
     date_start: '1999-09-01'
     date_end: '2013-05-31'
