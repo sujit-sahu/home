@@ -1,0 +1,40 @@
+body {
+    background-color: powederblue;
+    width : 70% ;
+    margin-left: 10%;
+}
+h2 {
+    font-size: 30px;
+    color : #FF0000;
+    face : arial;
+    font-family: "Times New Roman", Times, serif;
+    size : 5;
+}
+p {
+    face : times;
+    font-size : 20px;
+    font-family: "Times New Roman", Times, serif;
+    size : 5;
+}
+li{
+    margin: 0;
+    face : times;
+    font-family: "Times New Roman", Times, serif;
+    font-size : 20px;
+    size : 5;
+}
+
+li:first-child {
+    margin-top:10px;
+}
+
+li:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+    padding: 0;
+    margin : 0;
+    color : blue;
+}
