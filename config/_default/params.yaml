@@ -18,10 +18,6 @@ org_name: ''
 description: ''
 twitter: ''
 
-marketing:
-  google_site_verification: 'google-site-verification=UwoBQzfBAF53zBIO50X2cHoOVP_Zgi4pINo__4ffUQM'
-  baidu_site_verification: ''
-  bing_site_verification: ''
 
 # Contact (edit or remove options as required)
 
@@ -135,12 +131,12 @@ map:
   provider: ''
   api_key: ''
   zoom: 15
+
 marketing:
-  google_analytics: ''
-  google_tag_manager: ''
-  google_site_verification: ''
+  google_site_verification: 'google-site-verification=UwoBQzfBAF53zBIO50X2cHoOVP_Zgi4pINo__4ffUQM'
   baidu_site_verification: ''
-  baidu_tongji: ''
+  bing_site_verification: ''
+
 cms:
   branch: master
   local_backend: false
