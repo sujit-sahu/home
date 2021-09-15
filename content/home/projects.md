@@ -107,7 +107,7 @@ Here is a quote from another student:
 
 <h2>
 If you are thinking of studying for PhD please email me.  You may also want to see my pages
- on <a href="#featured"> research publication </a>  and <a href="https://www.soton.ac.uk/~sks/phdstudents/"> supervision record.<a> 
+ on <a href="#featured"> research publication </a>  and <a href="phdstudents.html"> supervision record.<a> 
 </h2>
 
 Getting started with each project is easy with the R-package <b> bmstdr </b> developed by  Prof Sahu.  The projects will also benefit from an accessible textbook currently being written by Prof Sahu on the same topic.
