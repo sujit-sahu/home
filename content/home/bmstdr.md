@@ -46,26 +46,28 @@ design:
 
 
 <ul>
-<li> You can download <a href="https://www.soton.ac.uk/~sks/bmbook/install-bmstdr.R"> this R file </a> and install the package as instructed in it.
+<li> You can download <a href="/bmbook/install-bmstdr.R"> this R file </a> and install the package as instructed in it.
 <li> Or you can install directly  in R from the commands given  below.
 </ul> 
 
 <ol>
-<li> Windows binary of bmstdr:   <a href="https://www.soton.ac.uk/~sks/bmbook/bmstdr_0.1.2.zip">  bmstdr_0.1.2.zip. </a> To install, please issue the <b> R </b> command:
+<li> Windows binary of bmstdr:   <a href="/bmbook/bmstdr_0.1.2.zip">  bmstdr_0.1.2.zip. </a> To install, please issue the <b> R </b> command:
 
-<i> <font color="#0f4a12" face="arial"> install.packages("https://www.soton.ac.uk/~sks/bmbook/bmstdr_0.1.2.zip", repos=NULL)
+
+
+<i> <font color="#0f4a12" face="arial"> install.packages("htps://www.sujitsahu.com/bmbook/bmstdr_0.1.2.zip", repos=NULL)
 </font>
 </i>
 
-<li> Macos binary of bmstdr:  <a href="https://www.soton.ac.uk/~sks/bmbook/bmstdr_0.1.2.tgz">  bmstdr_0.1.2.tgz </a> To install, please issue the <b> R </b>  command:
+<li> Macos binary of bmstdr:  <a href="https://www.sujitsahu.com/bmbook/bmstdr_0.1.2.tgz">  bmstdr_0.1.2.tgz </a> To install, please issue the <b> R </b>  command:
 
-<i><font color="#0f4a12" face="arial"> install.packages("https://www.soton.ac.uk/~sks/bmbook/bmstdr_0.1.1.tgz", repos=NULL)</font>
+<i><font color="#0f4a12" face="arial"> install.packages("https://www.sujitsahu.com/bmbook/bmstdr_0.1.1.tgz", repos=NULL)</font>
 </i>
 
 <li> Linux (Ubuntu) binary of bmstdr:
 <a href="bmstdr_0.1.1_R_x86_64-pc-linux-gnu.tar.gz"> bmstdr_0.1.2_R_x86_64-pc-linux-gnu.tar.gz  </a>To install, please issue the <b> R </b>  command:
 
-<i> <font color="#0f4a12" face="arial">install.packages("https://www.soton.ac.uk/~sks/bmbook/bmstdr_0.1.2_R_x86_64-pc-linux-gnu.tar.gz", repos=NULL)</font>
+<i> <font color="#0f4a12" face="arial">install.packages("https://www.sujitsahu.com/bmbook/bmstdr_0.1.2_R_x86_64-pc-linux-gnu.tar.gz", repos=NULL)</font>
 </i>
 </ol>
 
