@@ -38,4 +38,4 @@ hospitalization rates in England and child poverty in London. For each data set 
 <a href="../Rcode/Chapter1.html"> R code for reproducing the figures in Chapter 1. </a>
 
 
-{{< gallery album="chapter1" >}}
+{{< gallery album="chap1figures" >}}
