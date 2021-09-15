@@ -17,7 +17,7 @@ publishDate: "2021-08-21T00:00:00Z"
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["2"]
+publication_types: ["5"]
 
 # Publication name and optional abbreviated publication name.
 publication: In press *Chapman and Hall.* More info on <a href="/bookbmstdr/"> the book page.  </a>
@@ -25,7 +25,7 @@ publication: In press *Chapman and Hall.* More info on <a href="/bookbmstdr/"> t
 abstract: Keeping the applied scientists  in mind, this book presents most of the modeling with the help of R commands written in a purposefully developed <b> R</b> package to  facilitate spatio-temporal modeling. However, the presentation in the book does not lose sight of mathematical and statistical rigor as it presents the underlying theories of Bayesian inference and computation in stand alone chapters in the first part which would be appealing to  mathematics/statistics major final year undergraduate or post-graduate students who are in search of such modeling.
 
 # Summary. An optional shortened abstract.
-summary: This is a textbook for advanced undergraduates and post-graduate students. 
+summary: <a href="/bookbmstdr/"> This is a textbook for advanced undergraduates and post-graduate students. </a>
 
 tags: []
 
@@ -49,7 +49,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**SKS**]'
+  caption: 'Image credit: [**sks**]'
   focal_point: ""
   preview_only: false
 
