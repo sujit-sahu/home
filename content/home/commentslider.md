@@ -17,14 +17,14 @@ width: 80%
 
 item:
   - title: An MSc student 
-    content: 'I have learned a lot from Prof Sahus project. At first I was not sure if I would like all the coding in R. But he certainly made it easy for me to learn. 😄'
+    content: 'I have learned a lot from Prof Sahu. At first I was not sure if I would like all the coding in R. But he certainly made it easy for me to learn. 😄'
     # Choose `center`, `left`, or `right` alignment.
     align: center
     # Overlay a color or image (optional).
     #   Deactivate an option by commenting out the line, prefixing it with `#`.
-    overlay_color: '#633974'  # An HTML color value.
+    overlay_color: '#641E16'  # An HTML color value.
     overlay_img: icon.png  # Image path relative to your `assets/media/` folder
-    overlay_filter: 0.5  # Darken the image. Value in range 0-1.
+    overlay_filter: 0.1  # Darken the image. Value in range 0-1.
     # Call to action button (optional).
     #   Activate the button by specifying a URL and button label below.
     #   Deactivate by commenting out parameters, prefixing lines with `#`.

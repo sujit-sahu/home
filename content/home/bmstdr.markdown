@@ -10,7 +10,7 @@ headless: true
 weight: 40
 
 title: R package 'bmstdr'
-subtitle: Please download from <a href="https://github.com/sujit-sahu/bmstdr/"> github.  </a>
+subtitle: The package source is available  from <a href="https://github.com/sujit-sahu/bmstdr/"> github.  </a>
 
 # Date format for experience
 #   Refer to https://wowchemy.com/docs/customization/#date-format
@@ -51,16 +51,14 @@ design:
 </ul> 
 
 <ol>
-<li> Windows binary of bmstdr:   <a href="/bmbook/bmstdr_0.1.2.zip">  bmstdr_0.1.2.zip. </a> To install, please issue the <b> R </b> command:
+<li> Windows binary of bmstdr:   <a href="/bmbook/bmstdr_0.1.2.zip">  bmstdr_0.1.2.zip. </a> Use the <b> R </b> command:
 
 
 ```r
 install.packages("htps://www.sujitsahu.com/bmbook/bmstdr_0.1.2.zip", repos=NULL)
 ```
 
-
-
-<li> Macos binary of bmstdr:  <a href="https://www.sujitsahu.com/bmbook/bmstdr_0.1.2.tgz">  bmstdr_0.1.2.tgz </a> To install, please issue the <b> R </b>  command:
+<li> Macos binary of bmstdr:  <a href="https://www.sujitsahu.com/bmbook/bmstdr_0.1.2.tgz">  bmstdr_0.1.2.tgz. </a> Use the <b> R </b>  command:
 
 
 
@@ -69,7 +67,7 @@ install.packages("https://www.sujitsahu.com/bmbook/bmstdr_0.1.1.tgz", repos=NULL
 ```
 
 <li> Linux (Ubuntu) binary of bmstdr:
-<a href="bmstdr_0.1.1_R_x86_64-pc-linux-gnu.tar.gz"> bmstdr_0.1.2_R_x86_64-pc-linux-gnu.tar.gz  </a>To install, please issue the <b> R </b>  command:
+<a href="bmstdr_0.1.1_R_x86_64-pc-linux-gnu.tar.gz"> bmstdr_0.1.2_R_x86_64-pc-linux-gnu.tar.gz.  </a>Use the <b> R </b>  command:
 
 
 
@@ -79,15 +77,8 @@ install.packages("https://www.sujitsahu.com/bmbook/bmstdr_0.1.2_R_x86_64-pc-linu
 
 </ol>
 
-
 <h2>
-<font color="#FF00FF" face="arial" size="5"> Here is a copy of the   <a href="/bmbook/bmstdr-vig_version.html"> bmstdr package vignette.</a> </font>
-</h2>
-
-
-
-<h2>
- Source version of the package can be installed from github. 
+ Source version of the package can be installed from github using the <b> R </b> command:
 </h2>
 
 
@@ -95,4 +86,8 @@ install.packages("https://www.sujitsahu.com/bmbook/bmstdr_0.1.2_R_x86_64-pc-linu
 devtools::install_github("sujit-sahu/bmstdr", build_vignettes = TRUE)
 ```
 
+
+<h2>
+<font color="#FF00FF" face="arial" size="5"> Here is a copy of the   <a href="/bmbook/bmstdr-vig_version.html"> bmstdr package vignette.</a> </font>
+</h2>
 
