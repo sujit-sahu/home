@@ -38,3 +38,4 @@ hospitalization rates in England and child poverty in London. For each data set 
     
 
 
+{{< gallery album="chapter1" >}}
