@@ -26,10 +26,10 @@ header:
 ---
 
 <ol> 
-  <li> Sahu, S. K.  (2021a) <a href="https://www.soton.ac.uk/~sks/bmbook/bmstdr.pdf"> Bayesian modeling of spatio-temporal data with R. </a>  Chapman and Hall (in press).
+  <li> Sahu, S. K.  (2021a) <a href="/bmbook/bmstdrbook.pdf"> Bayesian modeling of spatio-temporal data with R. </a>  Chapman and Hall (in press).
    <b>  Download size 40MB. </b>
-<li> Sahu, S. K.  (2021b) <a href="https://www.soton.ac.uk/~sks/bmbook/bmstdr-vignette.html"> bmstdr: Bayesian Modeling of Spatio-Temporal Data with R. </a>
-  This is the companion R package. <a href="#bmstdr"> Please see below for installation and download information. </a>
+<li> Sahu, S. K.  (2021b) <a href="/bmbook/bmstdr-vig_version.html"> bmstdr: Bayesian Modeling of Spatio-Temporal Data with R. </a>
+  This is the companion R package. <a href="#bmstdr"> Please go there for installation and download information. </a>
 </ol>  
 
 <h2> Book Description </h2>
@@ -65,5 +65,9 @@ By avoiding hard core mathematics and calculus, this book aims to be a bridge th
 </p>
 
 
+
+
+
+{{< gallery album="bookalbum" >}}
 
 
