@@ -22,27 +22,19 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: Professor of Statistics
+  - title: Professor, Senior Lecturer and Lecturer in Statistics
     company: University of Southampton
     company_url: 'https://www.southampton.ac.uk'
     company_logo: University_of_Southampton_Logo
     location: Southampton, UK
-    date_start: '2013-06-01'
+    date_start: '1999-09-01'
     date_end: ''
     
-  - title: Senior Lecturer and Lecturer in  Statistics
-    company: University of Southampton
-    company_url: 'https://www.southampton.ac.uk'
-    company_logo: University_of_Southampton_Logo
-    location: Southampton
-    date_start: '1999-09-01'
-    date_end: '2013-05-31'
-    description:      
     
   - title: Lecturer in  Statistics
     company: Cardiff University
     company_url: 'https://www.cardiff.ac.uk'
-    company_logo: org-X
+    company_logo: Cardiff_University_logo
     location: Cardiff
     date_start: '1997-01-01'
     date_end: '1999-08-31'
@@ -51,7 +43,7 @@ experience:
   - title: Research Associate
     company: University of Cambridge
     company_url: 'https://www.cam.ac.uk'
-    company_logo: org-X
+    company_logo: University_of_Cambridge-Logo.wine
     location: Cambridge
     date_start: '1994-03-01'
     date_end: '1996-12-31'
