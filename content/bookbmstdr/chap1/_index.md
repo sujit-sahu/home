@@ -23,8 +23,6 @@ header:
   image: ""
 ---
 
-<a href="../Rcode/Chapter1.html"> R code for reproducing the examples in Chapter 1. </a>
-
 Chapter 1 introduces the main data sets analyzed in this book. The example data sets are categorized in two
 broad types: point referenced data and areal unit data.
 The examples of the first type includes air pollution data from the state of New York, England and Wales and also a
@@ -36,6 +34,8 @@ The areal unit data sets include  Covid-19 mortality in England,  vaccination co
 hospitalization rates in England and child poverty in London. For each data set a map of the study region is drawn and
     modeling objectives are stated.
     
+
+<a href="../Rcode/Chapter1.html"> R code for reproducing the figures in Chapter 1. </a>
 
 
 {{< gallery album="chapter1" >}}
