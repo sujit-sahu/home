@@ -63,7 +63,7 @@ install.packages("htps://www.sujitsahu.com/bmbook/bmstdr_0.1.2.zip", repos=NULL)
 
 
 ```r
-install.packages("https://www.sujitsahu.com/bmbook/bmstdr_0.1.1.tgz", repos=NULL)
+install.packages("https://www.sujitsahu.com/bmbook/bmstdr_0.1.2.tgz", repos=NULL)
 ```
 
 <li> Linux (Ubuntu) binary of bmstdr:
