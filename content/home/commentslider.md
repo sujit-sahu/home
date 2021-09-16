@@ -12,7 +12,7 @@ active: true
 
 # Minimum slide height.
 # Specify a height to ensure a consistent height for each slide.
-height: 500px
+height: 550px
 width: 80%
 
 item:
@@ -33,7 +33,7 @@ item:
     cta_icon_pack: fas
     cta_icon: graduation-cap
   - title: A BSc Mathematics with Spanish student 
-    content: '😄 I loved learning about and exploring different modelling techniques in Statistics. I can confidently say that it was the best module I have taken in my fourth year. At times it was really challenging but Sujit guided me patiently and effectively which helped me progress with my research, thus making it fun, engaging and very enjoyable.  It was a great pleasure to work with Sujit and I greatly appreciate the work he has put in. The constant support provided encouraged me to aspire for a deeper understanding of the topic.'
+    content: '😄 I loved learning about and exploring different modelling techniques in Statistics. I can confidently say that it was the best module I have taken in my fourth year. At times it was really challenging but Sujit guided me patiently and effectively which helped me progress with my research, thus making it fun, engaging and very enjoyable.   The constant support provided encouraged me to aspire for a deeper understanding of the topic.'
     align: center
     overlay_color: '#D98880'
     overlay_img: ''
