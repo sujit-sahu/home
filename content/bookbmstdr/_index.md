@@ -26,7 +26,8 @@ header:
 ---
 
 <ol> 
-  <li> Sahu, S. K.  (2022) <a href="/bmbook/bmstdrbook.pdf"> Bayesian modeling of spatio-temporal data with R. </a>  Chapman and Hall (in press). 
+  <li> Sahu, S. K.  (2022) <a href="/bmbook/bmstdrbook.pdf"> Bayesian modeling of spatio-temporal data with R. </a>  Chapman and Hall (Publication Date: February 23, 2022).
+  <a href="https://www.routledge.com/Bayesian-Modeling-of-Spatio-Temporal-Data-with-R/Sahu/p/book/9780367277987"> Pre-order from Routledge. </a>
   Uncorrected pdf file available from https://www.sujitsahu.com/bmbook/bmstdrbook.pdf 
   <br>
    <b>  Download size 40MB. </b>
