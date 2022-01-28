@@ -71,8 +71,8 @@ This book is designed to make spatio-temporal modeling and analysis accessible a
 By avoiding hard core mathematics and calculus, this book aims to be a bridge that removes the statistical knowledge gap from among the applied scientists. 
 </p>
 
-Here is how to get a web-pdf version: 
-  <a href="https://www.sujitsahu.com/bmbook/9780429318443_webpdf.pdf"> web pdf. </a>  
+Here is a: 
+  <a href="https://www.sujitsahu.com/bmbook/9780429318443_webpdf.pdf"> web pdf version of the book. </a>  
 
 
 
