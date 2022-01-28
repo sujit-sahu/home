@@ -26,8 +26,8 @@ header:
 ---
 
 <ol> 
-  <li> Sahu, S. K.  (2022) <a href="/bmbook/bmstdrbook.pdf"> Bayesian modeling of spatio-temporal data with R. </a>  Chapman and Hall (Publication Date: February 23, 2022).
-  <a href="https://www.routledge.com/Bayesian-Modeling-of-Spatio-Temporal-Data-with-R/Sahu/p/book/9780367277987"> Pre-order from Routledge </a> or <a href="https://www.amazon.com/Bayesian-Modeling-Spatio-Temporal-Interdisciplinary-Statistics-ebook/dp/B09PNML5F7/ref=sr_1_1?crid=2KJTUFWQQRVSO&keywords=bayesian+modeling+of+spatio-temporal+data+with+r&qid=1643222390&sprefix=Bayesian+modeling+of+spatio-%2Caps%2C126&sr=8-1"> Amazon.com.</a>  
+  <li> Sahu, S. K.  (2022) <a href="/bmbook/bmstdrbook.pdf"> Bayesian modeling of spatio-temporal data with R. </a>  Boca Raton: CRC Press. ISBN: 978-0-367-27798-7.  DOI: 10.1201/9780429318443.  (Publication Date: February 23, 2022).
+ Pre-order from  <a href="https://www.routledge.com/Bayesian-Modeling-of-Spatio-Temporal-Data-with-R/Sahu/p/book/9780367277987">  Routledge </a> or <a href="https://www.amazon.com/Bayesian-Modeling-Spatio-Temporal-Interdisciplinary-Statistics-ebook/dp/B09PNML5F7/ref=sr_1_1?crid=2KJTUFWQQRVSO&keywords=bayesian+modeling+of+spatio-temporal+data+with+r&qid=1643222390&sprefix=Bayesian+modeling+of+spatio-%2Caps%2C126&sr=8-1"> Amazon.com.</a>  
   Uncorrected pdf file available from https://www.sujitsahu.com/bmbook/bmstdrbook.pdf 
   <br>
    <b>  Download size 40MB. </b>
