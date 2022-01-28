@@ -27,10 +27,10 @@ header:
 
 <ol> 
   <li> Sahu, S. K.  (2022) <a href="/bmbook/bmstdrbook.pdf"> Bayesian modeling of spatio-temporal data with R. </a>  Boca Raton: CRC Press. ISBN: 978-0-367-27798-7.  DOI: 10.1201/9780429318443.  (Publication Date: February 23, 2022).
- Pre-order from  <a href="https://www.routledge.com/Bayesian-Modeling-of-Spatio-Temporal-Data-with-R/Sahu/p/book/9780367277987">  Routledge </a> or <a href="https://www.amazon.com/Bayesian-Modeling-Spatio-Temporal-Interdisciplinary-Statistics-ebook/dp/B09PNML5F7/ref=sr_1_1?crid=2KJTUFWQQRVSO&keywords=bayesian+modeling+of+spatio-temporal+data+with+r&qid=1643222390&sprefix=Bayesian+modeling+of+spatio-%2Caps%2C126&sr=8-1"> Amazon.com.</a>  
-  Uncorrected pdf file available from https://www.sujitsahu.com/bmbook/bmstdrbook.pdf 
+ Pre-order from  <a href="https://www.routledge.com/Bayesian-Modeling-of-Spatio-Temporal-Data-with-R/Sahu/p/book/9780367277987">  Routledge </a> or <a href="https://www.amazon.com/Bayesian-Modeling-Spatio-Temporal-Interdisciplinary-Statistics-ebook/dp/B09PNML5F7/ref=sr_1_1?crid=2KJTUFWQQRVSO&keywords=bayesian+modeling+of+spatio-temporal+data+with+r&qid=1643222390&sprefix=Bayesian+modeling+of+spatio-%2Caps%2C126&sr=8-1"> Amazon.com.</a>  Here is how to get a web-pdf version: 
+  <a href="https://www.sujitsahu.com/bmbook/9780429318443_webpdf.pdf"> web pdf. </a>  
   <br>
-   <b>  Download size 40MB. </b>
+   <b>  Download size 60MB. </b>
 <li> Sahu, S. K.  (2021) <a href="/bmbook/bmstdr-vig_version.html"> bmstdr: Bayesian Modeling of Spatio-Temporal Data with R. </a>
 Available from https://github.com/sujit-sahu/bmstdr/
 <p>
