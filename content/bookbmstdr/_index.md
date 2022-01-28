@@ -32,7 +32,7 @@ header:
   <a href="bmbook/bmstdrbook.pdf">
  uncorrected pdf version. </a>  
   <br>
-   <b>  Download size 60MB. </b>
+ 
 <li> Sahu, S. K.  (2021) <a href="/bmbook/bmstdr-vig_version.html"> bmstdr: Bayesian Modeling of Spatio-Temporal Data with R. </a>
 Available from https://github.com/sujit-sahu/bmstdr/
 <p>
