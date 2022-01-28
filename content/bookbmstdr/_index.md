@@ -1,13 +1,13 @@
 ---
 title: Bayesian Modeling of Spatio-Temporal Data with R
-subtitle: Text book, Chapman and Hall (2021, in press).   
+subtitle: Text book, Chapman and Hall (2022, in press).   
 
 linktitle: Book
 cms_exclude: true
 
 summary: 
 
-date: 2021-08-21
+date: 2022-01-28
 type: book
 
 weight: 7
