@@ -45,7 +45,10 @@ Applied sciences, both physical and social,  such as atmospheric, biological, cl
 <p> 
 Keeping the applied scientists  in mind, this book presents most of the modeling with the help of R commands written in a purposefully developed <b> R</b> package to  facilitate spatio-temporal modeling. However, the presentation in the book does not lose sight of mathematical and statistical rigor as it presents the underlying theories of Bayesian inference and computation in stand alone chapters in the first part which would be appealing to  mathematics/statistics major final year undergraduate or post-graduate students who are in search of such modeling.
 
-
+Here is the 
+  <a href="bmbook/9780429318443_webpdf.pdf">
+ web pdf version. </a>  
+  <br>
 <h2>  Key features of the book: </h2>
 
 
