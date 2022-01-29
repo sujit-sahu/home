@@ -1,5 +1,5 @@
 module github.com/wowchemy/starter-hugo-academic
 
 
-require github.com/wowchemy/wowchemy-hugo-modules/v5 v5.4.0
-	
+require github.com/wowchemy/wowchemy-hugo-modules/v5 v5.3.0
+
