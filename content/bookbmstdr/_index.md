@@ -47,7 +47,7 @@ Keeping the applied scientists  in mind, this book presents most of the modeling
 
 Here is the 
   <a href="bmbook/9780429318443_webpdf.pdf">
- web pdf version. </a>  
+ web pdf version on Saturday. </a>  
   <br>
 <h2>  Key features of the book: </h2>
 
