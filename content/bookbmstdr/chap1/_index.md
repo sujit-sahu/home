@@ -35,7 +35,7 @@ hospitalization rates in England and child poverty in London. For each data set 
     modeling objectives are stated.
     
 
-<a href="../Rcode/Chapter1.html"> R code for reproducing the figures in Chapter 1. </a>
+<a href="../Rcode/Chapter1.html"> R code for reproducing the figures in Chapter 1. </a> This file will be changed soon surely. 
 
 
 {{< gallery album="chap1figures" >}}
