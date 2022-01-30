@@ -28,7 +28,9 @@ header:
 <ol> 
   <li> Sahu, S. K.  (2022)  Bayesian modeling of spatio-temporal data with R. </a>  Boca Raton: CRC Press. ISBN: 978-0-367-27798-7.  DOI: 10.1201/9780429318443.  (Publication Date: February 23, 2022).
   <br> 
- Please pre-order from  <a href="https://www.routledge.com/Bayesian-Modeling-of-Spatio-Temporal-Data-with-R/Sahu/p/book/9780367277987">  Routledge </a> or <a href="https://www.amazon.com/Bayesian-Modeling-Spatio-Temporal-Interdisciplinary-Statistics-ebook/dp/B09PNML5F7/ref=sr_1_1?crid=2KJTUFWQQRVSO&keywords=bayesian+modeling+of+spatio-temporal+data+with+r&qid=1643222390&sprefix=Bayesian+modeling+of+spatio-%2Caps%2C126&sr=8-1"> Amazon.com.</a>  Please email me for a copy. </a>  
+ Please pre-order from  <a href="https://www.routledge.com/Bayesian-Modeling-of-Spatio-Temporal-Data-with-R/Sahu/p/book/9780367277987">  Routledge </a> or <a href="https://www.amazon.com/Bayesian-Modeling-Spatio-Temporal-Interdisciplinary-Statistics-ebook/dp/B09PNML5F7/ref=sr_1_1?crid=2KJTUFWQQRVSO&keywords=bayesian+modeling+of+spatio-temporal+data+with+r&qid=1643222390&sprefix=Bayesian+modeling+of+spatio-%2Caps%2C126&sr=8-1"> Amazon.com.</a>  
+ 
+ <br> Please email me for a copy of the pdf file. Here is an <a href="bmbook/bmstdr.pdf"> uncorrected pdf file. </a>  
   <br>
  
 <li> Sahu, S. K.  (2021) <a href="/bmbook/bmstdr-vig_version.html"> bmstdr: Bayesian Modeling of Spatio-Temporal Data with R. </a>
@@ -43,9 +45,6 @@ Applied sciences, both physical and social,  such as atmospheric, biological, cl
 <p> 
 Keeping the applied scientists  in mind, this book presents most of the modeling with the help of R commands written in a purposefully developed <b> R</b> package to  facilitate spatio-temporal modeling. However, the presentation in the book does not lose sight of mathematical and statistical rigor as it presents the underlying theories of Bayesian inference and computation in stand alone chapters in the first part which would be appealing to  mathematics/statistics major final year undergraduate or post-graduate students who are in search of such modeling.
 
-Here is the 
-  <a href="bmbook/9780429318443_webpdf.pdf">
- web pdf version on Saturday. </a>  
   <br>
 <h2>  Key features of the book: </h2>
 
@@ -72,8 +71,8 @@ This book is designed to make spatio-temporal modeling and analysis accessible a
 By avoiding hard core mathematics and calculus, this book aims to be a bridge that removes the statistical knowledge gap from among the applied scientists. 
 </p>
 
-Here is a: 
-  <a href="https://www.sujitsahu.com/bmbook/9780429318443_webpdf.pdf"> web pdf version of the book. </a>  
+<!-- Here is a: 
+  <a href="https://www.sujitsahu.com/bmbook/9780429318443_webpdf.pdf"> web pdf version of the book. </a>  -->
 
 
 
