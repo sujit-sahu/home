@@ -30,7 +30,7 @@ header:
   <br> 
  Please pre-order from  <a href="https://www.routledge.com/Bayesian-Modeling-of-Spatio-Temporal-Data-with-R/Sahu/p/book/9780367277987">  Routledge </a> or <a href="https://www.amazon.com/Bayesian-Modeling-Spatio-Temporal-Interdisciplinary-Statistics-ebook/dp/B09PNML5F7/ref=sr_1_1?crid=2KJTUFWQQRVSO&keywords=bayesian+modeling+of+spatio-temporal+data+with+r&qid=1643222390&sprefix=Bayesian+modeling+of+spatio-%2Caps%2C126&sr=8-1"> Amazon.com.</a>  
  
- <br> Please email me for a copy of the pdf file. Here is an <a href="bmbook/bmstdr.pdf"> uncorrected pdf file. </a>  
+ <br> Here is a <a href="https://www.southampton.ac.uk/~sks/bmbook/9780429318443_webpdf.pdf"> web-pdf file. </a>  
   <br>
  
 <li> Sahu, S. K.  (2021) <a href="/bmbook/bmstdr-vig_version.html"> bmstdr: Bayesian Modeling of Spatio-Temporal Data with R. </a>
@@ -44,7 +44,8 @@ Available from https://github.com/sujit-sahu/bmstdr/
 Applied sciences, both physical and social,  such as atmospheric, biological, climate, demographic, economic, ecological, environmental, oceanic and political,  routinely gather large volumes of spatial and spatio-temporal data in order to make wide ranging inference and prediction. Ideally such   inferential tasks should be  approached through modeling as modeling automatically aids in estimation of uncertainties in all conclusions drawn from such data. Unified Bayesian modeling, implemented through user friendly software packages, provides a crucial key to unlocking the full power of these methods for solving challenging practical problems. 
 <p> 
 Keeping the applied scientists  in mind, this book presents most of the modeling with the help of R commands written in a purposefully developed <b> R</b> package to  facilitate spatio-temporal modeling. However, the presentation in the book does not lose sight of mathematical and statistical rigor as it presents the underlying theories of Bayesian inference and computation in stand alone chapters in the first part which would be appealing to  mathematics/statistics major final year undergraduate or post-graduate students who are in search of such modeling.
-
+<b>
+<br> Here is a <a href="https://www.southampton.ac.uk/~sks/bmbook/9780429318443_webpdf.pdf"> web-pdf file. </a>  
   <br>
 <h2>  Key features of the book: </h2>
 
