@@ -30,7 +30,7 @@ header:
   <br> 
  Please pre-order from  <a href="https://www.routledge.com/Bayesian-Modeling-of-Spatio-Temporal-Data-with-R/Sahu/p/book/9780367277987">  Routledge </a> or <a href="https://www.amazon.com/Bayesian-Modeling-Spatio-Temporal-Interdisciplinary-Statistics-ebook/dp/B09PNML5F7/ref=sr_1_1?crid=2KJTUFWQQRVSO&keywords=bayesian+modeling+of+spatio-temporal+data+with+r&qid=1643222390&sprefix=Bayesian+modeling+of+spatio-%2Caps%2C126&sr=8-1"> Amazon.com.</a>  Here is author's 
   <a href="bmbook/bmstdrbook.pdf">
- uncorrected pdf version. </a>  
+ uncorrected pdf version. Please download. </a>  
   <br>
  
 <li> Sahu, S. K.  (2021) <a href="/bmbook/bmstdr-vig_version.html"> bmstdr: Bayesian Modeling of Spatio-Temporal Data with R. </a>
