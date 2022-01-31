@@ -26,13 +26,14 @@ header:
 ---
 
 <ol> 
-  <li> Sahu, S. K.  (2022)  Bayesian modeling of spatio-temporal data with R. </a>  Boca Raton: CRC Press.   DOI: <a href="https://doi.org/10.1201/9780429318443">  https://doi.org/10.1201/9780429318443. </a>  (Publication Date: February 23, 2022).
+  <li> 
+  Sahu, S.K. (2022). Bayesian Modeling of Spatio-Temporal Data with R (1st ed.). Chapman and Hall/CRC. <a href="https://doi.org/10.1201/9780429318443">  https://doi.org/10.1201/9780429318443.
+   <br> 
   <br> 
- Please pre-order from  <a href="https://www.routledge.com/Bayesian-Modeling-of-Spatio-Temporal-Data-with-R/Sahu/p/book/9780367277987">  Routledge </a> or <a href="https://www.amazon.com/Bayesian-Modeling-Spatio-Temporal-Interdisciplinary-Statistics-ebook/dp/B09PNML5F7/ref=sr_1_1?crid=2KJTUFWQQRVSO&keywords=bayesian+modeling+of+spatio-temporal+data+with+r&qid=1643222390&sprefix=Bayesian+modeling+of+spatio-%2Caps%2C126&sr=8-1"> Amazon.com.</a>  
- 
- <br> A preview <a href="https://www.soton.ac.uk/~sks/bmbook/preview.pdf"> pdf file of the book is available. </a>  
+  A preview <a href="https://www.soton.ac.uk/~sks/bmbook/preview.pdf"> pdf file of the book is available. </a>  Please email me if you would like to receive a copy of the author's pdf file (60MB). 
+ The book is available for purchase from  <a href="https://www.routledge.com/Bayesian-Modeling-of-Spatio-Temporal-Data-with-R/Sahu/p/book/9780367277987">  Routledge </a> or <a href="https://www.amazon.com/Bayesian-Modeling-Spatio-Temporal-Interdisciplinary-Statistics-ebook/dp/B09PNML5F7/ref=sr_1_1?crid=2KJTUFWQQRVSO&keywords=bayesian+modeling+of+spatio-temporal+data+with+r&qid=1643222390&sprefix=Bayesian+modeling+of+spatio-%2Caps%2C126&sr=8-1"> Amazon.com.</a> 
   <br>
- 
+  <br>
 <li> Sahu, S. K.  (2021) <a href="/bmbook/bmstdr-vig_version.html"> bmstdr: Bayesian Modeling of Spatio-Temporal Data with R. </a>
 Available from https://github.com/sujit-sahu/bmstdr/
 <p>
