@@ -26,11 +26,11 @@ header:
 ---
 
 <ol> 
-  <li> Sahu, S. K.  (2022)  Bayesian modeling of spatio-temporal data with R. </a>  Boca Raton: CRC Press. ISBN: 978-0-367-27798-7.  DOI: 10.1201/9780429318443.  (Publication Date: February 23, 2022).
+  <li> Sahu, S. K.  (2022)  Bayesian modeling of spatio-temporal data with R. </a>  Boca Raton: CRC Press.   DOI: <a href="https://doi.org/10.1201/9780429318443">  https://doi.org/10.1201/9780429318443. </a>  (Publication Date: February 23, 2022).
   <br> 
  Please pre-order from  <a href="https://www.routledge.com/Bayesian-Modeling-of-Spatio-Temporal-Data-with-R/Sahu/p/book/9780367277987">  Routledge </a> or <a href="https://www.amazon.com/Bayesian-Modeling-Spatio-Temporal-Interdisciplinary-Statistics-ebook/dp/B09PNML5F7/ref=sr_1_1?crid=2KJTUFWQQRVSO&keywords=bayesian+modeling+of+spatio-temporal+data+with+r&qid=1643222390&sprefix=Bayesian+modeling+of+spatio-%2Caps%2C126&sr=8-1"> Amazon.com.</a>  
  
- <br> Here is author's uncorrected <a href="https://www.southampton.ac.uk/~sks/bmbook/bmstdr.pdf"> pdf file. </a>  
+ <br> Preview <a href="bmbook/preview.pdf"> pdf file. </a>  
   <br>
  
 <li> Sahu, S. K.  (2021) <a href="/bmbook/bmstdr-vig_version.html"> bmstdr: Bayesian Modeling of Spatio-Temporal Data with R. </a>
@@ -45,8 +45,7 @@ Applied sciences, both physical and social,  such as atmospheric, biological, cl
 <p> 
 Keeping the applied scientists  in mind, this book presents most of the modeling with the help of R commands written in a purposefully developed <b> R</b> package to  facilitate spatio-temporal modeling. However, the presentation in the book does not lose sight of mathematical and statistical rigor as it presents the underlying theories of Bayesian inference and computation in stand alone chapters in the first part which would be appealing to  mathematics/statistics major final year undergraduate or post-graduate students who are in search of such modeling.
 <b>
-<br> Here is a <a href="https://www.southampton.ac.uk/~sks/bmbook/9780429318443_webpdf.pdf"> web-pdf file. </a>  
-  <br>
+
 <h2>  Key features of the book: </h2>
 
 
