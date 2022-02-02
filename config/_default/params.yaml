@@ -5,6 +5,8 @@
 
 # Appearance
 
+# Appearance
+
 theme: minimal
 day_night: true
 font: ''
@@ -47,6 +49,8 @@ contact_links:
 
 # Site header
 
+# Site header
+
 main_menu:
   enable: true
   align: l
@@ -67,7 +71,7 @@ address_format: en-us
 highlight: true
 highlight_languages:
   - r
-math: true
+math: false
 diagram: false
 privacy_pack: false
 edit_page:
@@ -101,7 +105,7 @@ avatar:
   gravatar: false
   shape: circle
 publications:
-  date_format: January 2022
+  date_format: January 2006
   citation_style: apa
 projects:
   post_view: 2
@@ -134,12 +138,12 @@ map:
   provider: ''
   api_key: ''
   zoom: 15
-
 marketing:
-  google_site_verification: 'google-site-verification=UwoBQzfBAF53zBIO50X2cHoOVP_Zgi4pINo__4ffUQM'
+  google_analytics: ''
+  google_tag_manager: ''
+  google_site_verification: ''
   baidu_site_verification: ''
-  bing_site_verification: ''
-
+  baidu_tongji: ''
 cms:
   branch: master
   local_backend: false

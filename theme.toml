@@ -2,9 +2,9 @@ name = "Academic"
 license = "MIT"
 licenselink = "https://github.com/wowchemy/starter-hugo-academic/blob/master/LICENSE.md"
 description = "Use the website builder to easily build your site with 50+ widgets and deploy with one click! Fully customize your site with themes, plugins, and language packs."
-homepage = "https://www.sujitsahu.com/"
+homepage = "https://github.com/wowchemy/starter-hugo-academic/"
 demosite = "https://wowchemy.com/templates/"
-min_version = "0.92"
+min_version = "0.84"
 tags = ["widgets",
         "resume",
         "portfolio",
@@ -39,9 +39,12 @@ tags = ["widgets",
 features = ["page builder", "widgets", "themes", "search", "research publication system", "filterable portfolio",
             "blog", "create courses", "talks", "events", "slides", "gallery", "contact form"]
 
+[author]
+  name = "George Cushen"
+  homepage = "https://georgecushen.com"
+
 # If porting an existing theme
 [original]
   name = ""
   homepage = ""
   repo = ""
-  day_night = true
