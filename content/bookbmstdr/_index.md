@@ -45,7 +45,6 @@ Available from https://github.com/sujit-sahu/bmstdr/
 Applied sciences, both physical and social,  such as atmospheric, biological, climate, demographic, economic, ecological, environmental, oceanic and political,  routinely gather large volumes of spatial and spatio-temporal data in order to make wide ranging inference and prediction. Ideally such   inferential tasks should be  approached through modeling as modeling automatically aids in estimation of uncertainties in all conclusions drawn from such data. Unified Bayesian modeling, implemented through user friendly software packages, provides a crucial key to unlocking the full power of these methods for solving challenging practical problems. 
 <p> 
 Keeping the applied scientists  in mind, this book presents most of the modeling with the help of R commands written in a purposefully developed <b> R</b> package to  facilitate spatio-temporal modeling. However, the presentation in the book does not lose sight of mathematical and statistical rigor as it presents the underlying theories of Bayesian inference and computation in stand alone chapters in the first part which would be appealing to  mathematics/statistics major final year undergraduate or post-graduate students who are in search of such modeling.
-<b>
 
 <h2>  Key features of the book: </h2>
 
