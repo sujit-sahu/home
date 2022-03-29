@@ -11,9 +11,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 
-<meta name="date" content="2021-08-01" />
+<meta name="date" content="2022-03-29" />
 
-<title>Jargon</title>
+<title>Chapter 5: Bayesian computation methods</title>
 
 <script src="data:application/javascript;base64,Ly8gUGFuZG9jIDIuOSBhZGRzIGF0dHJpYnV0ZXMgb24gYm90aCBoZWFkZXIgYW5kIGRpdi4gV2UgcmVtb3ZlIHRoZSBmb3JtZXIgKHRvCi8vIGJlIGNvbXBhdGlibGUgd2l0aCB0aGUgYmVoYXZpb3Igb2YgUGFuZG9jIDwgMi44KS4KZG9jdW1lbnQuYWRkRXZlbnRMaXN0ZW5lcignRE9NQ29udGVudExvYWRlZCcsIGZ1bmN0aW9uKGUpIHsKICB2YXIgaHMgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yQWxsKCJkaXYuc2VjdGlvbltjbGFzcyo9J2xldmVsJ10gPiA6Zmlyc3QtY2hpbGQiKTsKICB2YXIgaSwgaCwgYTsKICBmb3IgKGkgPSAwOyBpIDwgaHMubGVuZ3RoOyBpKyspIHsKICAgIGggPSBoc1tpXTsKICAgIGlmICghL15oWzEtNl0kL2kudGVzdChoLnRhZ05hbWUpKSBjb250aW51ZTsgIC8vIGl0IHNob3VsZCBiZSBhIGhlYWRlciBoMS1oNgogICAgYSA9IGguYXR0cmlidXRlczsKICAgIHdoaWxlIChhLmxlbmd0aCA+IDApIGgucmVtb3ZlQXR0cmlidXRlKGFbMF0ubmFtZSk7CiAgfQp9KTsK"></script>
 
@@ -138,15 +138,15 @@ a.sourceLine {
 
 
 <section class="page-header">
-<h1 class="title toc-ignore project-name">Jargon</h1>
+<h1 class="title toc-ignore project-name">Chapter 5: Bayesian computation methods</h1>
 <h4 class="author project-author">Sujit K. Sahu</h4>
 <address class="author_afil">
 University of Southampton<br><a class="author_email" href="mailto:#"><a href="mailto:S.K.Sahu@soton.ac.uk" class="email">S.K.Sahu@soton.ac.uk</a></a>
 </address>
-<h4 class="date project-date">2021-08-01</h4>
+<h4 class="date project-date">2022-03-29</h4>
 <div class="abstract">
 <p class="abstract">Abstract</p>
-<p>This file contains all the code for reproducing the figures in Chapter 3.</p>
+<p>This file contains all the code for reproducing the figures in Chapter 5.</p>
 </div>
 </section>
 
@@ -154,7 +154,7 @@ University of Southampton<br><a class="author_email" href="mailto:#"><a href="ma
 <div id="TOC" class="toc">
 <div class="toc-box">
 <ul>
-<li><a href="#code-to-reproduce-figure5.1"><span class="toc-section-number">1</span> Code to reproduce Figure5.1</a></li>
+<li><a href="#code-to-reproduce-figure-5.1"><span class="toc-section-number">1</span> Code to reproduce Figure 5.1</a></li>
 <li><a href="#reproduce-the-results-for-the-cauchy-prior-example"><span class="toc-section-number">2</span> Reproduce the results for the Cauchy prior example</a></li>
 <li><a href="#reproduce-table-5.1"><span class="toc-section-number">3</span> Reproduce Table 5.1</a></li>
 <li><a href="#reproduce-table-5.2"><span class="toc-section-number">4</span> Reproduce Table 5.2</a></li>
@@ -178,46 +178,16 @@ document.addEventListener("DOMContentLoaded", function() {
       links[i].target = '_blank';
 });
 </script>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">rm</span>(<span class="at">list=</span><span class="fu">ls</span>())</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span>opts_knit<span class="sc">$</span><span class="fu">set</span>(<span class="at">root.dir =</span> <span class="st">&#39;~/Dropbox/sks/bookproject/rbook/chapter_code_files&#39;</span>)</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>figurepath <span class="ot">&lt;-</span> <span class="st">&quot;~/Dropbox/sks/bookproject/bmstdr_Sahu/figures/chap5figures/&quot;</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>mappath <span class="ot">&lt;-</span> <span class="st">&quot;mapfiles&quot;</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span>opts_chunk<span class="sc">$</span><span class="fu">set</span>(<span class="at">collapse =</span> <span class="cn">TRUE</span>)</span></code></pre></div>
-<pre><code>## Loading required package: Rcpp
-## Registered S3 method overwritten by &#39;GGally&#39;:
-##   method from   
-##   +.gg   ggplot2
-## Warning in .recacheSubclasses(def@className, def, env): undefined subclass
-## &quot;numericVector&quot; of class &quot;Mnumeric&quot;; definition not updated
-## Loading required package: databmstdr
-## Loading required package: sp
-## Loading required package: spData
-## Loading required package: sf
-## Linking to GEOS 3.8.0, GDAL 3.0.4, PROJ 6.3.1
-## --------------------------------------------------------------
-##  Analysis of Geostatistical Data
-##  For an Introduction to geoR go to http://www.leg.ufpr.br/geoR
-##  geoR version 1.8-1 (built on 2020-02-08) is now loaded
-## --------------------------------------------------------------
-## Loading required package: spam
-## Loading required package: dotCall64
-## Loading required package: grid
-## Spam version 2.7-0 (2021-06-25) is loaded.
-## Type &#39;help( Spam)&#39; or &#39;demo( spam)&#39; for a short introduction 
-## and overview of this package.
-## Help for individual functions is also obtained by adding the
-## suffix &#39;.spam&#39; to the function name, e.g. &#39;help( chol.spam)&#39;.
-## 
-## Attaching package: &#39;spam&#39;
-## The following objects are masked from &#39;package:base&#39;:
-## 
-##     backsolve, forwardsolve
-## Loading required package: viridis
-## Loading required package: viridisLite
-## See https://github.com/NCAR/Fields for
-##  an extensive vignette, other supplements and source code</code></pre>
-<div id="code-to-reproduce-figure5.1" class="section level1" number="1">
-<h1 number="1"><span class="header-section-number">1</span> Code to reproduce Figure5.1</h1>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="do">## Note the start time</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>start.time<span class="ot">&lt;-</span><span class="fu">proc.time</span>()[<span class="dv">3</span>]</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># figurepath &lt;- &quot;YourPath&quot;   # Folder to save  the figures </span></span></code></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(bmstdr)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="do">## Warning in .recacheSubclasses(def@className, def, env): undefined subclass</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="do">## &quot;numericVector&quot; of class &quot;Mnumeric&quot;; definition not updated</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggpubr)</span></code></pre></div>
+<div id="code-to-reproduce-figure-5.1" class="section level1" number="1">
+<h1 number="1"><span class="header-section-number">1</span> Code to reproduce Figure 5.1</h1>
 <div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>n <span class="ot">&lt;-</span> <span class="dv">2000</span></span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="fu">seq</span>(<span class="at">from=</span><span class="sc">-</span><span class="dv">6</span>, <span class="at">to=</span><span class="dv">7</span>, <span class="at">length=</span>n)</span>
@@ -380,7 +350,7 @@ document.addEventListener("DOMContentLoaded", function() {
 <span id="cb10-26"><a href="#cb10-26" aria-hidden="true" tabindex="-1"></a><span class="do">## $ybar</span></span>
 <span id="cb10-27"><a href="#cb10-27" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 0.846953</span></span>
 <span id="cb10-28"><a href="#cb10-28" aria-hidden="true" tabindex="-1"></a><span class="fu">BCauchy</span>(<span class="at">method=</span><span class="st">&quot;independence&quot;</span>, <span class="at">true.theta =</span> <span class="dv">1</span>, <span class="at">n=</span><span class="dv">25</span>, <span class="at">N=</span><span class="dv">10000</span>)</span>
-<span id="cb10-29"><a href="#cb10-29" aria-hidden="true" tabindex="-1"></a><span class="do">## Results from independence sampler</span></span>
+<span id="cb10-29"><a href="#cb10-29" aria-hidden="true" tabindex="-1"></a><span class="do">## Results from independence sampler.</span></span>
 <span id="cb10-30"><a href="#cb10-30" aria-hidden="true" tabindex="-1"></a><span class="do">## $MH_ind_samp_estimate</span></span>
 <span id="cb10-31"><a href="#cb10-31" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 0.8064928</span></span>
 <span id="cb10-32"><a href="#cb10-32" aria-hidden="true" tabindex="-1"></a><span class="do">## </span></span>
@@ -397,7 +367,7 @@ document.addEventListener("DOMContentLoaded", function() {
 <span id="cb10-43"><a href="#cb10-43" aria-hidden="true" tabindex="-1"></a><span class="do">## $ybar</span></span>
 <span id="cb10-44"><a href="#cb10-44" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 0.846953</span></span>
 <span id="cb10-45"><a href="#cb10-45" aria-hidden="true" tabindex="-1"></a><span class="fu">BCauchy</span>(<span class="at">method=</span><span class="st">&quot;randomwalk&quot;</span>, <span class="at">true.theta =</span> <span class="dv">1</span>, <span class="at">n=</span><span class="dv">25</span>, <span class="at">tuning.sd =</span><span class="dv">1</span>)</span>
-<span id="cb10-46"><a href="#cb10-46" aria-hidden="true" tabindex="-1"></a><span class="do">## Results from the random walk sampler</span></span>
+<span id="cb10-46"><a href="#cb10-46" aria-hidden="true" tabindex="-1"></a><span class="do">## Results from the random walk sampler.</span></span>
 <span id="cb10-47"><a href="#cb10-47" aria-hidden="true" tabindex="-1"></a><span class="do">## $MH_rand_walk_estimate</span></span>
 <span id="cb10-48"><a href="#cb10-48" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 0.8012946</span></span>
 <span id="cb10-49"><a href="#cb10-49" aria-hidden="true" tabindex="-1"></a><span class="do">## </span></span>
@@ -427,7 +397,7 @@ document.addEventListener("DOMContentLoaded", function() {
 <span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>N <span class="ot">&lt;-</span> <span class="dv">10000</span></span>
 <span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>eresults <span class="ot">&lt;-</span> <span class="fu">Bnormal</span>(<span class="at">package=</span><span class="st">&quot;exact&quot;</span>, <span class="at">y=</span>y, <span class="at">mu0=</span>mu0, </span>
 <span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>  <span class="at">kprior=</span>kprior, <span class="at">prior.M=</span>prior.M, <span class="at">prior.sigma2=</span>prior.sigma2) </span>
-<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a><span class="do">## Results from exact methods</span></span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a><span class="do">## Results from exact methods.</span></span>
 <span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a><span class="co">#Run Gibbs sampling</span></span>
 <span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a>samps <span class="ot">&lt;-</span> <span class="fu">Bnormal</span>(<span class="at">package=</span><span class="st">&quot;RGibbs&quot;</span>, <span class="at">y=</span>y, <span class="at">mu0=</span>mu0, <span class="at">kprior=</span>kprior, </span>
 <span id="cb11-12"><a href="#cb11-12" aria-hidden="true" tabindex="-1"></a><span class="at">prior.M=</span>prior.M, <span class="at">prior.sigma2=</span>prior.sigma2,  <span class="at">N=</span>N)</span>
@@ -442,25 +412,25 @@ document.addEventListener("DOMContentLoaded", function() {
 <span id="cb11-21"><a href="#cb11-21" aria-hidden="true" tabindex="-1"></a><span class="do">## </span></span>
 <span id="cb11-22"><a href="#cb11-22" aria-hidden="true" tabindex="-1"></a><span class="do">## $var_sigma2_estimate</span></span>
 <span id="cb11-23"><a href="#cb11-23" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 27.93716</span></span>
-<span id="cb11-24"><a href="#cb11-24" aria-hidden="true" tabindex="-1"></a><span class="do">## </span></span>
-<span id="cb11-25"><a href="#cb11-25" aria-hidden="true" tabindex="-1"></a><span class="do">## Results from Gibbs sampler coded in R</span></span>
-<span id="cb11-26"><a href="#cb11-26" aria-hidden="true" tabindex="-1"></a>gres <span class="ot">&lt;-</span> <span class="fu">list</span>(<span class="at">mean_theta =</span> <span class="fu">mean</span>(samps[,<span class="dv">1</span>]), <span class="at">var_theta =</span> <span class="fu">var</span>(samps[,<span class="dv">1</span>]), </span>
-<span id="cb11-27"><a href="#cb11-27" aria-hidden="true" tabindex="-1"></a><span class="at">mean_sigma2=</span><span class="fu">mean</span>(samps[,<span class="dv">2</span>]), <span class="at">var_sigma2=</span><span class="fu">var</span>(samps[,<span class="dv">2</span>]))</span>
-<span id="cb11-28"><a href="#cb11-28" aria-hidden="true" tabindex="-1"></a>glow <span class="ot">&lt;-</span> <span class="fu">list</span>(<span class="at">theta_low=</span><span class="fu">quantile</span>(samps[,<span class="dv">1</span>], <span class="at">probs=</span><span class="fl">0.025</span>), <span class="at">var_theta=</span><span class="cn">NA</span>, </span>
-<span id="cb11-29"><a href="#cb11-29" aria-hidden="true" tabindex="-1"></a><span class="at">sigma2_low =</span><span class="fu">quantile</span>(samps[,<span class="dv">2</span>], <span class="at">probs=</span><span class="fl">0.025</span>), <span class="at">var_sigma2=</span><span class="cn">NA</span>)</span>
-<span id="cb11-30"><a href="#cb11-30" aria-hidden="true" tabindex="-1"></a>gupp <span class="ot">&lt;-</span> <span class="fu">list</span>(<span class="at">theta_low=</span><span class="fu">quantile</span>(samps[,<span class="dv">1</span>], <span class="at">probs=</span><span class="fl">0.975</span>), <span class="at">var_theta=</span><span class="cn">NA</span>, </span>
-<span id="cb11-31"><a href="#cb11-31" aria-hidden="true" tabindex="-1"></a><span class="at">sigma2_low =</span><span class="fu">quantile</span>(samps[,<span class="dv">2</span>], <span class="at">probs=</span><span class="fl">0.975</span>), <span class="at">var_sigma2=</span><span class="cn">NA</span>)</span>
-<span id="cb11-32"><a href="#cb11-32" aria-hidden="true" tabindex="-1"></a>a <span class="ot">&lt;-</span> <span class="fu">rbind</span>(<span class="fu">unlist</span>(eresults), <span class="fu">unlist</span>(gres), <span class="fu">unlist</span>(glow), <span class="fu">unlist</span>(gupp))</span>
-<span id="cb11-33"><a href="#cb11-33" aria-hidden="true" tabindex="-1"></a>cvsamp <span class="ot">&lt;-</span> <span class="fu">sqrt</span>(samps[,<span class="dv">2</span>])<span class="sc">/</span>samps[,<span class="dv">1</span>]</span>
-<span id="cb11-34"><a href="#cb11-34" aria-hidden="true" tabindex="-1"></a>cv <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="cn">NA</span>, <span class="fu">mean</span>(cvsamp), <span class="fu">quantile</span>(cvsamp, <span class="at">probs=</span><span class="fu">c</span>(<span class="fl">0.025</span>, <span class="fl">0.975</span>)))</span>
-<span id="cb11-35"><a href="#cb11-35" aria-hidden="true" tabindex="-1"></a>table5<span class="fl">.1</span> <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(a, cv)</span>
-<span id="cb11-36"><a href="#cb11-36" aria-hidden="true" tabindex="-1"></a><span class="fu">rownames</span>(table5<span class="fl">.1</span>) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;Exact&quot;</span>, <span class="st">&quot;Estimate&quot;</span>, <span class="st">&quot;2.5%&quot;</span>, <span class="st">&quot;97.5%&quot;</span>)</span>
-<span id="cb11-37"><a href="#cb11-37" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">round</span>(table5<span class="fl">.1</span>, <span class="dv">3</span>))</span>
-<span id="cb11-38"><a href="#cb11-38" aria-hidden="true" tabindex="-1"></a><span class="do">##          mean_theta var_theta mean_sigma2 var_sigma2    cv</span></span>
-<span id="cb11-39"><a href="#cb11-39" aria-hidden="true" tabindex="-1"></a><span class="do">## Exact        47.906     0.686      19.901     28.289    NA</span></span>
-<span id="cb11-40"><a href="#cb11-40" aria-hidden="true" tabindex="-1"></a><span class="do">## Estimate     47.909     0.688      19.936     27.937 0.092</span></span>
-<span id="cb11-41"><a href="#cb11-41" aria-hidden="true" tabindex="-1"></a><span class="do">## 2.5%         46.290        NA      12.099         NA 0.072</span></span>
-<span id="cb11-42"><a href="#cb11-42" aria-hidden="true" tabindex="-1"></a><span class="do">## 97.5%        49.551        NA      32.747         NA 0.120</span></span></code></pre></div>
+<span id="cb11-24"><a href="#cb11-24" aria-hidden="true" tabindex="-1"></a><span class="do">## Results from Gibbs sampler coded in R.</span></span>
+<span id="cb11-25"><a href="#cb11-25" aria-hidden="true" tabindex="-1"></a>gres <span class="ot">&lt;-</span> <span class="fu">list</span>(<span class="at">mean_theta =</span> <span class="fu">mean</span>(samps[,<span class="dv">1</span>]), <span class="at">var_theta =</span> <span class="fu">var</span>(samps[,<span class="dv">1</span>]), </span>
+<span id="cb11-26"><a href="#cb11-26" aria-hidden="true" tabindex="-1"></a><span class="at">mean_sigma2=</span><span class="fu">mean</span>(samps[,<span class="dv">2</span>]), <span class="at">var_sigma2=</span><span class="fu">var</span>(samps[,<span class="dv">2</span>]))</span>
+<span id="cb11-27"><a href="#cb11-27" aria-hidden="true" tabindex="-1"></a>glow <span class="ot">&lt;-</span> <span class="fu">list</span>(<span class="at">theta_low=</span><span class="fu">quantile</span>(samps[,<span class="dv">1</span>], <span class="at">probs=</span><span class="fl">0.025</span>), <span class="at">var_theta=</span><span class="cn">NA</span>, </span>
+<span id="cb11-28"><a href="#cb11-28" aria-hidden="true" tabindex="-1"></a><span class="at">sigma2_low =</span><span class="fu">quantile</span>(samps[,<span class="dv">2</span>], <span class="at">probs=</span><span class="fl">0.025</span>), <span class="at">var_sigma2=</span><span class="cn">NA</span>)</span>
+<span id="cb11-29"><a href="#cb11-29" aria-hidden="true" tabindex="-1"></a>gupp <span class="ot">&lt;-</span> <span class="fu">list</span>(<span class="at">theta_low=</span><span class="fu">quantile</span>(samps[,<span class="dv">1</span>], <span class="at">probs=</span><span class="fl">0.975</span>), <span class="at">var_theta=</span><span class="cn">NA</span>, </span>
+<span id="cb11-30"><a href="#cb11-30" aria-hidden="true" tabindex="-1"></a><span class="at">sigma2_low =</span><span class="fu">quantile</span>(samps[,<span class="dv">2</span>], <span class="at">probs=</span><span class="fl">0.975</span>), <span class="at">var_sigma2=</span><span class="cn">NA</span>)</span>
+<span id="cb11-31"><a href="#cb11-31" aria-hidden="true" tabindex="-1"></a>a <span class="ot">&lt;-</span> <span class="fu">rbind</span>(<span class="fu">unlist</span>(eresults), <span class="fu">unlist</span>(gres), <span class="fu">unlist</span>(glow), <span class="fu">unlist</span>(gupp))</span>
+<span id="cb11-32"><a href="#cb11-32" aria-hidden="true" tabindex="-1"></a>cvsamp <span class="ot">&lt;-</span> <span class="fu">sqrt</span>(samps[,<span class="dv">2</span>])<span class="sc">/</span>samps[,<span class="dv">1</span>]</span>
+<span id="cb11-33"><a href="#cb11-33" aria-hidden="true" tabindex="-1"></a>cv <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="cn">NA</span>, <span class="fu">mean</span>(cvsamp), <span class="fu">quantile</span>(cvsamp, <span class="at">probs=</span><span class="fu">c</span>(<span class="fl">0.025</span>, <span class="fl">0.975</span>)))</span>
+<span id="cb11-34"><a href="#cb11-34" aria-hidden="true" tabindex="-1"></a>table5<span class="fl">.1</span> <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(a, cv)</span>
+<span id="cb11-35"><a href="#cb11-35" aria-hidden="true" tabindex="-1"></a><span class="fu">rownames</span>(table5<span class="fl">.1</span>) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;Exact&quot;</span>, <span class="st">&quot;Estimate&quot;</span>, <span class="st">&quot;2.5%&quot;</span>, <span class="st">&quot;97.5%&quot;</span>)</span>
+<span id="cb11-36"><a href="#cb11-36" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">round</span>(table5<span class="fl">.1</span>, <span class="dv">3</span>))</span>
+<span id="cb11-37"><a href="#cb11-37" aria-hidden="true" tabindex="-1"></a><span class="do">##          mean_theta var_theta mean_sigma2 var_sigma2    cv</span></span>
+<span id="cb11-38"><a href="#cb11-38" aria-hidden="true" tabindex="-1"></a><span class="do">## Exact        47.906     0.686      19.901     28.289    NA</span></span>
+<span id="cb11-39"><a href="#cb11-39" aria-hidden="true" tabindex="-1"></a><span class="do">## Estimate     47.909     0.688      19.936     27.937 0.092</span></span>
+<span id="cb11-40"><a href="#cb11-40" aria-hidden="true" tabindex="-1"></a><span class="do">## 2.5%         46.290        NA      12.099         NA 0.072</span></span>
+<span id="cb11-41"><a href="#cb11-41" aria-hidden="true" tabindex="-1"></a><span class="do">## 97.5%        49.551        NA      32.747         NA 0.120</span></span>
+<span id="cb11-42"><a href="#cb11-42" aria-hidden="true" tabindex="-1"></a><span class="fu">dput</span>(table5<span class="fl">.1</span>, <span class="at">file=</span><span class="fu">paste0</span>(filepath, <span class="st">&quot;table5.1.txt&quot;</span>))</span></code></pre></div>
 </div>
 <div id="reproduce-table-5.2" class="section level1" number="4">
 <h1 number="4"><span class="header-section-number">4</span> Reproduce Table 5.2</h1>
@@ -469,8 +439,8 @@ document.addEventListener("DOMContentLoaded", function() {
 <span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a><span class="do">## </span></span>
 <span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a><span class="do">## SAMPLING FOR MODEL &#39;normal&#39; NOW (CHAIN 1).</span></span>
 <span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a><span class="do">## Chain 1: </span></span>
-<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a><span class="do">## Chain 1: Gradient evaluation took 6e-06 seconds</span></span>
-<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a><span class="do">## Chain 1: 1000 transitions using 10 leapfrog steps per transition would take 0.06 seconds.</span></span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a><span class="do">## Chain 1: Gradient evaluation took 7e-06 seconds</span></span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a><span class="do">## Chain 1: 1000 transitions using 10 leapfrog steps per transition would take 0.07 seconds.</span></span>
 <span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a><span class="do">## Chain 1: Adjust your expectations accordingly!</span></span>
 <span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a><span class="do">## Chain 1: </span></span>
 <span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a><span class="do">## Chain 1: </span></span>
@@ -487,28 +457,30 @@ document.addEventListener("DOMContentLoaded", function() {
 <span id="cb12-21"><a href="#cb12-21" aria-hidden="true" tabindex="-1"></a><span class="do">## Chain 1: Iteration: 9000 / 10000 [ 90%]  (Sampling)</span></span>
 <span id="cb12-22"><a href="#cb12-22" aria-hidden="true" tabindex="-1"></a><span class="do">## Chain 1: Iteration: 10000 / 10000 [100%]  (Sampling)</span></span>
 <span id="cb12-23"><a href="#cb12-23" aria-hidden="true" tabindex="-1"></a><span class="do">## Chain 1: </span></span>
-<span id="cb12-24"><a href="#cb12-24" aria-hidden="true" tabindex="-1"></a><span class="do">## Chain 1:  Elapsed Time: 0.027117 seconds (Warm-up)</span></span>
-<span id="cb12-25"><a href="#cb12-25" aria-hidden="true" tabindex="-1"></a><span class="do">## Chain 1:                0.236017 seconds (Sampling)</span></span>
-<span id="cb12-26"><a href="#cb12-26" aria-hidden="true" tabindex="-1"></a><span class="do">## Chain 1:                0.263134 seconds (Total)</span></span>
-<span id="cb12-27"><a href="#cb12-27" aria-hidden="true" tabindex="-1"></a><span class="do">## Chain 1: </span></span>
-<span id="cb12-28"><a href="#cb12-28" aria-hidden="true" tabindex="-1"></a><span class="do">## Results from Hamiltonian Monte Carlo in Stan</span></span>
+<span id="cb12-24"><a href="#cb12-24" aria-hidden="true" tabindex="-1"></a><span class="do">## Chain 1:  Elapsed Time: 0.008731 seconds (Warm-up)</span></span>
+<span id="cb12-25"><a href="#cb12-25" aria-hidden="true" tabindex="-1"></a><span class="do">## Chain 1:                0.08078 seconds (Sampling)</span></span>
+<span id="cb12-26"><a href="#cb12-26" aria-hidden="true" tabindex="-1"></a><span class="do">## Chain 1:                0.089511 seconds (Total)</span></span>
+<span id="cb12-27"><a href="#cb12-27" aria-hidden="true" tabindex="-1"></a><span class="do">## Chain 1:</span></span>
+<span id="cb12-28"><a href="#cb12-28" aria-hidden="true" tabindex="-1"></a><span class="do">## Results from Hamiltonian Monte Carlo in Stan.</span></span>
 <span id="cb12-29"><a href="#cb12-29" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">round</span>(table5<span class="fl">.2</span>, <span class="dv">3</span>))</span>
 <span id="cb12-30"><a href="#cb12-30" aria-hidden="true" tabindex="-1"></a><span class="do">##          mean_theta var_theta mean_sigma2 var_sigma2    cv</span></span>
 <span id="cb12-31"><a href="#cb12-31" aria-hidden="true" tabindex="-1"></a><span class="do">## Exact        47.906     0.686      19.901     28.289    NA</span></span>
 <span id="cb12-32"><a href="#cb12-32" aria-hidden="true" tabindex="-1"></a><span class="do">## Estimate     47.915     0.678      19.779     27.726 0.092</span></span>
 <span id="cb12-33"><a href="#cb12-33" aria-hidden="true" tabindex="-1"></a><span class="do">## 2.5%         46.297        NA      12.076         NA 0.072</span></span>
-<span id="cb12-34"><a href="#cb12-34" aria-hidden="true" tabindex="-1"></a><span class="do">## 97.5%        49.558        NA      32.447         NA 0.119</span></span></code></pre></div>
+<span id="cb12-34"><a href="#cb12-34" aria-hidden="true" tabindex="-1"></a><span class="do">## 97.5%        49.558        NA      32.447         NA 0.119</span></span>
+<span id="cb12-35"><a href="#cb12-35" aria-hidden="true" tabindex="-1"></a><span class="fu">dput</span>(table5<span class="fl">.2</span>, <span class="at">file=</span><span class="fu">paste0</span>(filepath, <span class="st">&quot;table5.2.txt&quot;</span>))</span></code></pre></div>
 </div>
 <div id="reproduce-table-5.3" class="section level1" number="5">
 <h1 number="5"><span class="header-section-number">5</span> Reproduce Table 5.3</h1>
 <div class="sourceCode" id="cb13"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>table5<span class="fl">.3</span> <span class="ot">&lt;-</span> <span class="fu">Bnormal</span>(<span class="at">package=</span><span class="st">&quot;inla&quot;</span>, <span class="at">kprior=</span><span class="dv">1</span>, <span class="at">prior.M =</span><span class="dv">1</span>, <span class="at">prior.sigma=</span><span class="fu">c</span>(<span class="dv">2</span>, <span class="dv">1</span>))</span>
-<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="do">## Results from INLA</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="do">## Results from INLA.</span></span>
 <span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">round</span>(table5<span class="fl">.3</span>, <span class="dv">3</span>))</span>
 <span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a><span class="do">##          mean_theta var_theta mean_sigma2 var_sigma2    cv</span></span>
 <span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a><span class="do">## Exact        47.906     0.686      19.901     28.289    NA</span></span>
 <span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a><span class="do">## Estimate     48.700     0.043      20.665     29.313 0.093</span></span>
 <span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a><span class="do">## 2.5%         48.292        NA      12.574         NA 0.073</span></span>
-<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a><span class="do">## 97.5%        49.114        NA      33.528         NA 0.119</span></span></code></pre></div>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a><span class="do">## 97.5%        49.114        NA      33.528         NA 0.119</span></span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a><span class="fu">dput</span>(table5<span class="fl">.3</span>, <span class="at">file=</span><span class="fu">paste0</span>(filepath, <span class="st">&quot;table5.3.txt&quot;</span>))</span></code></pre></div>
 </div>
 <div id="reproduce-table-5.4" class="section level1" number="6">
 <h1 number="6"><span class="header-section-number">6</span> Reproduce Table 5.4</h1>
@@ -530,51 +502,57 @@ document.addEventListener("DOMContentLoaded", function() {
 <span id="cb14-16"><a href="#cb14-16" aria-hidden="true" tabindex="-1"></a><span class="do">## </span></span>
 <span id="cb14-17"><a href="#cb14-17" aria-hidden="true" tabindex="-1"></a><span class="do">## $bic</span></span>
 <span id="cb14-18"><a href="#cb14-18" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 168.3543</span></span>
-<span id="cb14-19"><a href="#cb14-19" aria-hidden="true" tabindex="-1"></a><span class="do">## </span></span>
-<span id="cb14-20"><a href="#cb14-20" aria-hidden="true" tabindex="-1"></a><span class="do">## Results by using  exact theoretical calculations assuming known sigma2</span></span>
-<span id="cb14-21"><a href="#cb14-21" aria-hidden="true" tabindex="-1"></a>a2 <span class="ot">&lt;-</span> <span class="fu">Bmchoice</span>(<span class="at">case=</span><span class="st">&quot;MC.sigma2.known&quot;</span>) </span>
-<span id="cb14-22"><a href="#cb14-22" aria-hidden="true" tabindex="-1"></a><span class="do">## $posterior.mean</span></span>
-<span id="cb14-23"><a href="#cb14-23" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 47.90599</span></span>
-<span id="cb14-24"><a href="#cb14-24" aria-hidden="true" tabindex="-1"></a><span class="do">## </span></span>
-<span id="cb14-25"><a href="#cb14-25" aria-hidden="true" tabindex="-1"></a><span class="do">## $posterior.var</span></span>
-<span id="cb14-26"><a href="#cb14-26" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 0.7586207</span></span>
-<span id="cb14-27"><a href="#cb14-27" aria-hidden="true" tabindex="-1"></a><span class="do">## </span></span>
-<span id="cb14-28"><a href="#cb14-28" aria-hidden="true" tabindex="-1"></a><span class="do">## $data.mean</span></span>
-<span id="cb14-29"><a href="#cb14-29" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 47.87542</span></span>
-<span id="cb14-30"><a href="#cb14-30" aria-hidden="true" tabindex="-1"></a><span class="do">## </span></span>
-<span id="cb14-31"><a href="#cb14-31" aria-hidden="true" tabindex="-1"></a><span class="do">## $sigma2byn</span></span>
-<span id="cb14-32"><a href="#cb14-32" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 0.7857143</span></span>
-<span id="cb14-33"><a href="#cb14-33" aria-hidden="true" tabindex="-1"></a><span class="do">## </span></span>
-<span id="cb14-34"><a href="#cb14-34" aria-hidden="true" tabindex="-1"></a><span class="do">## Results by  using Monte Carlo Samples from the posterior distribution of theta for known sigma2.</span></span>
-<span id="cb14-35"><a href="#cb14-35" aria-hidden="true" tabindex="-1"></a>a3 <span class="ot">&lt;-</span> <span class="fu">Bmchoice</span>(<span class="at">case=</span><span class="st">&quot;MC.sigma2.unknown&quot;</span>)</span>
-<span id="cb14-36"><a href="#cb14-36" aria-hidden="true" tabindex="-1"></a><span class="do">## $mean_theta</span></span>
-<span id="cb14-37"><a href="#cb14-37" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 47.90894</span></span>
-<span id="cb14-38"><a href="#cb14-38" aria-hidden="true" tabindex="-1"></a><span class="do">## </span></span>
-<span id="cb14-39"><a href="#cb14-39" aria-hidden="true" tabindex="-1"></a><span class="do">## $var_theta_estimate</span></span>
-<span id="cb14-40"><a href="#cb14-40" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 0.6875541</span></span>
-<span id="cb14-41"><a href="#cb14-41" aria-hidden="true" tabindex="-1"></a><span class="do">## </span></span>
-<span id="cb14-42"><a href="#cb14-42" aria-hidden="true" tabindex="-1"></a><span class="do">## $mean_sigma2</span></span>
-<span id="cb14-43"><a href="#cb14-43" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 19.93586</span></span>
-<span id="cb14-44"><a href="#cb14-44" aria-hidden="true" tabindex="-1"></a><span class="do">## </span></span>
-<span id="cb14-45"><a href="#cb14-45" aria-hidden="true" tabindex="-1"></a><span class="do">## $var_sigma2_estimate</span></span>
-<span id="cb14-46"><a href="#cb14-46" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 27.93716</span></span>
-<span id="cb14-47"><a href="#cb14-47" aria-hidden="true" tabindex="-1"></a><span class="do">## </span></span>
-<span id="cb14-48"><a href="#cb14-48" aria-hidden="true" tabindex="-1"></a><span class="do">## Results by  using Monte Carlo Samples from the joint posterior distribution of theta and sigma2.</span></span>
-<span id="cb14-49"><a href="#cb14-49" aria-hidden="true" tabindex="-1"></a>table5<span class="fl">.4</span> <span class="ot">&lt;-</span> <span class="fu">cbind</span>(<span class="fu">unlist</span>(a1), <span class="fu">unlist</span>(a2), <span class="fu">unlist</span>(a3))</span>
-<span id="cb14-50"><a href="#cb14-50" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">round</span>(table5<span class="fl">.4</span>, <span class="dv">2</span>))</span>
-<span id="cb14-51"><a href="#cb14-51" aria-hidden="true" tabindex="-1"></a><span class="do">##            [,1]    [,2]    [,3]</span></span>
-<span id="cb14-52"><a href="#cb14-52" aria-hidden="true" tabindex="-1"></a><span class="do">## pdic       0.97    0.96    2.07</span></span>
-<span id="cb14-53"><a href="#cb14-53" aria-hidden="true" tabindex="-1"></a><span class="do">## pdicalt    0.93    0.95   13.58</span></span>
-<span id="cb14-54"><a href="#cb14-54" aria-hidden="true" tabindex="-1"></a><span class="do">## dic      166.95  166.94  169.20</span></span>
-<span id="cb14-55"><a href="#cb14-55" aria-hidden="true" tabindex="-1"></a><span class="do">## dicalt   166.89  166.93  192.22</span></span>
-<span id="cb14-56"><a href="#cb14-56" aria-hidden="true" tabindex="-1"></a><span class="do">## pwaic1     0.92    0.91    1.82</span></span>
-<span id="cb14-57"><a href="#cb14-57" aria-hidden="true" tabindex="-1"></a><span class="do">## pwaic2     0.96    0.94    2.52</span></span>
-<span id="cb14-58"><a href="#cb14-58" aria-hidden="true" tabindex="-1"></a><span class="do">## waic1    166.91  166.90  168.95</span></span>
-<span id="cb14-59"><a href="#cb14-59" aria-hidden="true" tabindex="-1"></a><span class="do">## waic2    167.00  166.96  170.35</span></span>
-<span id="cb14-60"><a href="#cb14-60" aria-hidden="true" tabindex="-1"></a><span class="do">## gof      594.30  593.29  593.54</span></span>
-<span id="cb14-61"><a href="#cb14-61" aria-hidden="true" tabindex="-1"></a><span class="do">## penalty  637.24  634.58  575.80</span></span>
-<span id="cb14-62"><a href="#cb14-62" aria-hidden="true" tabindex="-1"></a><span class="do">## pmcc    1231.54 1227.87 1169.34</span></span>
-<span id="cb14-63"><a href="#cb14-63" aria-hidden="true" tabindex="-1"></a><span class="co"># xtable(mc, digits=2)</span></span></code></pre></div>
+<span id="cb14-19"><a href="#cb14-19" aria-hidden="true" tabindex="-1"></a><span class="do">## Results by using  exact theoretical calculations assuming known sigma2.</span></span>
+<span id="cb14-20"><a href="#cb14-20" aria-hidden="true" tabindex="-1"></a>a2 <span class="ot">&lt;-</span> <span class="fu">Bmchoice</span>(<span class="at">case=</span><span class="st">&quot;MC.sigma2.known&quot;</span>) </span>
+<span id="cb14-21"><a href="#cb14-21" aria-hidden="true" tabindex="-1"></a><span class="do">## $posterior.mean</span></span>
+<span id="cb14-22"><a href="#cb14-22" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 47.90599</span></span>
+<span id="cb14-23"><a href="#cb14-23" aria-hidden="true" tabindex="-1"></a><span class="do">## </span></span>
+<span id="cb14-24"><a href="#cb14-24" aria-hidden="true" tabindex="-1"></a><span class="do">## $posterior.var</span></span>
+<span id="cb14-25"><a href="#cb14-25" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 0.7586207</span></span>
+<span id="cb14-26"><a href="#cb14-26" aria-hidden="true" tabindex="-1"></a><span class="do">## </span></span>
+<span id="cb14-27"><a href="#cb14-27" aria-hidden="true" tabindex="-1"></a><span class="do">## $data.mean</span></span>
+<span id="cb14-28"><a href="#cb14-28" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 47.87542</span></span>
+<span id="cb14-29"><a href="#cb14-29" aria-hidden="true" tabindex="-1"></a><span class="do">## </span></span>
+<span id="cb14-30"><a href="#cb14-30" aria-hidden="true" tabindex="-1"></a><span class="do">## $sigma2byn</span></span>
+<span id="cb14-31"><a href="#cb14-31" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 0.7857143</span></span>
+<span id="cb14-32"><a href="#cb14-32" aria-hidden="true" tabindex="-1"></a><span class="do">## Results by  using Monte Carlo Samples from the posterior distribution of theta for known sigma2.</span></span>
+<span id="cb14-33"><a href="#cb14-33" aria-hidden="true" tabindex="-1"></a>a3 <span class="ot">&lt;-</span> <span class="fu">Bmchoice</span>(<span class="at">case=</span><span class="st">&quot;MC.sigma2.unknown&quot;</span>)</span>
+<span id="cb14-34"><a href="#cb14-34" aria-hidden="true" tabindex="-1"></a><span class="do">## $mean_theta</span></span>
+<span id="cb14-35"><a href="#cb14-35" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 47.90894</span></span>
+<span id="cb14-36"><a href="#cb14-36" aria-hidden="true" tabindex="-1"></a><span class="do">## </span></span>
+<span id="cb14-37"><a href="#cb14-37" aria-hidden="true" tabindex="-1"></a><span class="do">## $var_theta_estimate</span></span>
+<span id="cb14-38"><a href="#cb14-38" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 0.6875541</span></span>
+<span id="cb14-39"><a href="#cb14-39" aria-hidden="true" tabindex="-1"></a><span class="do">## </span></span>
+<span id="cb14-40"><a href="#cb14-40" aria-hidden="true" tabindex="-1"></a><span class="do">## $mean_sigma2</span></span>
+<span id="cb14-41"><a href="#cb14-41" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 19.93586</span></span>
+<span id="cb14-42"><a href="#cb14-42" aria-hidden="true" tabindex="-1"></a><span class="do">## </span></span>
+<span id="cb14-43"><a href="#cb14-43" aria-hidden="true" tabindex="-1"></a><span class="do">## $var_sigma2_estimate</span></span>
+<span id="cb14-44"><a href="#cb14-44" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 27.93716</span></span>
+<span id="cb14-45"><a href="#cb14-45" aria-hidden="true" tabindex="-1"></a><span class="do">## Results by  using Monte Carlo Samples from the joint posterior distribution of theta and sigma2.</span></span>
+<span id="cb14-46"><a href="#cb14-46" aria-hidden="true" tabindex="-1"></a>table5<span class="fl">.4</span> <span class="ot">&lt;-</span> <span class="fu">cbind</span>(<span class="fu">unlist</span>(a1), <span class="fu">unlist</span>(a2), <span class="fu">unlist</span>(a3))</span>
+<span id="cb14-47"><a href="#cb14-47" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">round</span>(table5<span class="fl">.4</span>, <span class="dv">2</span>))</span>
+<span id="cb14-48"><a href="#cb14-48" aria-hidden="true" tabindex="-1"></a><span class="do">##            [,1]    [,2]    [,3]</span></span>
+<span id="cb14-49"><a href="#cb14-49" aria-hidden="true" tabindex="-1"></a><span class="do">## pdic       0.97    0.96    2.07</span></span>
+<span id="cb14-50"><a href="#cb14-50" aria-hidden="true" tabindex="-1"></a><span class="do">## pdicalt    0.93    0.95   13.58</span></span>
+<span id="cb14-51"><a href="#cb14-51" aria-hidden="true" tabindex="-1"></a><span class="do">## dic      166.95  166.94  169.20</span></span>
+<span id="cb14-52"><a href="#cb14-52" aria-hidden="true" tabindex="-1"></a><span class="do">## dicalt   166.89  166.93  192.22</span></span>
+<span id="cb14-53"><a href="#cb14-53" aria-hidden="true" tabindex="-1"></a><span class="do">## pwaic1     0.92    0.91    1.82</span></span>
+<span id="cb14-54"><a href="#cb14-54" aria-hidden="true" tabindex="-1"></a><span class="do">## pwaic2     0.96    0.94    2.52</span></span>
+<span id="cb14-55"><a href="#cb14-55" aria-hidden="true" tabindex="-1"></a><span class="do">## waic1    166.91  166.90  168.95</span></span>
+<span id="cb14-56"><a href="#cb14-56" aria-hidden="true" tabindex="-1"></a><span class="do">## waic2    167.00  166.96  170.35</span></span>
+<span id="cb14-57"><a href="#cb14-57" aria-hidden="true" tabindex="-1"></a><span class="do">## gof      594.30  595.44  591.82</span></span>
+<span id="cb14-58"><a href="#cb14-58" aria-hidden="true" tabindex="-1"></a><span class="do">## penalty  637.24  634.73  577.13</span></span>
+<span id="cb14-59"><a href="#cb14-59" aria-hidden="true" tabindex="-1"></a><span class="do">## pmcc    1231.54 1230.17 1168.95</span></span>
+<span id="cb14-60"><a href="#cb14-60" aria-hidden="true" tabindex="-1"></a><span class="co"># xtable(mc, digits=2)</span></span>
+<span id="cb14-61"><a href="#cb14-61" aria-hidden="true" tabindex="-1"></a><span class="fu">dput</span>(table5<span class="fl">.4</span>, <span class="at">file=</span><span class="fu">paste0</span>(filepath, <span class="st">&quot;table5.4.txt&quot;</span>))</span></code></pre></div>
+<div class="sourceCode" id="cb15"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="co"># All done </span></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>end.time <span class="ot">&lt;-</span> <span class="fu">proc.time</span>()[<span class="dv">3</span>]</span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>comp.time<span class="ot">&lt;-</span> (end.time<span class="sc">-</span>start.time)<span class="sc">/</span><span class="dv">60</span></span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a><span class="co"># comp.time&lt;-fancy.time(comp.time)</span></span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(comp.time)</span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a><span class="do">##   elapsed </span></span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a><span class="do">## 0.1455333</span></span></code></pre></div>
 </div>
 </section>
 
