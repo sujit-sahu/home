@@ -38,8 +38,7 @@ the previous chapter,  on spatio-temporal modeling. Click the links below to see
 
 {{< gallery album="chap8figures/uspollution" >}}
 
-<li><a href="../Rcode/Chap8_rainfall.html">  Analyzing precipitation data from the Hubbard Experimental
-Forest </a>
+<li><a href="../Rcode/Chap8_rainfall.html">  Analyzing precipitation data from the Hubbard Brook Experimental Forest </a>
 
 {{< gallery album="chap8figures/hubbard_brook" >}}
 
