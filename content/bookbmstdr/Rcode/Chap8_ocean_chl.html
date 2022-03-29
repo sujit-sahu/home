@@ -11,9 +11,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 
-<meta name="date" content="2021-08-12" />
+<meta name="date" content="2022-03-29" />
 
-<title>Practical examples of point referenced data modeling: Assessing trends in ocean chlorophyll</title>
+<title>Section 8.5: Assessing annual trends in ocean chlorophyll levels</title>
 
 <script src="data:application/javascript;base64,Ly8gUGFuZG9jIDIuOSBhZGRzIGF0dHJpYnV0ZXMgb24gYm90aCBoZWFkZXIgYW5kIGRpdi4gV2UgcmVtb3ZlIHRoZSBmb3JtZXIgKHRvCi8vIGJlIGNvbXBhdGlibGUgd2l0aCB0aGUgYmVoYXZpb3Igb2YgUGFuZG9jIDwgMi44KS4KZG9jdW1lbnQuYWRkRXZlbnRMaXN0ZW5lcignRE9NQ29udGVudExvYWRlZCcsIGZ1bmN0aW9uKGUpIHsKICB2YXIgaHMgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yQWxsKCJkaXYuc2VjdGlvbltjbGFzcyo9J2xldmVsJ10gPiA6Zmlyc3QtY2hpbGQiKTsKICB2YXIgaSwgaCwgYTsKICBmb3IgKGkgPSAwOyBpIDwgaHMubGVuZ3RoOyBpKyspIHsKICAgIGggPSBoc1tpXTsKICAgIGlmICghL15oWzEtNl0kL2kudGVzdChoLnRhZ05hbWUpKSBjb250aW51ZTsgIC8vIGl0IHNob3VsZCBiZSBhIGhlYWRlciBoMS1oNgogICAgYSA9IGguYXR0cmlidXRlczsKICAgIHdoaWxlIChhLmxlbmd0aCA+IDApIGgucmVtb3ZlQXR0cmlidXRlKGFbMF0ubmFtZSk7CiAgfQp9KTsK"></script>
 
@@ -138,15 +138,15 @@ a.sourceLine {
 
 
 <section class="page-header">
-<h1 class="title toc-ignore project-name">Practical examples of point referenced data modeling: Assessing trends in ocean chlorophyll</h1>
+<h1 class="title toc-ignore project-name">Section 8.5: Assessing annual trends in ocean chlorophyll levels</h1>
 <h4 class="author project-author">Sujit K. Sahu</h4>
 <address class="author_afil">
 University of Southampton<br><a class="author_email" href="mailto:#"><a href="mailto:S.K.Sahu@soton.ac.uk" class="email">S.K.Sahu@soton.ac.uk</a></a>
 </address>
-<h4 class="date project-date">2021-08-12</h4>
+<h4 class="date project-date">2022-03-29</h4>
 <div class="abstract">
 <p class="abstract">Abstract</p>
-<p>This file contains all the code for reproducing the figures and tables for assessing trends in ocean chlorophyll.</p>
+<p>This file contains all the code for reproducing the figures and tables for assessing trends in ocean chlorophyll as discussed in Section 8.5.</p>
 </div>
 </section>
 
@@ -194,7 +194,7 @@ document.addEventListener("DOMContentLoaded", function() {
 ## Linking to sp version:1.4-5
 ## To mute warnings of possible GDAL/OSR exportToProj4() degradation,
 ## use options(&quot;rgdal_show_exportToProj4_warnings&quot;=&quot;none&quot;) before loading rgdal.</code></pre>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a></span>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># dpath is the directory name where the following data set has been saved</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>savename <span class="ot">&lt;-</span> <span class="fu">paste0</span>(dpath, <span class="st">&quot;C8_chl_datasets.Rdata&quot;</span>)</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">load</span>(savename)</span></code></pre></div>
 <div id="code-to-run-the-models." class="section level1" number="1">
@@ -538,7 +538,7 @@ document.addEventListener("DOMContentLoaded", function() {
 <span id="cb5-98"><a href="#cb5-98" aria-hidden="true" tabindex="-1"></a><span class="do">## [21,]    0.0774 0.0767 0.0003 0.0003 0.0003 0.0021 0.0020 0.0021</span></span>
 <span id="cb5-99"><a href="#cb5-99" aria-hidden="true" tabindex="-1"></a><span class="do">## [22,]    0.2147 0.2140 0.0150 0.0149 0.0150 0.6205 0.5002 0.7377</span></span>
 <span id="cb5-100"><a href="#cb5-100" aria-hidden="true" tabindex="-1"></a><span class="do">## [23,]    0.0837 0.0828 0.0005 0.0005 0.0006 0.0014 0.0014 0.0015</span></span>
-<span id="cb5-101"><a href="#cb5-101" aria-hidden="true" tabindex="-1"></a><span class="fu">dput</span>(table8<span class="fl">.7</span>, <span class="at">file=</span><span class="fu">paste0</span>(filepath, <span class="st">&quot;table8.6.txt&quot;</span>))</span>
+<span id="cb5-101"><a href="#cb5-101" aria-hidden="true" tabindex="-1"></a><span class="fu">dput</span>(table8<span class="fl">.7</span>, <span class="at">file=</span><span class="fu">paste0</span>(filepath, <span class="st">&quot;table8.7.txt&quot;</span>))</span>
 <span id="cb5-102"><a href="#cb5-102" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb5-103"><a href="#cb5-103" aria-hidden="true" tabindex="-1"></a>islm <span class="ot">&lt;-</span> F  <span class="do">## Do for the spatial model </span></span>
 <span id="cb5-104"><a href="#cb5-104" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (islm)  { trend <span class="ot">&lt;-</span> lmresults<span class="sc">$</span>trend</span>
@@ -601,7 +601,7 @@ document.addEventListener("DOMContentLoaded", function() {
 <span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="co"># comp.time&lt;-fancy.time(comp.time)</span></span>
 <span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(comp.time)</span>
 <span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a><span class="do">## elapsed </span></span>
-<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a><span class="do">## 0.41015</span></span></code></pre></div>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a><span class="do">## 0.41155</span></span></code></pre></div>
 </div>
 </section>
 
