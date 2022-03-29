@@ -16,7 +16,19 @@ height: 550px
 width: 80%
 
 item:
-  - title: An MSc student 
+  - title: Ms Laura Scala  (BSc) 
+    content: '😄 I loved learning about and exploring different modelling techniques in Statistics. I can confidently say that it was the best module I have taken in my fourth year. At times it was really challenging but Sujit guided me patiently and effectively which helped me progress with my research, thus making it fun, engaging and very enjoyable.   The constant support provided encouraged me to aspire for a deeper understanding of the topic.'
+    align: center
+    overlay_color: '#D98880'
+    overlay_img: ''
+    overlay_filter: 0.7
+  - title: Ms Melody August (BSc) 
+    content: 'I just wanted to say thank you for all the help you gave me, particularly in my last-minute panic to get it all done! I found the topic very interesting and something I could see myself doing in my future career. I enjoyed completing the project as it gave a better insight to what a career in data may involve, through cleaning and analyzing data and then writing a final report. You continued to push me to achieve my best.😄'
+    align: center
+    overlay_color: '#333'
+    overlay_img: ''
+    overlay_filter: 0.7
+  - title:  Ms Xiaoqing Chen (MSc)
     content: 'I have learned a lot from Prof Sahu. At first I was not sure if I would like all the coding in R. But he certainly made it easy for me to learn. 😄'
     # Choose `center`, `left`, or `right` alignment.
     align: center
@@ -32,16 +44,4 @@ item:
     cta_url: 'https://www.sujitsahu.com/bookbmstdr/'
     cta_icon_pack: fas
     cta_icon: graduation-cap
-  - title: A BSc Mathematics with Spanish student 
-    content: '😄 I loved learning about and exploring different modelling techniques in Statistics. I can confidently say that it was the best module I have taken in my fourth year. At times it was really challenging but Sujit guided me patiently and effectively which helped me progress with my research, thus making it fun, engaging and very enjoyable.   The constant support provided encouraged me to aspire for a deeper understanding of the topic.'
-    align: center
-    overlay_color: '#D98880'
-    overlay_img: ''
-    overlay_filter: 0.7
-  - title: A BSc Mathematics with Statistics Student 
-    content: 'I just wanted to say thank you for all the help you gave me, particularly in my last-minute panic to get it all done! I found the topic very interesting and something I could see myself doing in my future career. I enjoyed completing the project as it gave a better insight to what a career in data may involve, through cleaning and analyzing data and then writing a final report. You continued to push me to achieve my best.😄'
-    align: center
-    overlay_color: '#333'
-    overlay_img: ''
-    overlay_filter: 0.7
 ---
