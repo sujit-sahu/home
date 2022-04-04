@@ -48,7 +48,7 @@ design:
 <ul>
 <li> You can download <a href="/bmbook/install-bmstdr.R"> this R file </a> and install the package as instructed in it.
 <li> Or you can install directly  in R from the commands given  below.
-</ul> 
+</ul>
 
 <ol>
 <li> Windows binary of bmstdr:   <a href="/bmbook/bmstdr_0.1.2.zip">  bmstdr_0.1.2.zip. </a> Use the <b> R </b> command:
@@ -88,6 +88,6 @@ devtools::install_github("sujit-sahu/bmstdr", build_vignettes = TRUE)
 
 
 <h2>
-<font color="#FF00FF" face="arial" size="5"> Here is a copy of the   <a href="/bmbook/bmstdr-vig_version.html"> bmstdr package vignette.</a> </font>
+<font color="#FF00FF" face="arial" size="5"> Here is a fuller version of the   <a href="/bmbook/bmstdr-full_vignette.html"> bmstdr package vignette.</a> This version has not been distributed with the package because of file size limitation. </font>
 </h2>
 
