@@ -47,9 +47,11 @@ design:
 
 <ul>
 <li> Please install the package directly from CRAN.
-```{r cran, echo=TRUE, eval=FALSE}
+
+```r
 install.packages("bmstdr", dependencies = TRUE)
 ```
+
 
 <li> You can install the required packages by  <a href="/bmbook/install-bmstdr.R"> this R file </a> and install the package as instructed in it.
 <li> Or you can install directly  in R from the commands given  below.
