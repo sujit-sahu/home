@@ -1,11 +1,14 @@
 # Update R to the latest version
+## Please install from CRAN
+install.packages("bmstdr", dependencies = TRUE)
+
 # Depending on your operating system please install the correct package
 # Windows
-install.packages("https://www.sujitsahu.com/bmbook/bmstdr_0.1.2.zip", repos=NULL)
+install.packages("https://www.sujitsahu.com/bmbook/bmstdr_0.1.4.zip", repos=NULL)
 # Mac
-install.packages("https://www.sujitsahu.com/bmbook/bmstdr_0.1.2.tgz", repos=NULL)
+install.packages("https://www.sujitsahu.com/bmbook/bmstdr_0.1.4.tgz", repos=NULL)
 # Linux Ubuntu
-install.packages("https://www.sujitsahu.com/bmbook/bmstdr_0.1.2_R_x86_64-pc-linux-gnu.tar.gz", repos=NULL)
+install.packages("https://www.sujitsahu.com/bmbook/bmstdr_0.1.4_R_x86_64-pc-linux-gnu.tar.gz", repos=NULL)
 # file.path(tempdir(), 'inla.graph')
 # Please check the installation
 library(bmstdr)
@@ -15,7 +18,7 @@ ls("package:databmstdr")
 browseVignettes()
 browseVignettes('bmstdr')
 
-## Install from source
+## Install latest version from Github source
 
 devtools::install_github("sujit-sahu/bmstdr", build_vignettes = TRUE)
 
