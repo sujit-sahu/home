@@ -69,7 +69,6 @@ ls("package:bmstdr")
 browseVignettes('bmstdr')
 ```
 
-
 <li>
 <h2>
 <font color="#FF00FF" face="arial" size="5"> Here is   <a href="/bmbook/bmstdr-full_vignette.html"> a full version of the vignette.</a> This version has not been distributed with the package because of file size limitation in CRAN.</a> </font>
