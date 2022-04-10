@@ -2,29 +2,15 @@
 ## Please install from CRAN
 install.packages("bmstdr", dependencies = TRUE)
 
-# Depending on your operating system please install the correct package
-# Windows
-install.packages("https://www.sujitsahu.com/bmbook/bmstdr_0.1.4.zip", repos=NULL)
-# Mac
-install.packages("https://www.sujitsahu.com/bmbook/bmstdr_0.1.4.tgz", repos=NULL)
-# Linux Ubuntu
-install.packages("https://www.sujitsahu.com/bmbook/bmstdr_0.1.4_R_x86_64-pc-linux-gnu.tar.gz", repos=NULL)
-# file.path(tempdir(), 'inla.graph')
-# Please check the installation
-library(bmstdr)
-ls("package:bmstdr")
-library(databmstdr)
-ls("package:databmstdr")
-browseVignettes()
-browseVignettes('bmstdr')
-
-## Install latest version from Github source
+## You may install the latest version from Github source
 
 devtools::install_github("sujit-sahu/bmstdr", build_vignettes = TRUE)
 
-
 # Installation may fail if you do not have all the packages.
-# The following commands will install most of the required packages
+# If installation fails you may find the following commands useful to install the
+# required packages.
+
+
 install.packages(c("Rcpp", "spTimer", "ggplot2", "rstan", "spBayes",  "CARBayes",
                    "CARBayesST", "BH", "RcppEigen", "StanHeaders"), dependencies =T)
 install.packages(c("matrixcalc", "rgdal", "spdep", "sf"),  dependencies =T)
@@ -39,3 +25,18 @@ install.packages(c("usmap", "directlabels", "ggrepel", "ggspatial", "ggpubr", "g
 install.packages(c("geoR", "RColorBrewer", "gridExtra", "sptDyn"),   dependencies=T)
 
 # Plus some other packages maybe required to be installed
+
+
+# Depending on your operating system please install the correct package
+# Windows
+install.packages("https://www.sujitsahu.com/bmbook/bmstdr_0.1.4.zip", repos=NULL)
+# Mac
+install.packages("https://www.sujitsahu.com/bmbook/bmstdr_0.1.4.tgz", repos=NULL)
+# Linux Ubuntu
+install.packages("https://www.sujitsahu.com/bmbook/bmstdr_0.1.4_R_x86_64-pc-linux-gnu.tar.gz", repos=NULL)
+
+# Please check the installation
+library(bmstdr)
+ls("package:bmstdr")
+browseVignettes('bmstdr')
+

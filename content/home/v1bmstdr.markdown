@@ -9,8 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 40
 
-title: R package 'bmstdr' 
-
+title: R package 'bmstdr'
 subtitle: The package source is available  from <a href="https://CRAN.R-project.org/package=bmstdr"> CRAN  </a> and <a href="https://github.com/sujit-sahu/bmstdr/"> github.  </a>
 
 # Date format for experience
@@ -47,50 +46,56 @@ design:
 
 
 <ul>
-<li> Please install the package directly from CRAN. 
-```{r cran, echo=TRUE, eval=FALSE}
+<li> Please install the package directly from CRAN.
+
+```r
 install.packages("bmstdr", dependencies = TRUE)
 ```
 
-<li> There is a long list of dependent packages that may need to be installed on your computer. You may find the commands in  <a href="/bmbook/install-bmstdr.R"> this R file </a> useful to install those packages.
 
-<li>  Development version of the package can be installed from github using the <b> R </b> command:
+<li> You can install the required packages by  <a href="/bmbook/install-bmstdr.R"> this R file </a> and install the package as instructed in it.
+<li> Or you can install directly  in R from the commands given  below.
+</ul>
 
-```{r source, echo=TRUE, eval=FALSE}
-devtools::install_github("sujit-sahu/bmstdr", build_vignettes = TRUE)
-```
-
-
-<h2>
-<font color="#FF00FF" face="arial" size="5"> Here is   <a href="/bmbook/bmstdr-full_vignette.html"> a full version of the vignette.</a> This version has not been distributed with the package because of file size limitation in CRAN.</a> </font>
-</h2>
-
-
-<li> In case you are looking for compiled binary version, you can attempt to install directly  in R from the commands given  below.
-</ul> 
 
 <ol>
 <li> Windows binary of bmstdr:   <a href="/bmbook/bmstdr_0.1.4.zip">  bmstdr_0.1.4.zip. </a> Use the <b> R </b> command:
 
-```{r win, echo=TRUE, eval=FALSE}
+
+```r
 install.packages("htps://www.sujitsahu.com/bmbook/bmstdr_0.1.4.zip", repos=NULL)
 ```
 
 <li> Macos binary of bmstdr:  <a href="https://www.sujitsahu.com/bmbook/bmstdr_0.1.4.tgz">  bmstdr_0.1.4.tgz. </a> Use the <b> R </b>  command:
 
 
-```{r mac, echo=TRUE, eval=FALSE}
+
+```r
 install.packages("https://www.sujitsahu.com/bmbook/bmstdr_0.1.4.tgz", repos=NULL)
 ```
 
 <li> Linux (Ubuntu) binary of bmstdr:
-<a href="bmstdr_0.1.4_R_x86_64-pc-linux-gnu.tar.gz"> bmstdr_0.1.4_R_x86_64-pc-linux-gnu.tar.gz.  </a>Use the <b> R </b>  command:
+<a href="bmstdr_0.1.1_R_x86_64-pc-linux-gnu.tar.gz"> bmstdr_0.1.4_R_x86_64-pc-linux-gnu.tar.gz.  </a>Use the <b> R </b>  command:
 
 
-```{r linux, echo=TRUE, eval=FALSE}
+
+```r
 install.packages("https://www.sujitsahu.com/bmbook/bmstdr_0.1.4_R_x86_64-pc-linux-gnu.tar.gz", repos=NULL)
 ```
 
 </ol>
 
+<h2>
+ Source version of the package can be installed from github using the <b> R </b> command:
+</h2>
+
+
+```r
+devtools::install_github("sujit-sahu/bmstdr", build_vignettes = TRUE)
+```
+
+
+<h2>
+<font color="#FF00FF" face="arial" size="5"> Here is a fuller version of the   <a href="/bmbook/bmstdr-full_vignette.html"> bmstdr package vignette.</a> This version has not been distributed with the package because of file size limitation. </font>
+</h2>
 
