@@ -66,8 +66,12 @@ email: "S.K.Sahu@soton.ac.uk"
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-
-Sujit Sahu is a Professor of Statistics at the University of Southampton. He is the author of the book <a href="bookbmstdr/"> Bayesian modeling of spatio-temporal data with R </a> published by <a href="https://www.taylorfrancis.com/books/mono/10.1201/9780429318443/bayesian-modeling-spatio-temporal-data-sujit-sahu"> Chapman and Hall/CRC Press. </a> Here is a <a href="https://twitter.com/Sujit_K_Sahu/status/1493173873705197569"> Twitter video </a> introducing the book. 
-
+<table>
+<td width=60%> Sujit Sahu is a Professor of Statistics at the University of Southampton. He is the author of the book <a href="bookbmstdr/"> Bayesian modeling of spatio-temporal data with R </a> published by <a href="https://www.taylorfrancis.com/books/mono/10.1201/9780429318443/bayesian-modeling-spatio-temporal-data-sujit-sahu"> Chapman and Hall/CRC Press. </a> Here is a <a href="https://twitter.com/Sujit_K_Sahu/status/1493173873705197569"> Twitter video </a> introducing the book. 
+</td>
+<td width=40%> 
+{{< figure src="bookbmstdr/bmstdr.png" width="150" height="240" caption="" theme="light" >}}
+</td>
+</table>
 
 {{< icon name="download" pack="fas" >}} Download Sujit's {{< staticref "uploads/2021_sahuresume.pdf" "newtab" >}}resumé{{< /staticref >}}.
