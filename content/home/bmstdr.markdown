@@ -75,7 +75,7 @@ browseVignettes('bmstdr')
 </h2>
 
 <li>
-<font color="#FF00FF" face="arial" size="5"> Here is   <a href="/bmbook/bmstdr_poster.pdf"> a conference poster for bmstdr.</a>
+<font color="#FF00FF" face="arial" size="5"> Here is   <a href="/bmbook/bmstdr_poster.pdf"> a conference poster for bmstdr in pdf</a> and in  <a href="/bmbook/bmstdr_poster.png"> in png format</a>
 </li>
 <li> <font color="#FF0000" face="arial" size="5"> If you are still not able to install and are looking for a compiled binary version, you can try the following: </font>
 </ul>
