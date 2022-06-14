@@ -74,7 +74,9 @@ browseVignettes('bmstdr')
 <font color="#FF00FF" face="arial" size="5"> Here is   <a href="/bmbook/bmstdr-full_vignette.html"> a full version of the vignette.</a> This version has not been distributed with the package because of file size limitation in CRAN.</a> </font>
 </h2>
 
-
+<li>
+<font color="#FF00FF" face="arial" size="5"> Here is   <a href="/bmbook/bmstdr_poster.pdf"> a conference poster for bmstdr.</a>
+</li>
 <li> <font color="#FF0000" face="arial" size="5"> If you are still not able to install and are looking for a compiled binary version, you can try the following: </font>
 </ul>
 
