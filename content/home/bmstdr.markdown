@@ -77,30 +77,8 @@ browseVignettes('bmstdr')
 <li>
 <font color="#FF00FF" face="arial" size="5"> Here is   <a href="/bmbook/bmstdr_poster.png"> a conference poster for bmstdr in png format.</a>
 </li>
-<li> <font color="#FF0000" face="arial" size="5"> If you are still not able to install and are looking for a compiled binary version, you can try the following: </font>
-</ul>
-
-<ol>
-<li> Windows binary of bmstdr:   <a href="/bmbook/bmstdr_0.1.4.zip">  bmstdr_0.1.4.zip. </a>
-
-```{r win, echo=TRUE, eval=FALSE}
-install.packages("htps://www.sujitsahu.com/bmbook/bmstdr_0.1.4.zip", repos=NULL)
-```
-
-<li> Macos binary of bmstdr:  <a href="https://www.sujitsahu.com/bmbook/bmstdr_0.1.4.tgz">  bmstdr_0.1.4.tgz. </a>
 
 
-```{r mac, echo=TRUE, eval=FALSE}
-install.packages("https://www.sujitsahu.com/bmbook/bmstdr_0.1.4.tgz", repos=NULL)
-```
-
-<li> Linux (Ubuntu) binary of bmstdr:
-<a href="bmstdr_0.1.4_R_x86_64-pc-linux-gnu.tar.gz"> bmstdr_0.1.4_R_x86_64-pc-linux-gnu.tar.gz.  </a>
-
-
-```{r linux, echo=TRUE, eval=FALSE}
-install.packages("https://www.sujitsahu.com/bmbook/bmstdr_0.1.4_R_x86_64-pc-linux-gnu.tar.gz", repos=NULL)
-```
 
 </ol>
 
