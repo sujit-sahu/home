@@ -19,9 +19,9 @@ main:
   - name: R package bmstdr
     url: '#bmstdr'
     weight: 50
-  - name: Teaching
-    url: '#teach'
-    weight: 60
+#  - name: Teaching
+#    url: '#teach'
+#    weight: 60
   - name: Projects
     url: 'project/'
     weight: 70
