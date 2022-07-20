@@ -11,7 +11,7 @@ weight: 40
 
 title: R package 'bmstdr'
 
-subtitle: The package source is available  from <a href="https://CRAN.R-project.org/package=bmstdr"> CRAN  </a> and <a href="https://github.com/sujit-sahu/bmstdr/"> github.  </a> Here is   <a href="/bmbook/bmstdr-full_vignette.html"> a full version of the vignette.</a>
+subtitle: The package source is available  from <a href="https://CRAN.R-project.org/package=bmstdr"> CRAN  </a> and <a href="https://github.com/sujit-sahu/bmstdr/"> github.  </a> Here is   <a href="/bmbook/bmstdr-full_vignette.html"> a full version of the vignette.</a> <a href="/bmbook/bmstdr_0.3.0.manual.pdf"> A pdf version of the manual </a> is also available.
 
 # Date format for experience
 #   Refer to https://wowchemy.com/docs/customization/#date-format
