@@ -35,7 +35,10 @@ header:
 
 <li> <b> Reviews: </b>
 <ul>
-<li> <b> Prof David Spiegelhalter </b> on Twitter:  <a href="https://twitter.com/d_spiegel/status/1494272959506264068"> I've seen this, and it looks excellent. And with Covid examples!" </a> 
+
+<li> <b> Prof Peter Diggle </b>  "This book is a fine addition to the literature on linear modelling of spatio-temporal data, both geostatistical and areal unit; the linkage to the author’s R package bmstdr is particularly useful."
+
+<li> <b> Prof Sir David Spiegelhalter </b> on Twitter:  <a href="https://twitter.com/d_spiegel/status/1494272959506264068"> I've seen this, and it looks excellent. And with Covid examples!" </a> 
 
 <li> <b> Prof Alan Gelfand </b> "... it emphasizes modeling in building bridges to the practitioner’s application is one of its strongest virtues...." 
 <a href="https://www.routledge.com/Bayesian-Modeling-of-Spatio-Temporal-Data-with-R/Sahu/p/book/9780367277987"> Read more at Routledge </a> 
