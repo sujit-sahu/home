@@ -68,22 +68,24 @@ highlight_name: true
 ---
 <table>
 <tr>
-<td width=60%> <p style="margin-top:0.5cm;">
-Sujit Sahu is a Professor of Statistics at the University of Southampton. He is the author of the book <a href="bookbmstdr/"> Bayesian modeling of spatio-temporal data with R </a> published by <a href="https://www.taylorfrancis.com/books/mono/10.1201/9780429318443/bayesian-modeling-spatio-temporal-data-sujit-sahu"> Chapman and Hall/CRC Press. </a> Here is a <a href="https://twitter.com/Sujit_K_Sahu/status/1493173873705197569"> Twitter video </a> introducing the book. </p>
-</td>
-<td width=40%> 
-{{< figure src="bookbmstdr/bmstdr.png" align="top"  width="150" height="240" caption="" theme="light" >}}
-</td>
-</tr>
-<tr>
-<td width=60%> <p style="margin-top:0.5cm;">
-He is also the author of the upcoming book <a href="https://www.foyles.co.uk/book/introduction-to-probability-statistics-and-r/sujit-k-sahu/9783031378645">  Introduction to Probability Statistics & R; Foundations for Data-Based Sciences, </a> to be published by <a href="https://www.springer.com/gp/statistics"> Springer </a> in December 2023.  
+<td width=50%> <p style="margin-top:0.5cm;">
+Sujit Sahu is a Professor of Statistics at the University of Southampton.
+He is  the author of the upcoming book <a href="https://www.foyles.co.uk/book/introduction-to-probability-statistics-and-r/sujit-k-sahu/9783031378645">  Introduction to Probability Statistics & R; Foundations for Data-Based Sciences, </a> to be published by <a href="https://www.springer.com/gp/statistics"> Springer </a> in December 2023.  
 </td>
 
-<td width=40%> 
+<td width=50%> 
 {{< figure src="cover_ipsRdbs.jpeg" align="top"  width="150" height="240" caption="" theme="light" >}}
 </td>
 </tr>
+<tr>
+<td width=50%> <p style="margin-top:0.5cm;">
+ He is also the author of the book <a href="bookbmstdr/"> Bayesian modeling of spatio-temporal data with R </a> published by <a href="https://www.taylorfrancis.com/books/mono/10.1201/9780429318443/bayesian-modeling-spatio-temporal-data-sujit-sahu"> Chapman and Hall/CRC Press. </a> Here is a <a href="https://twitter.com/Sujit_K_Sahu/status/1493173873705197569"> Twitter video </a> introducing the book. </p>
+</td>
+<td width=50%> 
+{{< figure src="bookbmstdr/bmstdr.png" align="top"  width="150" height="240" caption="" theme="light" >}}
+</td>
+</tr>
+
 </table>
 
 {{< icon name="download" pack="fas" >}} Download Sujit's {{< staticref "uploads/2021_sahuresume.pdf" "newtab" >}}resumé{{< /staticref >}}.

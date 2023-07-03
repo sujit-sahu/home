@@ -1,5 +1,6 @@
 ---
-title: All my publications
+title: All my research publications
+subtitle: All my research publications are listed on  <a href="/publicationlist.html">  my publication page. </a> 
 cms_exclude: true
 
 # View.

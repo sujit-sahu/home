@@ -1,15 +1,15 @@
 ---
 # An instance of the Featured widget.
 # Documentation: https://wowchemy.com/docs/page-builder/
-widget: featured
+# widget: featured
 
 # This file represents a page section.
 headless: true
  
 weight: 30
 
-title: Textbook publications
-subtitle: (1) <a href="bookipsRdbs"> Introduction to Probability, Statistics and  R; Foundations for Data-Based Sciences </a> (2) <a href="bookbmstdr/"> Bayesian modeling of spatio-temporal data with R. </a> All my other publications are listed on  <a href="/publicationlist.html">  my publication page. </a> 
+title: Publications
+subtitle: <ol> <li>  <a href="bookipsRdbs"> Introduction to Probability, Statistics and  R; Foundations for Data-Based Sciences </a> <li>  <a href="bookbmstdr/"> Bayesian modeling of spatio-temporal data with R. </a> <li>  All my research publications are listed on  <a href="/publicationlist.html">  my publication page. </a> </ol>
 content:
   # Page type to display. E.g. post, talk, publication...
   page_type: publication
@@ -30,5 +30,5 @@ design:
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view: 3
+  view: 4
 ---
