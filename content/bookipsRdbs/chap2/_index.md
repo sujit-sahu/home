@@ -1,5 +1,5 @@
 ---
-title: Jargon of spatial and spatio-temporal modeling 
+title: Getting Started with R
 linktitle: Chapter 2
 cms_exclude: true
 
@@ -23,19 +23,9 @@ header:
   image: ""
 ---
 
-This chapter introduces the main keywords and concepts we often encounter in spatial and
-spatio-temporal modeling. Written from a beginner reader's point of view,  it explains the basic concepts of
-stochastic processes, stationarity, variogram,  isotropy, Matern covariance function, Gaussian Processes,
-space-time covariance function,  Kriging, auto-correlation, Moran's I and Geary's C,
-internal and external standardization,  spatial smoothers, CAR models and point processes. 
-Detailed examples are provided to illustrate the concepts. Longer discussions are provided to understand the
-roles played by the two parameters (decay and smoothness) of a  Matern correlation  function. 
-For areal unit data  the terms internal and external standardization are discussed in detail so that the
-basic concepts of disease mapping are understood before undertaking the modeling tasks. 
-
-<a href="../Rcode/Chapter2.html">  R code for reproducing the examples in Chapter 2. </a>
+This chapter introduces the R software package and discusses how to get started with  many examples. It revisits some of the data sets already mentioned in Chapter 1 by drawing simple graphs and obtaining summary statistics. 
 	
 	
-{{< gallery album="chap2figures" >}}
+{{< gallery album="ipschap2figures" >}}
 
 

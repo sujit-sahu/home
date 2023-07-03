@@ -1,5 +1,5 @@
 ---
-title: Gaussian processes for data science and other applications
+title: Hypothesis Testing
 linktitle: Chapter 12
 cms_exclude: true
 
@@ -22,16 +22,4 @@ header:
   caption: ""
   image: ""
 ---
-This  chapter aims to present GP based models for machine learning showing  an
-immediate connection between the GP based regression models presented in the
-earlier chapters. The chapter highlights the  equivalent
-correspondences between the different terminologies used in the fields of mainstream statistics and data science.
-For example, estimation (and prediction)  is generically termed as `learning' in data science.
-The chapter  further elaborates and use these synergies to build bridges between the two fields - more importantly between
-what has been presented in the earlier chapters of this book and relevant parts of machine learning. 
-The chapter also discusses the use  of GP in Bayesian calibration of computer codes. 
-
-
-{{< gallery album="chap12figures" >}}
-
-
+Chapter 12 discusses testing of statistical hypotheses called null and alternative hypothesis. Definintions of many related keywords, e.g. critical region, types of errors while testing statistical hypothesis, power function, sensitivity and specificity are provided. These are illustrated with the t-test for testing hypothesis regarding the mean of one ir two normal distributions. This chapter ends with a discussion on designs of experiments for estimation and testing purposes. 

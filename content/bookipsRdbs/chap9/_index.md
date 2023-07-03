@@ -1,5 +1,5 @@
 ---
-title: Bayesian forecasting for point referenced data
+title: Introduction to Statistical Inference
 linktitle: Chapter 9
 cms_exclude: true
 
@@ -22,22 +22,6 @@ header:
   caption: ""
   image: ""
 ---
-
-The topic of forecasting is discussed  in this chapter.  Several easy to use and scalable
-forecasting methods are presented for Gaussian data.  The first of these is an exact Bayesian method
-based on the separable spatio-temporal model discussed in Chapter 7. In this case we  evaluate
-the exact forecast estimates from the  exact forecasting distribution and illustrate with the
-<i>nyspitme </i> data set. As an alternative to the exact method,  we illustrate with  the
-built-in forecasting method in the  <i>spTimer </i> package. We also discuss  several forecasting
-relevant statistics and diagrams such as the hit and false alarm  rates,
-sharpness diagram, probability integral transform diagram and a marginal calibration plot. 
-We compare the forecasting methods using daily ozone pollution data in the eastern United States
-for a two week period in July 2010.
-
-<p> 
-
-<a href="../Rcode/Chapter9.html"> R code for reproducing the examples in Chapter 9. </a>
-
-{{< gallery album="chap9figures" >}}
-
+<p>
+ This chapter introduces the basic concepts of statistical inference and statistical modelling. It distinguishes between population distributions and sample statistics (quantities). The concepts of estimators and their sampling (probability) distributions are also introduced.  The properties of bias and mean square errors of estimators and defined. 
 

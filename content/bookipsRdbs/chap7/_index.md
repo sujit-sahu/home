@@ -1,5 +1,5 @@
 ---
-title: Bayesian modeling for point referenced spatio-temporal data
+title: Standard Continuous Distributions
 linktitle: Chapter 7
 cms_exclude: true
 
@@ -23,20 +23,7 @@ header:
   image: ""
 ---
 
- 
-This is the main methodological chapter which discusses spatio-temporal modeling for point referenced continuous  data.
-As in the preceding  chapter  it obtains exact theoretical results for a simple separable spatio-temporal model which serves as the
-base line for model comparison purposes. More complex models, requiring advanced computation methods,  are introduced gradually.
-Various models such as the independent GP based model, autoregressive model, dynamic model and the Gaussian predictive process based model are
-fitted and compared using the <i>Bsptime </i> command in the   <i>bmstdr </i> package. The user does not need to directly code with the underlying
-packages such as <i>spTimer,  rstan,  INLA </i> and <i>spBayes </i>. The <i>nysptime</i> data set is used as a running example
-to illustrate all the methods. 
-
+ This chapter  introduces standard continuous distributions: exponential, normal, gamma and beta. As in Chapter 6, here we find the means and variances and also discuss the R commands for finding various quantities for each distribution. 
 <p>    
-<a href="../Rcode/Chapter7.html"> R code for reproducing the examples in Chapter 7. </a>
-
-
-{{< gallery album="chap7figures" >}}
-
 
 

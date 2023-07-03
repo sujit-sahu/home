@@ -1,5 +1,5 @@
 ---
-title: Bayesian computation methods
+title: Random Variables and Their Probability Distributions
 linktitle: Chapter 5
 cms_exclude: true
 
@@ -22,22 +22,9 @@ header:
   caption: ""
   image: ""
 ---
-
-This chapter introduces the underlying concepts behind the powerful and popular computation methods used to make
-Bayesian inference for complex but parametric modeling problems. Presented with two simple running examples the chapter
-defines the methods of Monte Carlo, importance sampling, rejection sampling, Markov chain, Metropolis-Hastings algorithm, Gibbs sampler,
-Hamiltonian Monte Carlo and  integrated nested Laplace approximation. These methods are illustrated using 
-<i> R</i> commands  in the <i> bmstdr</i> package and the results are  compared with the exact theoretical and approximate
-results using numerical integration. The topics of Markov chain Monte Carlo (MCMC): convergence,
-diagnostics, run length and the number of chains are discussed from a practical implementation view point.
-Exact and MCMC estimated  values of Bayesian model choice criteria such as the DIC and WAIC for a simple normal-normal
-example are compared.  Exercises are provided to check understanding. 
-
 <p>
-
-<a href="../Rcode/Chapter5.html"> R code for reproducing the examples in Chapter 5. </a>
+Chapter 5 defines the random variables and their probability distributions. Many properties such as mean, variance, and quantiles of random variables are also defined here. Laws for expectations and variances of linear functions of random variables are also discussed. 
 <p>
 
 
 	
-{{< gallery album="chap5figures" >}}

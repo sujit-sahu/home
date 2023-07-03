@@ -1,5 +1,5 @@
 ---
-title: Examples of spatio-temporal data 
+title: Introduction to Basic Statistics
 linktitle: Chapter 1
 cms_exclude: true
 
@@ -26,4 +26,4 @@ header:
  This chapter introduces basic statistics such as the mean, median and mode and standard deviation. It also provides introduction to many motivating data sets which are used as running examples throughout the book.  An accessible discussion is also provided to debate issues like: “Lies, damned lies and statistics” and “Figures don’t lie but liars can figure.” 
  
 
-{{< gallery album="chap1figures" >}}
+{{< gallery album="ipschap1figures" >}}
