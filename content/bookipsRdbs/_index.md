@@ -34,11 +34,15 @@ header:
 
 <ul>
 <li> This is an accessible textbook that engages the reader with many practical examples using probability and statistics for data science and machine learning. 
+</li>
 <li>The book provides a comprehensive coverage of topics in probability,  and both applied and mathematical statistics.
+</li>
 <li>The book comes with its own dedicated R package which makes it seamless to learn, use and practice practical methods in introductory probability and statistics. The topics discussed in the book cover the syllabus for the 2023 Actuarial Statistics 1 examination administered by the Institute and Faculty of Actuaries in London.
+</li>
 <li>The textbook contains many theoretical and applied exercises for readers and instructors. 
-
+</li>
 </ul>
+
 {{< gallery album="ipsbookalbum" >}}
 
 {{< list_children >}} 
