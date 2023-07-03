@@ -26,7 +26,7 @@ twitter: 'SUJITSAHU2'
 
 # Contact (edit or remove options as required)
 
-email: S.K.Sahu@soton.ac.uk
+email:
 address:
   street: School of Mathematical Sciences
   city: Southampton
@@ -36,7 +36,6 @@ address:
 coordinates:
   latitude: '50.9351'
   longitude: '1.3958'
-appointment_url: 'https://calendly.com'
 contact_links:
   - icon: twitter
     icon_pack: fab
@@ -44,8 +43,7 @@ contact_links:
     link: 'https://twitter.com/Sujit_K_Sahu'
   - icon: comments
     icon_pack: fas
-    name: Discuss on Forum
-    link: 'https://discourse.gohugo.io'
+
 
 # Site header
 
