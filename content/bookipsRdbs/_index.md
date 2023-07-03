@@ -1,6 +1,6 @@
 ---
-title: Bayesian Modeling of Spatio-Temporal Data with R
-subtitle: Text book, Chapman and Hall (2022).   
+title: Introduction to Probability, Statistics and R
+subtitle: Foundations for Data-Based Sciences (2023).   
 
 linktitle: ipsRdbs
 cms_exclude: true
