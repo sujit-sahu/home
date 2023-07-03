@@ -23,3 +23,6 @@ header:
   image: ""
 ---
 Chapter 16 discusses asymptotic theories which are often required to guarantee good properties of statistical inference techniques.  Three types of modes of convergence  in statistics are discussed and illustrated with the help of simulation using R routines.  Large sample properties of the maximum likelihood estimators are stated and so are the laws of  large numbers. 
+
+
+{{< gallery album="ipschap16figures" >}}

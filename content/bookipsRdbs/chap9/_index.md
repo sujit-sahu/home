@@ -25,3 +25,5 @@ header:
 <p>
  This chapter introduces the basic concepts of statistical inference and statistical modelling. It distinguishes between population distributions and sample statistics (quantities). The concepts of estimators and their sampling (probability) distributions are also introduced.  The properties of bias and mean square errors of estimators and defined. 
 
+
+{{< gallery album="ipschap9figures" >}}

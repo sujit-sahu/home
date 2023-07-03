@@ -23,3 +23,5 @@ header:
   image: ""
 ---
  Chapter 15 discusses bivariate and multivariate probability distributions.  In particular, it discusses the marginal and conditional distributions associated with bivariate and multivariate normal distributions. It also discusses the joint moment generating function for the multivariate normal distribution. In the discrete   case it introduces the multinomial distribution as a generalisation of the binomial distribution. 
+ 
+{{< gallery album="ipschap15figures" >}}

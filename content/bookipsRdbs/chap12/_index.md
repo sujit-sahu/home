@@ -23,3 +23,6 @@ header:
   image: ""
 ---
 Chapter 12 discusses testing of statistical hypotheses called null and alternative hypothesis. Definintions of many related keywords, e.g. critical region, types of errors while testing statistical hypothesis, power function, sensitivity and specificity are provided. These are illustrated with the t-test for testing hypothesis regarding the mean of one ir two normal distributions. This chapter ends with a discussion on designs of experiments for estimation and testing purposes. 
+
+
+{{< gallery album="ipschap12figures" >}}

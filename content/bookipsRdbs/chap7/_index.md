@@ -26,4 +26,5 @@ header:
  This chapter  introduces standard continuous distributions: exponential, normal, gamma and beta. As in Chapter 6, here we find the means and variances and also discuss the R commands for finding various quantities for each distribution. 
 <p>    
 
+{{< gallery album="ipschap7figures" >}}
 

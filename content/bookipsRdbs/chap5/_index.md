@@ -27,4 +27,5 @@ Chapter 5 defines the random variables and their probability distributions. Many
 <p>
 
 
+{{< gallery album="ipschap5figures" >}}
 	

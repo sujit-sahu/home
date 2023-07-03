@@ -26,4 +26,5 @@ The basic concepts of probability are introduced in this chapter.  Elementary me
 <p> 
 
 
+{{< gallery album="ipschap3figures" >}}
 	

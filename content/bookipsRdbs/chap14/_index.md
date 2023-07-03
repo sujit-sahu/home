@@ -23,3 +23,5 @@ header:
   image: ""
 ---
 Chapter 14 is devoted to deriving distributions of transformed random variables in one and multiple dimensions. These techniques are used to derive sampling distributions of quantities of statstical interests while sampling from the normal distribution. Three new distributions: chi-squared, t and F are derived and their properties are discussed.
+
+{{< gallery album="ipschap14figures" >}}

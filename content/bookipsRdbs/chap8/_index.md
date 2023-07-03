@@ -26,5 +26,5 @@ header:
 <p> 
   
 
-
+{{< gallery album="ipschap8figures" >}}
 

@@ -27,4 +27,4 @@ This chapter discusses three important methods for  point estimation: method of 
 <p>
 
 
-
+{{< gallery album="ipschap10figures" >}}
