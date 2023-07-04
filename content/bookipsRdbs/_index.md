@@ -47,7 +47,7 @@ header:
 </li>
 </ul>
 
-<h4> Some images below are shown below using Creative Commons License detailed in the book. </h4>
+<h4> Some images below are shown using Creative Commons BY License detailed in the book. </h4>
 
 {{< gallery album="ipsbookalbum" >}}
 
