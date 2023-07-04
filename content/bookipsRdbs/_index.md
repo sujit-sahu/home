@@ -41,9 +41,13 @@ header:
 <li>The book comes with its own dedicated R package which makes it seamless to learn, use and practice practical methods in introductory probability and statistics. The topics discussed in the book cover the syllabus for the 2023 Actuarial Statistics 1 examination administered by the Institute and Faculty of Actuaries in London.
 </li>
 <li>The textbook contains many theoretical and applied exercises for readers and instructors. 
+
+<li> R is introduced from scratch using practical data sets. For example, see the <a href="Part1.html"> R Getting Started page.</a>   
+
 </li>
 </ul>
 
 {{< gallery album="ipsbookalbum" >}}
 
 {{< list_children >}} 
+
