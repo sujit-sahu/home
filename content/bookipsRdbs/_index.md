@@ -38,7 +38,8 @@ header:
 </li>
 <li>The book provides a comprehensive coverage of topics in probability,  and both applied and mathematical statistics.
 </li>
-<li>The book comes with its own dedicated R package which makes it seamless to learn, use and practice practical methods in introductory probability and statistics. The topics discussed in the book cover the syllabus for the 2023 Actuarial Statistics 1 examination administered by the Institute and Faculty of Actuaries in London.
+<li>The book comes with its own dedicated R package 
+<a href="https://CRAN.R-project.org/package=ipsRdbs"> ipsRdbs,</a> available from <a href="https://CRAN.R-project.org/"> CRAN, </a> which makes it seamless to learn, use and apply practical methods in introductory probability and statistics. The topics discussed in the book cover the syllabus for the 2023 Actuarial Statistics 1 examination administered by the Institute and Faculty of Actuaries in London.
 </li>
 <li>The textbook contains many theoretical and applied exercises for readers and instructors. 
 
@@ -47,7 +48,7 @@ header:
 </li>
 </ul>
 
-<h4> Some images below are shown using Creative Commons BY License detailed in the book. </h4>
+<h4> Some of the images below are shown using Creative Commons BY License detailed in the book. </h4>
 
 {{< gallery album="ipsbookalbum" >}}
 
