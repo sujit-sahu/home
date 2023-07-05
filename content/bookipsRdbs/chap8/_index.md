@@ -24,7 +24,9 @@ header:
 ---
  This chapter introduces the  joint probability distribution for multiple random  variables. It also discusses conditional and marginal distributions, conditional expectations, covariance and correlation. Finally it introduces the central limit theorem for the sum of independent random variables. 
 <p> 
-  
+
+  See the <a href="Chapter8.html"> Chapter 8 code and output file for the R illustrations provided in this chapter.</a>   
+
 
 {{< gallery album="ipschap8figures" >}}
 
