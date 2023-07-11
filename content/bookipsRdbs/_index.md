@@ -31,9 +31,10 @@ header:
 <h2> This book is scheduled to be published in December 2023. Please see the <a href="https://www.foyles.co.uk/book/introduction-to-probability-statistics-and-r/sujit-k-sahu/9783031378645"> publisher's website </a> for further information. 
 </h2>
 
-<h3>
-The book is based on my lecture notes for a module called Introduction to Probability and Statistics. <a href="https://www.sujitsahu.com/teach/2020_math1024.pdf"> Here is a pdf copy of the notes. </a>   
-</h3>
+<p>
+The book is based on 
+<a href="https://www.sujitsahu.com/teach/2020_math1024.pdf">
+my lecture notes </a> for a module called Introduction to Probability and Statistics.  
 
 <h2>  Key features of the book: </h2>
 
