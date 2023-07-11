@@ -31,6 +31,10 @@ header:
 <h2> This book is scheduled to be published in December 2023. Please see the <a href="https://www.foyles.co.uk/book/introduction-to-probability-statistics-and-r/sujit-k-sahu/9783031378645"> publisher's website </a> for further information. 
 </h2>
 
+<h3>
+The book is based on my lecture notes for a module called Introduction to Probability and Statistics. <a href="https://www.sujitsahu.com/teach/2020_math1024.pdf"> Here is a pdf copy of the notes. </a>   
+</h3>
+
 <h2>  Key features of the book: </h2>
 
 <ul>
@@ -39,11 +43,13 @@ header:
 <li>The book provides a comprehensive coverage of topics in probability,  and both applied and mathematical statistics.
 </li>
 <li>The book comes with its own dedicated R package 
-<a href="https://CRAN.R-project.org/package=ipsRdbs"> ipsRdbs,</a> available from <a href="https://CRAN.R-project.org/"> CRAN, </a> which makes it seamless to learn, use and apply practical methods in introductory probability and statistics. The topics discussed in the book cover the syllabus for the 2023 Actuarial Statistics 1 examination administered by the Institute and Faculty of Actuaries in London.
+<a href="https://CRAN.R-project.org/package=ipsRdbs"> ipsRdbs,</a> available from <a href="https://CRAN.R-project.org/"> CRAN, </a> which makes it seamless to learn, use and apply practical methods in introductory probability and statistics. </li> 
+<li> The topics discussed in the book cover the syllabus for the 2023 Actuarial Statistics 1 examination administered by the Institute and Faculty of Actuaries in London.
 </li>
 <li>The textbook contains many theoretical and applied exercises for readers and instructors. 
 
-<li> R is introduced from scratch using practical data sets. For example, see the <a href="Part1.html"> R Getting Started page.</a>   
+<li> R is introduced from scratch and illustrated with many practical data sets.  Asking for help for those data sets, inside R, will produce all the code required to reproduce the results and analysis in the book. A reader can then reproduce all those results without having to learn all the syntax and key commands in R. 
+For example, see the <a href="Part1.html"> R Getting Started page.</a>   
 
 </li>
 </ul>
