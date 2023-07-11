@@ -42,15 +42,14 @@ The book is based on my lecture notes for a module called Introduction to Probab
 </li>
 <li>The book provides a comprehensive coverage of topics in probability,  and both applied and mathematical statistics.
 </li>
-<li> R, a popular statistical computing software package  is introduced from scratch and illustrated with many practical data sets.  
+<li> R, a popular statistical computing software package,  is introduced from scratch and illustrated with many practical data sets.  
 For example, see the <a href="Part1.html"> R Getting Started page.</a>   
 
 </li>
 <li>The book comes with its own dedicated R package 
 <a href="https://CRAN.R-project.org/package=ipsRdbs"> ipsRdbs,</a> available from <a href="https://CRAN.R-project.org/"> CRAN. </a> 
-<p>
-Inside R, just asking for help for many data sets included in the package  will produce all the code required to reproduce the results and analysis presented in the book. A reader can reproduce all those results without having to learn all the commands and syntax in R. This makes it seamless to learn, use and apply practical methods in introductory probability, statistics and beyond.
-<li>
+Once inside R and with the package installed, just asking for help for any data set included in the package  will produce all the code required to reproduce the results and analysis presented in the book for that data set. As a result, a reader can reproduce all those results without having to first learn all the commands and syntax in R. This makes it seamless to learn, use and apply practical methods in introductory probability, statistics and beyond.
+
 <li> The topics discussed in the book cover the syllabus for the 2023 Actuarial Statistics 1 examination administered by the Institute and Faculty of Actuaries in London.
 </li>
 <li>The textbook contains many theoretical and applied exercises for readers and instructors. 
