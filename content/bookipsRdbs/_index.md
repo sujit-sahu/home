@@ -49,8 +49,8 @@ my lecture notes </a> for a module called Introduction to Probability and Statis
 For example, see the <a href="Part1.html"> R Getting Started page.</a>   
 </li>
 <li>The book comes with its own dedicated R package 
-<a href="https://CRAN.R-project.org/package=ipsRdbs"> ipsRdbs,</a> available from <a href="https://CRAN.R-project.org/"> CRAN. </a> 
-Once inside R and with the package installed, just asking for help for any data set included in the package  will produce all the code required to reproduce the results and analysis presented in the book for that data set. Hence, a beginner reader can reproduce all those results without having to first learn all the commands and their exact syntax in R. This makes it seamless to learn, use and apply practical methods in introductory probability, statistics and beyond.
+<a href="https://CRAN.R-project.org/package=ipsRdbs"> ipsRdbs,</a> available from <a href="https://CRAN.R-project.org/"> CRAN. </a>  
+Once inside R and with the package installed, just asking for help for any data set included in the package  will produce all the code required to reproduce the results and analysis presented in the book for that data set. Hence, a beginner reader can reproduce all those results without having to first learn all the commands and their exact syntax in R. This makes it seamless to learn, use and apply practical methods in introductory probability, statistics and beyond. See <a href="vignette.html"> the package vignette. </a>   
 
 <li>The textbook also contains many theoretical and applied exercises for readers and instructors. 
 
