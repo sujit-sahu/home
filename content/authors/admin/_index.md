@@ -88,4 +88,4 @@ He is  the author of the upcoming book <a href="https://www.foyles.co.uk/book/in
 
 </table>
 
-{{< icon name="download" pack="fas" >}} Download Sujit's {{< staticref "uploads/2021_sahuresume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download Sujit's {{< staticref "uploads/2023_sahuresume.pdf" "newtab" >}}resumé{{< /staticref >}}.
