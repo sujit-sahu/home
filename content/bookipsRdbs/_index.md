@@ -28,7 +28,7 @@ header:
 
 {{< figure src="cover_ipsRdbs.jpeg" width="250" height="400" caption="ipsRdbs book" theme="light" >}}
 
-<h2> This book is scheduled to be published in December 2023. Please see the <a href="https://www.foyles.co.uk/book/introduction-to-probability-statistics-and-r/sujit-k-sahu/9783031378645"> publisher's website </a> for further information. 
+<h2> This book is scheduled to be published in April 2024. Please see the <a href="https://www.foyles.co.uk/book/introduction-to-probability-statistics-and-r/sujit-k-sahu/9783031378645"> publisher's website </a> for further information. 
 </h2>
 
 <p>
