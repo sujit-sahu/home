@@ -35,7 +35,7 @@ header:
 
 <li> <b> Reviews: </b>
 <ul>
-<li> <a href="https://www.statistics.utoronto.ca/people/directories/all-faculty/patrick-brown"> Prof Patrick Brown's </a> review as published in the journal  <i> Spatial Statistics. </i>  "The book’s greatest contribution is providing useable and stable methods (and software) for fitting spatio-temporal models, these tools provide useful solution to a range of problems." <a href="spasta_review.pdf"> Read the full review here. </a>
+<li> <a href="https://www.statistics.utoronto.ca/people/directories/all-faculty/patrick-brown"> Prof Patrick Brown's </a> review as published in the journal  <i> Spatial Statistics. </i>  "Sujit Sahu has been prolific at writing papers and creating R packages for spatio-temporal modelling. ... The book’s greatest contribution is providing useable and stable methods (and software) for fitting spatio-temporal models, these tools provide useful solution to a range of problems. ..." <a href="spasta_review.pdf"> Read the full review here. </a>
 
 <li> <b> Prof Peter Diggle </b>  "This book is a fine addition to the literature on linear modelling of spatio-temporal data, both geostatistical and areal unit; the linkage to the author’s R package bmstdr is particularly useful."
 
