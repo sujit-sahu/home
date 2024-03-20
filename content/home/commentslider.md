@@ -16,6 +16,18 @@ height: 550px
 width: 80%
 
 item:
+  - title: Ms J Zhang (MSc) 
+    content: '... I'm writing this email to express my gratitude for all effort you have taken for this course. 
+
+I just want to say many thanks for your motivation, patient help and sincere support for me, even though my questions are naive sometimes. Although not all of the new knowledge is understandable to me, I always  get courage and inspiration from you so that I can continue and solve them all. I have obtained lots of theoretical and empirical insights about Bayesian inference and built a more thorough construction of this part.
+
+I can not say thank you enough, and I sincerely hope you are feeling better'
+    align: center
+    overlay_color: '#D98880'
+    overlay_img: ''
+    overlay_filter: 0.7
+    
+item:
   - title: Ms Laura Scala  (BSc) 
     content: '😄 I loved learning about and exploring different modelling techniques in Statistics. I can confidently say that it was the best module I have taken in my fourth year. At times it was really challenging but Sujit guided me patiently and effectively which helped me progress with my research, thus making it fun, engaging and very enjoyable.   The constant support provided encouraged me to aspire for a deeper understanding of the topic.'
     align: center
