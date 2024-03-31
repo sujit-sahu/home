@@ -70,7 +70,7 @@ highlight_name: true
 <tr>
 <td width=50%> <p style="margin-top:0.5cm;">
 Sujit Sahu is a Professor of Statistics at the University of Southampton.
-He is  the author of the upcoming book <a href="https://www.foyles.co.uk/book/introduction-to-probability-statistics-and-r/sujit-k-sahu/9783031378645">  Introduction to Probability Statistics & R; Foundations for Data-Based Sciences, </a> to be published by <a href="https://www.springer.com/gp/statistics"> Springer </a> in April 2024.  
+He is  the author of the upcoming book <a href="https://www.foyles.co.uk/book/introduction-to-probability-statistics-and-r/sujit-k-sahu/9783031378645">  Introduction to Probability Statistics & R; Foundations for Data-Based Sciences, </a> to be published by <a href="https://www.springer.com/gp/statistics"> Springer </a> in May 2024.  
 </td>
 
 <td width=50%> 
