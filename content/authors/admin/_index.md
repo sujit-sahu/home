@@ -70,7 +70,7 @@ highlight_name: true
 <tr>
 <td width=50%> <p style="margin-top:0.5cm;">
 Sujit Sahu is a Professor of Statistics at the University of Southampton.
-He is  the author of the upcoming book <a href="https://www.foyles.co.uk/book/introduction-to-probability-statistics-and-r/sujit-k-sahu/9783031378645">  Introduction to Probability, Statistics & R; Foundations for Data-Based Sciences, </a> to be published by <a href="https://link.springer.com/book/10.1007/978-3-031-37865-2?_gl=1*17rnx1i*_up*MQ..&gclid=Cj0KCQjw2a6wBhCVARIsABPeH1vT1jB8a8B-8flWTBxuryQYtkto1SFKqS2SNTzhL8FutIK7z72FYx4aAsTpEALw_wcB#toc"> Springer </a> in May 2024.  
+He is  the author of the upcoming book <a href="https://www.foyles.co.uk/book/introduction-to-probability-statistics-and-r/sujit-k-sahu/9783031378645">  Introduction to Probability, Statistics & R; Foundations for Data-Based Sciences, </a> to be published by <a href="https://link.springer.com/book/10.1007/978-3-031-37865-2?_gl=1*17rnx1i*_up*MQ..&gclid=Cj0KCQjw2a6wBhCVARIsABPeH1vT1jB8a8B-8flWTBxuryQYtkto1SFKqS2SNTzhL8FutIK7z72FYx4aAsTpEALw_wcB"> Springer </a> in May 2024.  
 </td>
 
 <td width=50%> 
