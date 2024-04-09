@@ -35,8 +35,8 @@ header:
 </h2>
 The book is based on my lecture notes </a> for many courses (modules), for example, <a href="https://www.sujitsahu.com/teach/2020_math1024.pdf"> Introduction to Probability and Statistics, </a> taught to first and second year students in various BSc in Mathematics degree programmes.   
 <p>
-Here is a <a href="https://www.sujitsahu.com//ipsRdbs/Intro_book_preview_Sahu.pdf"> preview. </a> You may be able to access the book in various different formats 
-<a href="https://wayf.springernature.com/?redirect_uri=https%3A%2F%2Flink.springer.com%2Fbook%2F10.1007%2F978-3-031-37865-2%3F_gl%3D1*17rnx1i*_up*MQ..%26gclid%3DCj0KCQjw2a6wBhCVARIsABPeH1vT1jB8a8B-8flWTBxuryQYtkto1SFKqS2SNTzhL8FutIK7z72FYx4aAsTpEALw_wcB">"  through your own institution. </a>
+Here is a <a href="https://www.sujitsahu.com//ipsRdbs/Intro_book_preview_Sahu.pdf"> preview pdf file. </a> You may be able to access the book in various different formats 
+<a href="https://wayf.springernature.com/?redirect_uri=https%3A%2F%2Flink.springer.com%2Fbook%2F10.1007%2F978-3-031-37865-2%3F_gl%3D1*17rnx1i*_up*MQ..%26gclid%3DCj0KCQjw2a6wBhCVARIsABPeH1vT1jB8a8B-8flWTBxuryQYtkto1SFKqS2SNTzhL8FutIK7z72FYx4aAsTpEALw_wcB"> through your own institution. </a>
 
 <h2>  Key features of the book: </h2>
 

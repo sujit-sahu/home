@@ -22,7 +22,7 @@ header:
   caption: ""
   image: ""
 ---
- This chapter introduces the standard discrete distributions: Bernoulli, binomial, Poisson, geometric, hypergeometric and negative binomial. In each case the basic properties, such as mean and variance are obtained and the  R commands to obtain probabilities and cumulative probabilities are illustrated. 
+ This chapter introduces the standard discrete distributions: Bernoulli, binomial, Poisson, geometric, hypergeometric and negative binomial. In each case the basic properties, such as mean and variance are obtained and the R commands to obtain probabilities and cumulative probabilities are illustrated. 
 
 <p>
 
