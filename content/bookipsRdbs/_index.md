@@ -33,11 +33,10 @@ header:
 <a href="https://www.foyles.co.uk/book/introduction-to-probability-statistics-and-r/sujit-k-sahu/9783031378645"> foyles bookshops </a>  or
 <a href="https://www.amazon.com/Introduction-Probability-Statistics-Foundations-Data-Based/dp/3031378644/ref=sr_1_9?crid=1RJ2IRPKDNIPQ&dib=eyJ2IjoiMSJ9.EeHNUwCPC6hUERkoYK3e96D9zzcyyRECNegYO-4_I_w1oQuexD8zxT5CC7jIrBtNb9e_2uPlUaisxd1EyFqOQ1C0s37ouJffIdXKb9t9JHtQSP6e5BcwrfN-RCx6SPtlkAPlit27t7-9qZeg3vqlocsNKAEhFWOhbG3-0bdmPNdEpJNpgUWs1EVuAFfC9waTakndlivBcbmF4fl3lDhHvHNAPzCxLYCYcJjpA7Rq3IA.XGN5h2li9HOJv88G401nWx8lJdvGduyvAoSJJWjK6js&dib_tag=se&keywords=introduction+to+probability+and+statistics&qid=1711893475&sprefix=Introduction+to+Pr%2Caps%2C86&sr=8-9"> Amazon.com </a> or  <a href="https://www.amazon.co.uk/Introduction-Probability-Statistics-Foundations-Data-Based/dp/3031378644/ref=sr_1_9?crid=1RJ2IRPKDNIPQ&dib=eyJ2IjoiMSJ9.EeHNUwCPC6hUERkoYK3e96D9zzcyyRECNegYO-4_I_w1oQuexD8zxT5CC7jIrBtNb9e_2uPlUaisxd1EyFqOQ1C0s37ouJffIdXKb9t9JHtQSP6e5BcwrfN-RCx6SPtlkAPlit27t7-9qZeg3vqlocsNKAEhFWOhbG3-0bdmPNdEpJNpgUWs1EVuAFfC9waTakndlivBcbmF4fl3lDhHvHNAPzCxLYCYcJjpA7Rq3IA.XGN5h2li9HOJv88G401nWx8lJdvGduyvAoSJJWjK6js&dib_tag=se&keywords=introduction+to+probability+and+statistics&qid=1711893475&sprefix=Introduction+to+Pr%2Caps%2C86&sr=8-9"> Amazon.co.uk in the UK. </a>
 </h2>
-
+The book is based on my lecture notes </a> for many courses (modules), for example, <a href="https://www.sujitsahu.com/teach/2020_math1024.pdf"> Introduction to Probability and Statistics, </a> taught to first and second year students in various BSc in Mathematics degree programmes.   
 <p>
-The book is based on 
-<a href="https://www.sujitsahu.com/teach/2020_math1024.pdf">
-my lecture notes </a> for a module called Introduction to Probability and Statistics.  
+Here is a <a href="https://www.sujitsahu.com//ipsRdbs/Intro_book_preview_Sahu.pdf"> preview. </a> You may be able to access the book in various different formats 
+<a href="https://wayf.springernature.com/?redirect_uri=https%3A%2F%2Flink.springer.com%2Fbook%2F10.1007%2F978-3-031-37865-2%3F_gl%3D1*17rnx1i*_up*MQ..%26gclid%3DCj0KCQjw2a6wBhCVARIsABPeH1vT1jB8a8B-8flWTBxuryQYtkto1SFKqS2SNTzhL8FutIK7z72FYx4aAsTpEALw_wcB">"  through your own institution. </a>
 
 <h2>  Key features of the book: </h2>
 
