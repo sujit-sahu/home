@@ -49,7 +49,7 @@ Here is a <a href="https://www.sujitsahu.com//ipsRdbs/Intro_book_preview_Sahu.pd
 </li>
 <li> R, a popular statistical computing software package,  is introduced from scratch and illustrated with many practical data sets.  
 For example, see the <a href="Part1.html"> R Getting Started page</a> or the 
-<a href="vignette.html"> the package vignette. </a>   
+<a href="vignette_full.html"> the package vignette. </a>   
 </li>
 <li>The book comes with its own dedicated R package 
 <a href="https://CRAN.R-project.org/package=ipsRdbs"> ipsRdbs,</a> available from <a href="https://CRAN.R-project.org/"> CRAN. </a>  
