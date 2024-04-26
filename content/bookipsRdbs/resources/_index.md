@@ -22,6 +22,9 @@ header:
   caption: ""
   image: ""
 ---
-Further, resources (e.g. lecture slides) will be published through this page.  Please revisit this page later. 
+Further, resources (e.g. lecture slides) will be published through this page.  Please revisit this page later. The data sets discussed in the book are published via the R package 
+<a href="https://cran.r-project.org/web/packages/ipsRdbs/index.html"> ipsRdbs </a> available from CRAN. The data files are also available to download from this website as a zip file, 
+<a href="ipsRdbsdata.zip"> ipsRdbsdata.zip. </a>
 <p>
+
 
