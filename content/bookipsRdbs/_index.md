@@ -29,7 +29,8 @@ header:
 {{< figure src="cover_ipsRdbs.jpeg" width="250" height="400" caption="ipsRdbs book" theme="light" >}}
 
 <h2> This book is due to be published  in May, 2024. It is possible to order from  
-<a href="https://www.waterstones.com/book/introduction-to-probability-statistics-and-r/sujit-k-sahu/9783031378645">  Waterstones </a>  or
+<a href="https://www.waterstones.com/book/introduction-to-probability-statistics-and-r/sujit-k-sahu/9783031378645">  Waterstones,  </a>  or
+<a href="https://www.barnesandnoble.com/w/introduction-to-probability-statistics-r-sujit-k-sahu/1143708068?ean=9783031378652" Barnes & Noble, </a> or 
 <a href="https://www.foyles.co.uk/book/introduction-to-probability-statistics-and-r/sujit-k-sahu/9783031378645"> foyles bookshops </a>  or
 <a href="https://www.amazon.com/Introduction-Probability-Statistics-Foundations-Data-Based/dp/3031378644/ref=sr_1_9?crid=1RJ2IRPKDNIPQ&dib=eyJ2IjoiMSJ9.EeHNUwCPC6hUERkoYK3e96D9zzcyyRECNegYO-4_I_w1oQuexD8zxT5CC7jIrBtNb9e_2uPlUaisxd1EyFqOQ1C0s37ouJffIdXKb9t9JHtQSP6e5BcwrfN-RCx6SPtlkAPlit27t7-9qZeg3vqlocsNKAEhFWOhbG3-0bdmPNdEpJNpgUWs1EVuAFfC9waTakndlivBcbmF4fl3lDhHvHNAPzCxLYCYcJjpA7Rq3IA.XGN5h2li9HOJv88G401nWx8lJdvGduyvAoSJJWjK6js&dib_tag=se&keywords=introduction+to+probability+and+statistics&qid=1711893475&sprefix=Introduction+to+Pr%2Caps%2C86&sr=8-9"> Amazon.com </a> or  <a href="https://www.amazon.co.uk/Introduction-Probability-Statistics-Foundations-Data-Based/dp/3031378644/ref=sr_1_9?crid=1RJ2IRPKDNIPQ&dib=eyJ2IjoiMSJ9.EeHNUwCPC6hUERkoYK3e96D9zzcyyRECNegYO-4_I_w1oQuexD8zxT5CC7jIrBtNb9e_2uPlUaisxd1EyFqOQ1C0s37ouJffIdXKb9t9JHtQSP6e5BcwrfN-RCx6SPtlkAPlit27t7-9qZeg3vqlocsNKAEhFWOhbG3-0bdmPNdEpJNpgUWs1EVuAFfC9waTakndlivBcbmF4fl3lDhHvHNAPzCxLYCYcJjpA7Rq3IA.XGN5h2li9HOJv88G401nWx8lJdvGduyvAoSJJWjK6js&dib_tag=se&keywords=introduction+to+probability+and+statistics&qid=1711893475&sprefix=Introduction+to+Pr%2Caps%2C86&sr=8-9"> Amazon.co.uk in the UK. </a>
 </h2>
