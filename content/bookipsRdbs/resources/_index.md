@@ -25,6 +25,7 @@ header:
 Further, resources (e.g. lecture slides) will be published through this page.  Please revisit this page later. The data sets discussed in the book are published via the R package 
 <a href="https://cran.r-project.org/web/packages/ipsRdbs/index.html"> ipsRdbs </a> available from CRAN. The data files are also available to download from this website as a zip file, 
 <a href="/ipsRdbsdata.zip"> ipsRdbsdata.zip. </a>
+<p> 
 Here are my <a href="statistics_talk.pdf"> statistics </a> and <a href ="research_writing_anatomy.pdf"> research writing slides </a> for my talk at the Royal Hampshire County  Hospital in Winchester on 1st of May 2024.   
 <p>
 
