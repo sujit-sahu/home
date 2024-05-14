@@ -32,7 +32,8 @@ header:
 <li> <b> Preview </b> <a href="https://www.soton.ac.uk/~sks/bmbook/preview.pdf"> pdf file. </a>  
 
 <li> <b> Available for purchase from </b>  <a href="https://www.routledge.com/Bayesian-Modeling-of-Spatio-Temporal-Data-with-R/Sahu/p/book/9780367277987">  Routledge </a> or <a href="https://www.amazon.com/Bayesian-Modeling-Spatio-Temporal-Interdisciplinary-Statistics-ebook/dp/B09PNML5F7/ref=sr_1_1?crid=2KJTUFWQQRVSO&keywords=bayesian+modeling+of+spatio-temporal+data+with+r&qid=1643222390&sprefix=Bayesian+modeling+of+spatio-%2Caps%2C126&sr=8-1"> Amazon.com.</a> 
-<li>
+<li> <span class="__dimensions_badge_embed__" data-doi="pub.1144241223"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
 <a href="https://badge.dimensions.ai/details/id/pub.1144241223"> Dimensions badge (citation counts and impact). </a>
 </li>
 
