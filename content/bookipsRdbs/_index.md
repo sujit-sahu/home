@@ -28,7 +28,7 @@ header:
 
 {{< figure src="cover_ipsRdbs.jpeg" width="250" height="400" caption="ipsRdbs book" theme="light" >}}
 
-<h2> This book has been published  in April, 2024. It is now possible to order from  
+<h2> It is now possible to order this book from  
 <a href="https://www.waterstones.com/book/introduction-to-probability-statistics-and-r/sujit-k-sahu/9783031378645">  Waterstones,  </a>  or
 <a href="https://www.barnesandnoble.com/w/introduction-to-probability-statistics-r-sujit-k-sahu/1143708068?ean=9783031378652"> Barnes & Noble, </a> or 
 <a href="https://www.foyles.co.uk/book/introduction-to-probability-statistics-and-r/sujit-k-sahu/9783031378645"> foyles bookshops </a>  or
