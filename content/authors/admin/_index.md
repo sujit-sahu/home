@@ -70,7 +70,9 @@ highlight_name: true
 <tr>
 <td width=50%> <p style="margin-top:0.5cm;">
 Sujit Sahu is a Professor of Statistics at the University of Southampton.
-He is  the author of the book <a  href="https://link.springer.com/book/10.1007/978-3-031-37865-2?_gl=1*17rnx1i*_up*MQ..&gclid=Cj0KCQjw2a6wBhCVARIsABPeH1vT1jB8a8B-8flWTBxuryQYtkto1SFKqS2SNTzhL8FutIK7z72FYx4aAsTpEALw_wcB"> Introduction to Probability, Statistics & R; Foundations for Data-Based Sciences, </a> published by Springer Nature in 2024.    
+He is  the author of the book <a  href="https://link.springer.com/book/10.1007/978-3-031-37865-2?_gl=1*17rnx1i*_up*MQ..&gclid=Cj0KCQjw2a6wBhCVARIsABPeH1vT1jB8a8B-8flWTBxuryQYtkto1SFKqS2SNTzhL8FutIK7z72FYx4aAsTpEALw_wcB"> Introduction to Probability, Statistics & R; Foundations for Data-Based Sciences, </a> published by Springer Nature in 2024. 
+<p>
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-type="donut" data-altmetric-id="161649971"></div>
 </td>
 
 <td width=50%> 
@@ -79,7 +81,7 @@ He is  the author of the book <a  href="https://link.springer.com/book/10.1007/9
 </tr>
 <tr>
 <td width=50%> <p style="margin-top:0.5cm;">
- He is also the author of the book <a href="bookbmstdr/"> Bayesian modeling of spatio-temporal data with R </a> published by <a href="https://www.taylorfrancis.com/books/mono/10.1201/9780429318443/bayesian-modeling-spatio-temporal-data-sujit-sahu"> Chapman and Hall/CRC Press. </a> Here is a <a href="https://twitter.com/Sujit_K_Sahu/status/1493173873705197569"> Twitter video </a> introducing the book. </p>
+ He is also the author of the book <a href="bookbmstdr/"> Bayesian modeling of spatio-temporal data with R </a> published by <a href="https://www.taylorfrancis.com/books/mono/10.1201/9780429318443/bayesian-modeling-spatio-temporal-data-sujit-sahu"> Chapman and Hall/CRC Press. </a> Here is a <a href="https://twitter.com/Sujit_K_Sahu/status/1493173873705197569"> (Twitter) X video </a> introducing the book. </p>
   <span class="__dimensions_badge_embed__" data-doi="10.1201/9780429318443"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 </td>
 <td width=50%> 
