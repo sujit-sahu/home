@@ -88,7 +88,7 @@ This book is one of the top 20 winners of the
   <span class="__dimensions_badge_embed__" data-badge-type="medium-donut" data-doi="10.1201/9780429318443"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 </td>
 <td width=50%> 
-{{< figure src="bookbmstdr/winner1.png" align="top"  width="300" height="300" caption="" theme="light" >}}
+{{< figure src="bookbmstdr/winner1.png" align="top"  width="600" height="600" caption="" theme="light" >}}
 </td>
 </tr>
 
