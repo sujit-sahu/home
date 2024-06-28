@@ -28,6 +28,8 @@ header:
 
 {{< figure src="bmstdr.png" width="250" height="400" caption="BMSTDR book" theme="light" >}}
 
+{{<a class="ba-award" href="https://bookauthority.org/books/best-bayesian-statistics-books?t=158olq&s=award&book=0367277980" target="_blank" style="margin:2px; outline:0"><img src="https://award.bookauthority.org/best-bayesian-statistics-books.png?b=0367277980&c=1&v=6&w=200" style="width:200px; height:183px; border:0" alt="BookAuthority Best Bayesian Statistics Books of All Time"/></a>}}
+
 <ul>  
 <li> <b> Here is a preview </b> <a href="https://www.soton.ac.uk/~sks/bmbook/preview.pdf"> pdf file. </a>  
 
