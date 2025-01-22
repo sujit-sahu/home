@@ -32,7 +32,7 @@ Here are my <a href="statistics_talk.pdf"> statistics </a> and <a href ="researc
 Here are my <a href="sks_tester_lecture.pdf"> statistics (pdf version)  </a> or   <a href ="sks_tester_lecture.pptx"> powerpoint slides</a> for my talk on 8/9/2024.   
 <p>
 
-<b> Errata </b> 
+<h2> Errata </h2> 
 
 Please see the <a href="https://link.springer.com/chapter/10.1007/978-3-031-37865-2_21?_gl=1*1mu0r25*_up*MQ..&gclid=Cj0KCQjw2a6wBhCVARIsABPeH1vT1jB8a8B-8flWTBxuryQYtkto1SFKqS2SNTzhL8FutIK7z72FYx4aAsTpEALw_wcB"> 
 corrections to be made to the R Code </a> published in the printed book. However, please note that 
