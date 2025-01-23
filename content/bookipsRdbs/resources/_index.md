@@ -41,7 +41,7 @@ CRAN package ipsRdbs,</a> accessed through the help files, are correct
 and will run okay. We are sorry for any inconvenience this may have caused. 
 <p> 
 We regret that there is another typo which appears in the middle of page 370 immediately above the heading of 
-Section 17.3.2. The identity in the middile of the three identities should read
+Section 17.3.2. The identity in the middle of the three identities should read
 $$
 \sum_{i=1}^n w_{1i} x_i =1.
 $$
