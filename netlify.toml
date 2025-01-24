@@ -1,6 +1,5 @@
 
   [build]
-  base    = "/"
   publish = "public"
   command = "echo 'default context'"
 
