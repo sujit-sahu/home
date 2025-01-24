@@ -1,7 +1,7 @@
 
   [build]
   base    = "/"
-  publish = "dist"
+  publish = "build-output/"
   command = "echo 'default context'"
 
 [build.environment]
