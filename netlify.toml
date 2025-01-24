@@ -1,6 +1,6 @@
 
   [build]
-  base    = "docs"
+  base    = "/"
   publish = "_site"
   command = "jekyll build"
 
