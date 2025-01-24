@@ -7,8 +7,8 @@ title: Prof Sujit Sahu # Website name
 baseurl: 'https://www.sujitsahu.com' # Website URL
 copyright: '' # Footer text, e.g. '© {year} Me'
 
-# theme: "starter-hugo-academic"
-theme: "wowchemy"
+theme: "starter-hugo-academic"
+
 ############################
 ## LANGUAGE
 ############################
