@@ -5,6 +5,7 @@
 [build.environment]
   HUGO_VERSION = "0.142.0"
   HUGO_ENABLEGITINFO = "true"
+  PYTHON_VERSION="3.9.7"
 
 [context.production.environment]
   HUGO_ENV = "production"
