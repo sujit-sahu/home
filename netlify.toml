@@ -1,6 +1,6 @@
 
   [build]
-  command = "next build && next export"
+  command = "echo 'default context'"
   publish = "out"
 
 [build.environment]
