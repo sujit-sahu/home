@@ -1,5 +1,6 @@
 
   [build]
+   distDir = "out""
   command = "echo 'default context'"
   publish = "out"
 
@@ -9,18 +10,14 @@
   NODE_VERSION ="22"
   PYTHON_VERSION ="3.13.1"
 
-module.exports = {
-  distDir: 'out',
-}
-
 [context.production.environment]
   HUGO_ENV = "production"
 
 [context.deploy-preview]
-  command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
+
 
 [context.branch-deploy]
-  command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
+  command = "echo 'default context'"
 
 [[plugins]]
   package = "netlify-plugin-hugo-cache-resources"
