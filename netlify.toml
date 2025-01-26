@@ -9,6 +9,9 @@
   NODE_VERSION ="22"
   PYTHON_VERSION ="3.13.1"
 
+module.exports = {
+  distDir: 'out',
+}
 
 [context.production.environment]
   HUGO_ENV = "production"
