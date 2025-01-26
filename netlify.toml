@@ -1,25 +1,22 @@
-
-  [build]
-   distDir = "out""
-  command = "echo 'default context'"
-  publish = "out"
+[build]
+    command = "hugo"
+    publish = "public"
+    functions = "functions"
 
 [build.environment]
-  HUGO_VERSION = "0.142.0"
-  HUGO_ENABLEGITINFO = "true"
-  NODE_VERSION ="22"
-  PYTHON_VERSION ="3.13.1"
+    HUGO_VERSION = "0.142.0"
 
 [context.production.environment]
-  HUGO_ENV = "production"
+    HUGO_ENV = "production"
+    NODE_ENV = "production"
 
 [context.deploy-preview]
-
+    command = "hugo -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy]
-  command = "echo 'default context'"
+    command = "hugo -b $DEPLOY_PRIME_URL"
 
-[[plugins]]
-  package = "netlify-plugin-hugo-cache-resources"
-  [plugins.inputs]
-    debug = true
+[[headers]]
+    for = "/*"
+    [headers.values]
+      Access-Control-Allow-Origin = "*"
