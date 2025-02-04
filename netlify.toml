@@ -1,7 +1,7 @@
 [build]
-  base    = "docs"
-  publish = "_site"
-  command = "jekyll build"
+  base    = "project/"
+  command = "echo 'default context'"
+  publish = "project/build-output/"
 
 [build.environment]
   HUGO_VERSION = "0.54.0"
