@@ -45,6 +45,6 @@ Section 17.3.2. The identity in the middle of the three identities should read
 $$
 \sum_{i=1}^n w_{1i} x_i =1.
 $$
-The correct value of $\sum_{i=1}^n w_{1i}^2$ has been printed on page 374. 
+The correct value of $\sum_{i=1}^n w_{1i}^2$ has been printed on page 374 of the book. 
 
 
