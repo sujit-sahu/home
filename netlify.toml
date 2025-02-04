@@ -1,7 +1,7 @@
 [build]
-  # command = "hugo --minify"
-  command = "echo 'default context'"
-  publish = "public"
+  base    = "docs"
+  publish = "_site"
+  command = "jekyll build"
 
 [build.environment]
   HUGO_VERSION = "0.54.0"
