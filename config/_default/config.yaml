@@ -30,7 +30,8 @@ module:
 ############################
 ## ADVANCED
 ############################
-
+marketing:
+  googleAnalytics: ""
 enableGitInfo: false
 summaryLength: 30
 pagination:
