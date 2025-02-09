@@ -1,10 +1,9 @@
 [build]
-  command = "echo 'default context'"
+  command = "hugo --minify"
   publish = "public"
-  # on call
 
 [build.environment]
-  HUGO_VERSION = "0.54.0"
+  HUGO_VERSION = "0.143.0"
   HUGO_ENABLEGITINFO = "true"
 
 [context.production.environment]
@@ -12,14 +11,12 @@
   HUGO_ENABLEGITINFO = "true"
 
 [context.deploy-preview]
-  # command = "hugo  --minify --buildFuture -b $DEPLOY_PRIME_URL"
-  command = "echo 'default context'"
-  HUGO_VERSION = "0.54.0"
+  command = "hugo --minify --buildFuture -b $DEPLOY_PRIME_URL"
+  HUGO_VERSION = "0.143.0"
 
 [context.branch-deploy]
-  # command = "hugo  --minify -b $DEPLOY_PRIME_URL"
-  HUGO_VERSION = "0.54.0"
-  command = "echo 'default context'"
+  command = "hugo --minify -b $DEPLOY_PRIME_URL"
+  HUGO_VERSION = "0.143.0"
   PYTHON_VERSION = "3.9.7"
 
 [[plugins]]
