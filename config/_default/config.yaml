@@ -7,7 +7,7 @@ title: Prof Sujit Sahu # Website name
 baseURL: 'https://www.sujitsahu.com' # Website URL
 copyright: '' # Footer text, e.g. '© {year} Me'
 
-theme: "starter-academic"
+theme: "starter-hugo-academic"
 
 ############################
 ## LANGUAGE
@@ -30,10 +30,12 @@ module:
 ############################
 ## ADVANCED
 ############################
-
+pagination:
+  pagerSize: 10
+marketing:
+  google_analytics: 'G-12RLR3JGFX'
 enableGitInfo: false
 summaryLength: 30
-paginate: 10
 enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
