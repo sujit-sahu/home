@@ -1,6 +1,7 @@
-<ul class="children-list">
-    {{ range .Pages }}
-      <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-    {{ end }}
-  </ul>
-  
+{{ if .Pages }}
+  {{ range .Pages }}
+    <!-- Render child pages here -->
+  {{ end }}
+{{ else }}
+  <p>No child pages available.</p>
+{{ end }}
