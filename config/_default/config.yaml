@@ -46,8 +46,8 @@ permalinks:
   publication_types: '/publication-type/:slug/'
 disableAliases: true
 outputs:
-  home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
-  section: [HTML, RSS]
+  home: [HTML, RSS, JSON, WebAppManifest, headers, redirects,wowchemycms_config,backlinks]
+  section: [HTML, RSS,JSON]
 imaging:
   resampleFilter: lanczos
   quality: 75
