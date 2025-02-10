@@ -1,0 +1,4 @@
+{{- $src := .Get "src" -}}
+<a href="{{ .Get "src" | relURL }}" target="_blank" class="staticref-link">
+  {{ .Inner }}
+</a>
