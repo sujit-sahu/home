@@ -1,24 +1,19 @@
 [build]
   command = "hugo --gc --minify -b $URL"
   publish = "public"
-  # on call
 
 [build.environment]
-  HUGO_VERSION = "0.143.0"
+  HUGO_VERSION = "0.92.1"
   HUGO_ENABLEGITINFO = "true"
 
 [context.production.environment]
   HUGO_ENV = "production"
-  HUGO_ENABLEGITINFO = "true"
 
 [context.deploy-preview]
   command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
- # command = "echo 'default context'"
-  HUGO_VERSION = "0.143.0"
 
 [context.branch-deploy]
   command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
-  PYTHON_VERSION = "3.9.7"
 
 [[plugins]]
   package = "netlify-plugin-hugo-cache-resources"
