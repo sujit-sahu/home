@@ -1,0 +1,9 @@
+{{- $album := .Get "album" -}}
+<div class="gallery">
+    {{ range (readDir (printf "static/albums/%s" $album)) }}
+        {{ if .IsDir }}
+        {{ else }}
+            <img src="{{ printf "/albums/%s/%s" $album .Name | relURL }}" alt="{{ .Name }}">
+        {{ end }}
+    {{ end }}
+</div>
