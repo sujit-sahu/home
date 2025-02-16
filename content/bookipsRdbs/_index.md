@@ -1,6 +1,7 @@
 ---
-title: Introduction to Probability, Statistics and R
-subtitle: Foundations for Data-Based Sciences (2024).   
+title: Introduction to Probability, Statistics & R
+subtitle: Foundations for Data-Based Sciences (2023).
+
 
 linktitle: ipsRdbs
 cms_exclude: true
