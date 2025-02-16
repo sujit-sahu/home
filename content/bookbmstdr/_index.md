@@ -28,13 +28,18 @@ header:
 
 {{< figure src="bmstdr.png" width="250" height="400" caption="BMSTDR book" theme="light" >}}
 
-<ul>  
-<li> <b> Preview </b> <a href="https://www.soton.ac.uk/~sks/bmbook/preview.pdf"> pdf file. </a>  
+<a class="ba-award" href="https://bookauthority.org/books/best-bayesian-statistics-books?t=158olq&s=award&book=0367277980" target="_blank" style="margin:2px; outline:0"><img src="https://award.bookauthority.org/best-bayesian-statistics-books.png?b=0367277980&c=1&v=6&w=200" style="width:200px; height:183px; border:0" alt="BookAuthority Best Bayesian Statistics Books of All Time"/></a>
 
-<li> <b> Available for purchase from </b>  <a href="https://www.routledge.com/Bayesian-Modeling-of-Spatio-Temporal-Data-with-R/Sahu/p/book/9780367277987">  Routledge </a> or <a href="https://www.amazon.com/Bayesian-Modeling-Spatio-Temporal-Interdisciplinary-Statistics-ebook/dp/B09PNML5F7/ref=sr_1_1?crid=2KJTUFWQQRVSO&keywords=bayesian+modeling+of+spatio-temporal+data+with+r&qid=1643222390&sprefix=Bayesian+modeling+of+spatio-%2Caps%2C126&sr=8-1"> Amazon.com.</a> 
+<ul>  
+<li> <b> Here is a preview </b> <a href="https://www.soton.ac.uk/~sks/bmbook/preview.pdf"> pdf file. </a>  <b> Available for purchase in paperback and other formats from </b>  <a href="https://www.routledge.com/Bayesian-Modeling-of-Spatio-Temporal-Data-with-R/Sahu/p/book/9780367277987">  Routledge </a> or <a href="https://www.amazon.com/Bayesian-Modeling-Spatio-Temporal-Interdisciplinary-Statistics-ebook/dp/B09PNML5F7/ref=sr_1_1?crid=2KJTUFWQQRVSO&keywords=bayesian+modeling+of+spatio-temporal+data+with+r&qid=1643222390&sprefix=Bayesian+modeling+of+spatio-%2Caps%2C126&sr=8-1"> Amazon.com.</a> 
+<li> <span class="__dimensions_badge_embed__" data-doi="10.1201/9780429318443"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<a href="https://badge.dimensions.ai/details/id/pub.1144241223"> Dimensions badge (citation counts and impact). </a>
+</li>
 
 <li> <b> Reviews: </b>
 <ul>
+<li> <a href="https://www.statistics.utoronto.ca/people/directories/all-faculty/patrick-brown"> Prof Patrick Brown's </a> review as published in the journal  <i> Spatial Statistics. </i>  "Sujit Sahu has been prolific at writing papers and creating R packages for spatio-temporal modelling. ... The book’s greatest contribution is providing useable and stable methods (and software) for fitting spatio-temporal models, these tools provide useful solution to a range of problems. ..." <a href="spasta_review.pdf"> Read the full review here. </a>
 
 <li> <b> Prof Peter Diggle </b>  "This book is a fine addition to the literature on linear modelling of spatio-temporal data, both geostatistical and areal unit; the linkage to the author’s R package bmstdr is particularly useful."
 
