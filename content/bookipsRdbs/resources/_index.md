@@ -29,7 +29,7 @@ Further, resources (e.g. lecture slides) will be published through this page.  P
 Here are my <a href="statistics_talk.pdf"> statistics </a> and <a href ="research_writing_anatomy.pdf"> research writing slides </a> for my talk at the Royal Hampshire County  Hospital in Winchester on 1st May 2024.   
 <p>
 <p> 
-Here are my <a href="sks_tester_lecture.pdf"> statistics (pdf version)  </a> or   <a href ="sks_tester_lecture.pptx"> powerpoint slides</a> for my talk on 8/9/2024.   
+Here are my <a href="sks_tester_lecture.pdf"> statistics (pdf version)  </a> or   <a href ="sks_tester_lecture.pptx"> powerpoint slides</a> for my talk on 8th September 2024.   
 <p>
 
 
