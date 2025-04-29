@@ -1,29 +1,24 @@
 [build]
-  command = "echo 'default context'"
-  publish = "public"
-  # on call
+  command = "npm run build"
+  publish = ".next"
 
 [build.environment]
-  HUGO_VERSION = "0.143.0"
-  HUGO_ENABLEGITINFO = "true"
+  NEXT_USE_NETLIFY_EDGE = "true"
+  NEXT_RUNTIME = "edge"
+  NODE_VERSION = "18"
 
-[context.production.environment]
-  HUGO_ENV = "production"
-  HUGO_ENABLEGITINFO = "true"
+[build.processing]
+  skip_processing = true
 
-[context.deploy-preview]
-  # command = "hugo  --minify --buildFuture -b $DEPLOY_PRIME_URL"
-  command = "echo 'default context'"
-  HUGO_VERSION = "0.143.0"
+[functions]
+  node_bundler = "esbuild"
 
-[context.branch-deploy]
-  # command = "hugo  --minify -b $DEPLOY_PRIME_URL"
-  HUGO_VERSION = "0.143.0"
-  command = "echo 'default context'"
-  PYTHON_VERSION = "3.9.7"
+[[redirects]]
+  from = "/_next/static/*"
+  to = "/_next/static/:splat"
+  status = 200
 
-[[plugins]]
-  package = "netlify-plugin-hugo-cache-resources"
-  [plugins.inputs]
-    debug = true
-
+[[redirects]]
+  from = "/*"
+  to = "/.netlify/functions/entry"
+  status = 200
