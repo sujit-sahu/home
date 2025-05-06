@@ -12,9 +12,7 @@ export default function Chapter7CodeOutput() {
   }
   return (
     <Layout>
-      <div className="max-w-7xl mx-auto px-4 py-8">
-        <div dangerouslySetInnerHTML={{ __html: html }} />
-      </div>
+      <div dangerouslySetInnerHTML={{ __html: html }} />
     </Layout>
   );
 }

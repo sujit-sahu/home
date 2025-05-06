@@ -1,48 +1,110 @@
 import ChapterLayout from '@/components/books/ChapterLayout';
+import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Chapter11() {
   return (
     <ChapterLayout bookId="bookbmstdr" chapterNumber={11}>
-      
       <p className="text-gray-600 mb-6">
         Parallel to Chapter 8, this chapter showcases four examples of areal and temporal areal unit data sets. Click the links below to see the R-code for the examples.
       </p>
+      
+      <div className="space-y-8">
+        {/* Section 11.1 */}
+        <div>
+          <p><Link href="/bookbmstdr/chap11/chapter11.2" className="text-blue-600 hover:text-blue-800">1. Assessing childhood vaccination coverage in Kenya</Link></p>
+          <div className="my-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {[
+              'cov80map.png',
+              'cov95map.png',
+              'Observed_vaccination_rate.png',
+              'primarymap.png',
+              'randomeffectmap.png',
+              'sdrandomeffectmap.png'
+            ].map((img) => (
+              <Image
+                key={img}
+                src={`/bookbmstdr/chap11images/${img}`}
+                alt={img}
+                width={400}
+                height={300}
+                className="rounded-lg shadow-md"
+              />
+            ))}
+          </div>
+        </div>
 
-      <p>Assessing childhood vaccination coverage in Kenya</p>
-      <div className="my-8 flex flex-col md:flex-row md:flex-wrap gap-4 md:gap-8 not-prose">
-        <img src="/bookbmstdr/chap11images/sdrandomeffectmap.png" alt="sdrandomeffectmap.png" width={400} height={250} style={{ height: '250px', width: 'auto', objectFit: 'contain' }} className="rounded-lg" />
-        <img src="/bookbmstdr/chap11images/randomeffectmap.png" alt="randomeffectmap.png" width={400} height={250} style={{ height: '250px', width: 'auto', objectFit: 'contain' }} className="rounded-lg" />
-        <img src="/bookbmstdr/chap11images/primarymap.png" alt="primarymap.png" width={400} height={250} style={{ height: '250px', width: 'auto', objectFit: 'contain' }} className="rounded-lg" />
-        <img src="/bookbmstdr/chap11images/Observed_vaccination_rate.png" alt="Observed_vaccination_rate.png" width={400} height={250} style={{ height: '250px', width: 'auto', objectFit: 'contain' }} className="rounded-lg" />
-        <img src="/bookbmstdr/chap11images/cov95map.png" alt="cov95map.png" width={400} height={250} style={{ height: '250px', width: 'auto', objectFit: 'contain' }} className="rounded-lg" />
-        <img src="/bookbmstdr/chap11images/cov80map.png" alt="cov80map.png" width={400} height={250} style={{ height: '250px', width: 'auto', objectFit: 'contain' }} className="rounded-lg" />
-      </div>
+        {/* Section 11.2 */}
+        <div>
+          <p><Link href="/bookbmstdr/chap11/chapter11.4" className="text-blue-600 hover:text-blue-800">2. Assessing trend in cancer rates in the USA</Link></p>
+          <div className="my-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {[
+              'obsd_SMR_10.png',
+              'percentage_of_white.png',
+              'unemployment.png',
+              'uscancer_rate.png',
+              'uscancerfits.png'
+            ].map((img) => (
+              <Image
+                key={img}
+                src={`/bookbmstdr/chap11images/${img}`}
+                alt={img}
+                width={400}
+                height={300}
+                className="rounded-lg shadow-md"
+              />
+            ))}
+          </div>
+        </div>
 
-      <p>Assessing trend in cancer rates in the USA</p>
-      <div className="my-8 flex flex-col md:flex-row md:flex-wrap gap-4 md:gap-8 not-prose">
-        <img src="/bookbmstdr/chap11images/uscancerfits.png" alt="uscancerfits.png" width={400} height={250} style={{ height: '250px', width: 'auto', objectFit: 'contain' }} className="rounded-lg" />
-        <img src="/bookbmstdr/chap11images/uscancer_rate.png" alt="uscancer_rate.png" width={400} height={250} style={{ height: '250px', width: 'auto', objectFit: 'contain' }} className="rounded-lg" />
-        <img src="/bookbmstdr/chap11images/unemployment.png" alt="unemployment.png" width={400} height={250} style={{ height: '250px', width: 'auto', objectFit: 'contain' }} className="rounded-lg" />
-        <img src="/bookbmstdr/chap11images/percentage_of_white.png" alt="percentage_of_white.png" width={400} height={250} style={{ height: '250px', width: 'auto', objectFit: 'contain' }} className="rounded-lg" />
-        <img src="/bookbmstdr/chap11images/obsd_SMR_10.png" alt="obsd_SMR_10.png" width={400} height={250} style={{ height: '250px', width: 'auto', objectFit: 'contain' }} className="rounded-lg" />
-      </div>
+        {/* Section 11.3 */}
+        <div>
+          <p><Link href="/bookbmstdr/chap11/chapter11.1" className="text-blue-600 hover:text-blue-800">3. Localized modeling of hospitalization data from England</Link></p>
+          <div className="my-4 grid grid-cols-1 md:grid-cols-2 gap-4">
+            {[
+              'local_structures.png',
+              'smr_eng_boxplot.png',
+              'smr_england_07-11.png',
+              'v2_smr_england_07-11.png'
+            ].map((img) => (
+              <Image
+                key={img}
+                src={`/bookbmstdr/chap11images/${img}`}
+                alt={img}
+                width={400}
+                height={300}
+                className="rounded-lg shadow-md"
+              />
+            ))}
+          </div>
+        </div>
 
-      <p>Assessing trend in child poverty in London</p>
-      <div className="my-8 flex flex-col md:flex-row md:flex-wrap gap-4 md:gap-8 not-prose">
-        <img src="/bookbmstdr/chap11images/v2_smr_england_07-11.png" alt="v2_smr_england_07-11.png" width={400} height={250} style={{ height: '250px', width: 'auto', objectFit: 'contain' }} className="rounded-lg" />
-        <img src="/bookbmstdr/chap11images/smr_england_07-11.png" alt="smr_england_07-11.png" width={400} height={250} style={{ height: '250px', width: 'auto', objectFit: 'contain' }} className="rounded-lg" />
-        <img src="/bookbmstdr/chap11images/smr_eng_boxplot.png" alt="smr_eng_boxplot.png" width={400} height={250} style={{ height: '250px', width: 'auto', objectFit: 'contain' }} className="rounded-lg" />
-        <img src="/bookbmstdr/chap11images/local_structures.png" alt="local_structures.png" width={400} height={250} style={{ height: '250px', width: 'auto', objectFit: 'contain' }} className="rounded-lg" />
+        {/* Section 11.4 */}
+        <div>
+          <p><Link href="/bookbmstdr/chap11/chapter11.5" className="text-blue-600 hover:text-blue-800">4. Assessing trend in child poverty in London</Link></p>
+          <div className="my-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {[
+              'london_poverty.png',
+              'fitted_london_poverty.png',
+              'london_poverty_continuous.png',
+              'tsplot_poverty.png',
+              'pairs_logit.png'
+            ].map((img) => (
+              <Image
+                key={img}
+                src={`/bookbmstdr/chap11images/${img}`}
+                alt={img}
+                width={400}
+                height={300}
+                className="rounded-lg shadow-md"
+              />
+            ))}
+          </div>
+        </div>
       </div>
-
-      <p>Localized modeling of hospitalization data from England</p>
-      <div className="my-8 flex flex-col md:flex-row md:flex-wrap gap-4 md:gap-8 not-prose">
-        <img src="/bookbmstdr/chap11images/tsplot_poverty.png" alt="tsplot_poverty.png" width={400} height={250} style={{ height: '250px', width: 'auto', objectFit: 'contain' }} className="rounded-lg" />
-        <img src="/bookbmstdr/chap11images/pairs_logit.png" alt="pairs_logit.png" width={400} height={250} style={{ height: '250px', width: 'auto', objectFit: 'contain' }} className="rounded-lg" />
-        <img src="/bookbmstdr/chap11images/london_poverty.png" alt="london_poverty.png" width={400} height={250} style={{ height: '250px', width: 'auto', objectFit: 'contain' }} className="rounded-lg" />
-        <img src="/bookbmstdr/chap11images/london_poverty_continuous.png" alt="london_poverty_continuous.png" width={400} height={250} style={{ height: '250px', width: 'auto', objectFit: 'contain' }} className="rounded-lg" />
-        <img src="/bookbmstdr/chap11images/fitted_london_poverty.png" alt="fitted_london_poverty.png" width={400} height={250} style={{ height: '250px', width: 'auto', objectFit: 'contain' }} className="rounded-lg" />
-      </div>
+      <p className="text-gray-600 mb-6">
+      All the model fitting is done using the Bcartime model fitting function in the bmstdr package. The fitted model object is then explored for making several types of inference required in different practical settings. The full version of the code lines for model fitting and further investigations are provided in an online supplement which allows the reader to reproduce all the results and graphs illustrated here.
+      </p>
     </ChapterLayout>
   );
 }

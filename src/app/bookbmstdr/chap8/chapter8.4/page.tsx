@@ -8,13 +8,11 @@ export default function Chapter8CodeOutput() {
   try {
     html = fs.readFileSync(htmlPath, 'utf8');
   } catch (e) {
-    html = '<div style="color:red">Chapter8.html not found.</div>';
+    html = '<div style="color:red">Chap8_rainfall.html not found.</div>';
   }
   return (
     <Layout>
-      <div className="w-full px-4 py-8 mt-[10vh]">
-        <div dangerouslySetInnerHTML={{ __html: html }} />
-      </div>
+      <div dangerouslySetInnerHTML={{ __html: html }} />
     </Layout>
   );
 }
