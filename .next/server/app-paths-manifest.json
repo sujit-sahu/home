@@ -1,0 +1,9 @@
+{
+  "/bookbmstdr/chap1/chapter1/page": "app/bookbmstdr/chap1/chapter1/page.js",
+  "/bookbmstdr/chap3/page": "app/bookbmstdr/chap3/page.js",
+  "/bookbmstdr/chap8/page": "app/bookbmstdr/chap8/page.js",
+  "/bookbmstdr/chap11/page": "app/bookbmstdr/chap11/page.js",
+  "/bookbmstdr/chap8/chapter8.4/page": "app/bookbmstdr/chap8/chapter8.4/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/bookbmstdr/chap8/chapter8.1/page": "app/bookbmstdr/chap8/chapter8.1/page.js"
+}
