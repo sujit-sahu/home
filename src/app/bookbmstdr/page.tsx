@@ -9,10 +9,12 @@ const BookBMSTDRPage: NextPage = () => {
     <Layout>
       <div className="min-h-screen bg-gray-50 py-8 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
-          <div className="bg-white shadow-xl rounded-lg overflow-hidden p-6">
-            <div className="flex flex-col lg:flex-row gap-8">
+          <div className="flex flex-col lg:flex-row gap-8">
+            {/* Left sidebar with Table of Contents */}
               <div className="lg:w-1/4">
-                <div className="bg-white rounded-lg shadow-sm p-4 mb-8">
+                {/* Desktop Table of Contents */}
+                <div className="hidden lg:block">
+                  <div className="bg-white rounded-lg shadow-sm p-4 mb-8">
                   <button 
                     className="w-full flex items-center justify-between text-lg md:text-xl font-semibold text-gray-900 mb-4 focus:outline-none cursor-pointer md:cursor-default"
                     onClick={(e) => {
@@ -73,6 +75,77 @@ const BookBMSTDRPage: NextPage = () => {
                         10. Bayesian modeling for areal unit data
                       </Link>
                       <Link href="/bookbmstdr/chap11" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded-md">
+                        11. Further examples of areal data modeling
+                      </Link>
+                      <Link href="/bookbmstdr/chap12" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded-md">
+                        12. Gaussian processes for data science and other applications
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </div>
+              {/* Mobile Table of Contents Dropdown */}
+              <div className="lg:hidden">
+                <div className="bg-white rounded-lg shadow-sm p-4">
+                  <button 
+                    className="w-full flex items-center justify-between text-lg md:text-xl font-semibold text-gray-900 mb-4 focus:outline-none cursor-pointer"
+                    onClick={(e) => {
+                      const target = e.currentTarget;
+                      const content = target.nextElementSibling;
+                      const arrow = target.querySelector('.arrow');
+                      if (content instanceof HTMLElement) {
+                        content.style.maxHeight = content.style.maxHeight === '0px' ? '2000px' : '0px';
+                        content.style.opacity = content.style.maxHeight === '0px' ? '0' : '1';
+                      }
+                      if (arrow instanceof HTMLElement) {
+                        arrow.style.transform = arrow.style.transform === 'rotate(180deg)' ? 'rotate(0deg)' : 'rotate(180deg)';
+                      }
+                    }}
+                  >
+                    <span>Table of Contents</span>
+                    <svg 
+                      className="arrow w-6 h-6 transform transition-transform duration-300" 
+                      fill="none" 
+                      viewBox="0 0 24 24" 
+                      stroke="currentColor"
+                    >
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </button>
+                  <div className="transition-all duration-300 ease-in-out max-h-0 opacity-0">
+                    <div className="space-y-2">
+                      <Link href="/bookbmstdr/chap1" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded-md">
+                        1. Examples of spatio-temporal data
+                      </Link>
+                      <Link href="/bookbmstdr/chap2" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded-md">
+                        2. Jargon of spatial and spatio-temporal modeling
+                      </Link>
+                      <Link href="/bookbmstdr/chap3" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded-md">
+                        3. Exploratory data analysis methods
+                      </Link>
+                      <Link href="/bookbmstdr/chap4" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded-md">
+                        4. Bayesian inference methods
+                      </Link>
+                      <Link href="/bookbmstdr/chap5" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded-md">
+                        5. Bayesian computation methods
+                      </Link>
+                      <Link href="/bookbmstdr/chap6" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded-md">
+                        6. Bayesian modeling for point referenced spatial data
+                      </Link>
+                      <Link href="/bookbmstdr/chap7" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded-md">
+                        7. Bayesian modeling for point referenced spatio-temporal data
+                      </Link>
+                      <Link href="/bookbmstdr/chap8" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded-md">
+                        8. Practical examples of point referenced data modeling
+                      </Link>
+                      <Link href="/bookbmstdr/chap9" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded-md">
+                        9. Bayesian forecasting for point referenced data
+                      </Link>
+                      <Link href="/bookbmstdr/chap10" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded-md">
+                        10. Bayesian modeling for areal unit data
+                      </Link>
+                      <Link href="/bookbmstdr/chap11" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded-md">
                         11. Bayesian modeling for areal unit spatio-temporal data
                       </Link>
                       <Link href="/bookbmstdr/chap12" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded-md">
@@ -83,6 +156,8 @@ const BookBMSTDRPage: NextPage = () => {
                 </div>
               </div>
               <div className="lg:w-3/4">
+                <div className="bg-white shadow-xl rounded-lg overflow-hidden p-6">
+                  <div className="prose max-w-none">
                 <h1 className="text-3xl font-bold text-gray-900 mb-4">Bayesian Modeling of Spatio-Temporal Data with R</h1>
                 
                 <p className="text-gray-600 mb-6 text-lg">
@@ -97,9 +172,9 @@ const BookBMSTDRPage: NextPage = () => {
                     width={450}
                     height={300}
                   />
-                </div>
+                  </div>
 
-<div className="text-gray-600 mb-6 space-y-6">
+                  <div className="text-gray-600 mb-6 space-y-6">
                   <ul className="list-none space-y-8">
                     <li>
                       <b>Here is a preview</b> <a href="https://www.soton.ac.uk/~sks/bmbook/preview.pdf" className="text-blue-600 hover:text-blue-800">pdf file.</a> <b>Available for purchase in paperback and other formats from</b> <a href="https://www.taylorfrancis.com/books/mono/10.1201/9780429318443/bayesian-modeling-spatio-temporal-data-sujit-sahu" className="text-blue-600 hover:text-blue-800">Taylor & Francis</a> or <a href="https://www.amazon.com/Bayesian-Modeling-Spatio-Temporal-Data-Interdisciplinary-Statistics-ebook/dp/B09PNML5F7/" className="text-blue-600 hover:text-blue-800">Amazon.com.</a>
@@ -363,6 +438,7 @@ const BookBMSTDRPage: NextPage = () => {
                           </li>
                         </ul>
                       </div>
+                    </div>
                     </div>
                   </div>
                 </div>

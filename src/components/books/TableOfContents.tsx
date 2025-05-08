@@ -32,7 +32,7 @@ const TableOfContents: React.FC<TableOfContentsProps> = ({ chapters, bookId }) =
     <div className="space-y-2">
       {bookId !== 'bookbmstdr' && (
         <Link
-          href={`/books/${bookId}`}
+          href={`/${bookId}`}
           className="block px-4 py-2 text-sm font-semibold text-gray-700 hover:bg-gray-100 rounded-md"
           onClick={() => isMobile && setIsOpen(false)}
         >

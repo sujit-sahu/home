@@ -124,7 +124,7 @@ export default function Home() {
                     <div className="col-span-1 md:col-span-2">
                       <p className="text-base md:text-lg text-gray-700 leading-relaxed md:leading-normal">
                         Sujit Sahu is a Professor of Statistics at the University of Southampton. He is the author of the book{' '}
-                        <Link href="/books/bookipsrdbs" className="text-blue-600 hover:text-blue-800">Introduction to Probability, Statistics & R; Foundations for Data-Based Sciences</Link>, published by Springer Nature in 2024.
+                        <Link href="/bookipsrdbs" className="text-blue-600 hover:text-blue-800">Introduction to Probability, Statistics & R; Foundations for Data-Based Sciences</Link>, published by Springer Nature in 2024.
                       </p>
                       <div className="mt-6">
                         <Image
@@ -266,7 +266,7 @@ export default function Home() {
                 <div className="p-6">
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">Introduction to Probability, Statistics and R for Data Science</h3>
                   <p className="text-gray-600 mb-4">A comprehensive guide to probability, statistics, and R programming with applications in data science.</p>
-                  <a href="/books/bookipsrdbs" className="text-blue-600 hover:text-blue-800 font-medium">Learn more →</a>
+                  <a href="/bookipsrdbs" className="text-blue-600 hover:text-blue-800 font-medium">Learn more →</a>
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
