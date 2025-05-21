@@ -40,7 +40,7 @@ import { books } from '@/data/books';
 const booksList = [
   {
     title: 'Introduction to Probability, Statistics and R for Data Science',
-    description: 'A comprehensive guide to probability, statistics, and R programming with applications in data science.',
+    description: 'A comprehensive introduction to probability, statistics, and R programming with applications in data science.',
     link: 'bookipsrdbs',
     imageUrl: '/book-ipsrdbs.jpg', // We'll add this image later
   },
@@ -124,7 +124,9 @@ export default function Home() {
                     <div className="col-span-1 md:col-span-2">
                       <p className="text-base md:text-lg text-gray-700 leading-relaxed md:leading-normal">
                         Sujit Sahu is a Professor of Statistics at the University of Southampton. He is the author of the book{' '}
-                        <Link href="/bookipsrdbs" className="text-blue-600 hover:text-blue-800">Introduction to Probability, Statistics & R; Foundations for Data-Based Sciences</Link>, published by Springer Nature in 2024.
+                        <Link href="/bookipsrdbs" className="text-blue-600 hover:text-blue-800">Introduction to Probability, Statistics & R; Foundations for Data-Based Sciences</Link>, published by 
+                        <Link href="https://link.springer.com/book/10.1007/978-3-031-37865-2?_gl=1*17rnx1i*_up*MQ..&gclid=Cj0KCQjw2a6wBhCVARIsABPeH1vT1jB8a8B-8flWTBxuryQYtkto1SFKqS2SNTzhL8FutIK7z72FYx4aAsTpEALw_wcB"
+                          className="text-blue-600 hover:text-blue-800"> Springer Nature> in 2024.
                       </p>
                       <div className="mt-6">
                         <Image
