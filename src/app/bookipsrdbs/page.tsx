@@ -104,6 +104,9 @@ const BookipsrdbsPage: NextPage = () => {
 <Link href="/bookipsrdbs/Resources" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded-md">
   Resources
 </Link>
+<Link href="/bookipsrdbs/Corrections" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded-md">
+  Corrections
+</Link>
 </div>
 
                   </div>
