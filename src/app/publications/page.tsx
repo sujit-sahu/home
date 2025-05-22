@@ -40,7 +40,7 @@ const PublicationsPage: NextPage<PublicationsPageProps> = () => {
     <i> Scientific Reports, </i>
     <b> 10, </b> 15273 (2020). doi:10.1038/s41598-020-72073-9
   </li>
-  <li className="text-gray-800"> Sambasivan, R., Das, S. and Sahu, S. K. (2020) <a href="papers/Bayesian_Machine_Learning_Review.pdf" className="text-blue-600"> A Bayesian Perspective of Statistical Machine Learning for Big Data. </a>
+  <li className="text-gray-800"> Sambasivan, R., Das, S. and Sahu, S. K. (2020) <a href="Bayesian_Machine_Learning_Review.pdf" className="text-blue-600"> A Bayesian Perspective of Statistical Machine Learning for Big Data. </a>
     <i> Computational Statistics. </i>
     <a href="https://rdcu.be/b4MLR" className="text-blue-600"> https://doi.org/10.1007/s00180-020-00970-8. </a>
   </li>
