@@ -39,24 +39,38 @@ const TableOfContents: React.FC<TableOfContentsProps> = ({ chapters, bookId }) =
           ipsrdbs
         </Link>
       )}
-      {chapters.map((chapter, index) => (
-        <Link
-          key={index}
-          href={`/${bookId}/chap${index + 1}`}
-          className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded-md"
-          onClick={() => isMobile && setIsOpen(false)}
-        >
-          {chapter.title}
-        </Link>
-      ))}
+      {/* Numbered chapters */}
+      {chapters
+        .filter(chapter => chapter.title.match(/^\d+\./)) // Only numbered chapters
+        .map((chapter, index) => (
+          <Link
+            key={index}
+            href={`/${bookId}/chap${index + 1}`}
+            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded-md"
+            onClick={() => isMobile && setIsOpen(false)}
+          >
+            {chapter.title}
+          </Link>
+        ))}
+
+      {/* Resources and Corrections links */}
       {bookId !== 'bookbmstdr' && (
-        <Link
-          href={`/${bookId}/Resources`}
-          className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded-md bg-gray-50"
-          onClick={() => isMobile && setIsOpen(false)}
-        >
-          Resources
-        </Link>
+        <>
+          <Link
+            href={`/${bookId}/Resources`}
+            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded-md bg-gray-50"
+            onClick={() => isMobile && setIsOpen(false)}
+          >
+            Resources
+          </Link>
+          <Link
+            href={`/${bookId}/Corrections`}
+            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded-md"
+            onClick={() => isMobile && setIsOpen(false)}
+          >
+            Corrections
+          </Link>
+        </>
       )}
     </div>
   );

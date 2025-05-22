@@ -28,7 +28,10 @@ export default function BookIPSRDBSContent() {
             { title: "16. Convergence of Random Variables" },
             { title: "17. Regression" },
             { title: "18. Correlation" },
-            { title: "19. Asymptotic Theory" }
+            { title: "19. Asymptotic Theory" },
+            // Special pages at the end
+            { title: "Resources" },
+            { title: "Corrections" }
           ]}
         />
       </div>
