@@ -39,7 +39,8 @@ export const books: Record<string, Book> = {
       { title: '16. Convergence of Estimators' },
       { title: '17. Simple Linear Regression Model' },
       { title: '18. Multiple Linear Regression Model' },
-      { title: '19. Analysis of Variance' }
+      { title: '19. Analysis of Variance' },
+      { title: 'Corrections' }
     ],
     keyFeatures: [
       'This is an accessible textbook that engages the reader with many practical examples using probability and statistics for data science and machine learning.',
