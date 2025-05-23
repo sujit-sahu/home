@@ -40,10 +40,8 @@ const Corrections: NextPage = () => {
                   
                   <div className="space-y-6">
                     <p className="text-gray-600 mb-6">
-                      Further, resources (e.g. lecture slides) will be published through this page. Please revisit this page later. The data sets discussed in the book are published via the R package
-                      <a href="https://cran.r-project.org/web/packages/ipsRdbs/index.html" className="text-blue-600 hover:text-blue-800"> ipsRdbs </a> 
-                      available from CRAN. The data files are also available to download from this website as a zip file,
-                      <a href="/ipsRdbsdata.zip" className="text-blue-600 hover:text-blue-800">ipsRdbsdata.zip. </a>
+                      A list of corrections (Errata) will appear here. Please revisit this page later.  In the meantime please visit 
+                      <a href="https://link.springer.com/chapter/10.1007/978-3-031-37865-2_21?_gl=1*u8az8*_up*MQ..&gclid=Cj0KCQjw2a6wBhCVARIsABPeH1vT1jB8a8B-8flWTBxuryQYtkto1SFKqS2SNTzhL8FutIK7z72FYx4aAsTpEALw_wcB" className="text-blue-600 hover:text-blue-800"> the Publisher's correction page. </a> 
                     </p>
                   </div>
                 </div>
