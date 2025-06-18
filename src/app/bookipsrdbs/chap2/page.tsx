@@ -6,7 +6,7 @@ export default function Chapter2() {
     <ChapterLayout bookId="bookipsrdbs" chapterNumber={2}>
       <p className="text-gray-600 mb-6">
       This chapter introduces the R software package and discusses how to get started with many examples. It revisits some of the data sets already mentioned in Chapter 1 by drawing 
-        simple graphs and obtaining summary statistics. The data sets are also provided in <a href="/bookipsRdbs/chap2/ipsRdbsdata.zip" className="text-blue-600 hover:text-blue-800">this zip file. </a> 
+        simple graphs and obtaining summary statistics. The data sets are also provided in <a href="/ipsRdbsdata.zip" className="text-blue-600 hover:text-blue-800">this zip file. </a> 
          </p>
 
 
