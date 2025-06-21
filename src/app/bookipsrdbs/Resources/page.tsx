@@ -53,9 +53,7 @@ const Resources: NextPage = () => {
                     </p>
 
                     <p className="text-gray-600 mb-6">
-                      Here are my <a href="/soton_tester.pdf" className="text-blue-600 hover:text-blue-800">statistics (pdf version)</a> or 
-                      <a href="/statistics_talk.pptx" className="text-blue-600 hover:text-blue-800"> powerpoint slides</a> 
-                      for my talk on 8/9/2024.
+                      Here are my <a href="/soton_tester.pdf" className="text-blue-600 hover:text-blue-800">slides for a statistics seminar.</a>  
                     </p>
                   </div>
                 </div>
