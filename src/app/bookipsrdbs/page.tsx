@@ -238,6 +238,9 @@ const BookipsrdbsPage: NextPage = () => {
                   The book is based on my lecture notes for many courses (modules), for example, <a href="/2020_math1024.pdf" className="text-blue-600 hover:text-blue-800">Introduction to Probability and Statistics,</a> taught to first and second year students in various BSc in Mathematics degree programmes.
                   The book contains many examples and exercises, and it is suitable for self-study as well as classroom use.
                 </div>
+                <div className="text-gray-600 mb-6 space-y-6">
+                This book has been accessed 62,000 times as of June 21, 2025. <a href="https://link.springer.com/book/10.1007/978-3-031-37865-2?_gl=1*17rnx1i*_up*MQ..&gclid=Cj0KCQjw2a6wBhCVARIsABPeH1vT1jB8a8B-8flWTBxuryQYtkto1SFKqS2SNTzhL8FutIK7z72FYx4aAsTpEALw_wcB" target="_blank" rel="noopener noreferrer">View the book on Springer</a>.
+                </div>
 
                 <div className="bg-gray-50 rounded-lg p-6">
                   <h2 className="text-2xl font-semibold text-gray-900 mb-4">Key features of the book:</h2>
