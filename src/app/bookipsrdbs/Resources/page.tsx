@@ -47,14 +47,14 @@ const Resources: NextPage = () => {
                     </p>
 
                     <p className="text-gray-600 mb-6">
-                      Here are my <a href="statistics_talk.pdf" className="text-blue-600 hover:text-blue-800">statistics</a> and 
-                      <a href="research_writing_anatomy.pdf" className="text-blue-600 hover:text-blue-800"> research writing slides</a> 
+                      Here are my <a href="/statistics_talk.pdf" className="text-blue-600 hover:text-blue-800">statistics</a> and 
+                      <a href="/research_writing_anatomy.pdf" className="text-blue-600 hover:text-blue-800"> research writing slides</a> 
                       for my talk at the Royal Hampshire County Hospital in Winchester on 1st of May 2024.
                     </p>
 
                     <p className="text-gray-600 mb-6">
                       Here are my <a href="/soton_tester.pdf" className="text-blue-600 hover:text-blue-800">statistics (pdf version)</a> or 
-                      <a href="sks_tester_lecture.pptx" className="text-blue-600 hover:text-blue-800"> powerpoint slides</a> 
+                      <a href="/statistics_talk.pptx" className="text-blue-600 hover:text-blue-800"> powerpoint slides</a> 
                       for my talk on 8/9/2024.
                     </p>
                   </div>
