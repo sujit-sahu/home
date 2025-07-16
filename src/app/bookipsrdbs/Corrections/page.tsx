@@ -40,7 +40,7 @@ const Corrections: NextPage = () => {
                   
                   <div className="space-y-6">
                     <p className="text-gray-600 mb-6">
-                      <a href="html_typos.html" className="text-blue-600 hover:text-blue-800">  Here is a list of additional corrections.</a> Please also visit 
+                      <a href="Corrections/html_typos.html" className="text-blue-600 hover:text-blue-800">  Here is a list of additional corrections.</a> Please also visit 
                       <a href="https://link.springer.com/chapter/10.1007/978-3-031-37865-2_21?_gl=1*u8az8*_up*MQ..&gclid=Cj0KCQjw2a6wBhCVARIsABPeH1vT1jB8a8B-8flWTBxuryQYtkto1SFKqS2SNTzhL8FutIK7z72FYx4aAsTpEALw_wcB" className="text-blue-600 hover:text-blue-800"> the Publisher's correction page. </a> 
                     </p>
                   </div>
