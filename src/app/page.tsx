@@ -247,8 +247,8 @@ export default function Home() {
                         <p className="text-gray-600">Indian Statistical Institute</p>
                       </div>
                       <div>
-                        <h3 className="text-lg font-medium text-gray-900">Bachelor of Statistics (Honors), 1987</h3>
-                        <p className="text-gray-600">Indian Statistical Institute</p>
+                        <h3 className="text-lg font-medium text-gray-900">Bachelor of Science (Statistics Honors), 1987</h3>
+                        <p className="text-gray-600"> Presidency College, University of Calcutta</p>
                       </div>
                     </div>
                   </div>
