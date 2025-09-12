@@ -70,6 +70,15 @@ const mscStudents: MScStudent[] = [
 
 const students: Student[] = [
   {
+    id: 13,
+    name: 'Mark Taylor',
+    nameColor: 'navy',
+    graduationYear: '2025',
+    thesisTitle: 'Investigating spatio-temporal patterns in subsurface chlorophyll through biogeochemical-Argo floats and novel statistical methods',
+    coSupervisors: 'Jointly supervised by Stephanie Henson, Matthew Hammond and B B Cael.',
+    destination: '--'
+  },
+   {
     id: 12,
     name: 'Philip Wells',
     nameColor: 'navy',
