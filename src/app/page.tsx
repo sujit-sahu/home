@@ -135,6 +135,7 @@ export default function Home() {
                           height={80}
                           className="w-1/5 h-auto rounded-lg"
                         />
+                        <script type="text/javascript" src="https://embed.altmetric.com/assets/embed.js"></script>
                       </div>
                     </div>
                     <div className="col-span-1">
