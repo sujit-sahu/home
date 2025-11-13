@@ -163,8 +163,8 @@ export default function Home() {
                         <a href="https://bookauthority.org/books/best-bayesian-statistics-books?t=158olq&s=award&book=0367277980#book-0367277980" className="text-blue-600 hover:text-blue-800" target="_blank" rel="noopener noreferrer">Book Authority Best Bayesian Statistics Books of All Time</a>.
                       </p>
                       <div className="mt-4" dangerouslySetInnerHTML={{ __html: `
-                        <span class="__dimensions_badge_embed__" data-badge-type="medium-donut" data-doi="10.1001/jama.2016.9797" data-dimensions-badge-installed="true">
-                          <a class="__dimensions_Link" href="https://badge.dimensions.ai/details/doi/10.1001/jama.2016.9797?domain=https://www.sujitsahu.com" target="_blank" referrerpolicy="no-referrer-when-downgrade" aria-label="24 total citations on Dimensions.">
+                        <span class="__dimensions_badge_embed__" data-badge-type="medium-donut" data-doi="10.1201/9780429318443" data-dimensions-badge-installed="true">
+                          <a class="__dimensions_Link" href="https://badge.dimensions.ai/details/id/pub.1144241223?domain=https://www.sujitsahu.com" target="_blank" referrerpolicy="no-referrer-when-downgrade" aria-label="24 total citations on Dimensions.">
                             <div class="__dimensions_Badge __dimensions_Badge_style_medium_circle">
                               <div class="__dimensions_Badge_Image">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
