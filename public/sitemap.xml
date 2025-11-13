@@ -1,0 +1,9 @@
+;; This buffer is for text that is not saved, and for Lisp evaluation.
+;; To create a file, visit it with C-x C-f and enter text in its buffer.
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.sujitsahu.com/vignette_full.html</loc>
+    <lastmod>2025-11-13</lastmod>
+  </url>
+</urlset>
