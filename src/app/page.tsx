@@ -128,7 +128,13 @@ export default function Home() {
                          <Link href="https://link.springer.com/book/10.1007/978-3-031-37865-2?_gl=1*17rnx1i*_up*MQ..&gclid=Cj0KCQjw2a6wBhCVARIsABPeH1vT1jB8a8B-8flWTBxuryQYtkto1SFKqS2SNTzhL8FutIK7z72FYx4aAsTpEALw_wcB" className="text-blue-600 hover:text-blue-800"> Springer Nature </Link>  in 2024.
                       </p>
                       <div className="mt-6">
-                        <script type="text/javascript" src="https://embed.altmetric.com/assets/embed.js"></script>
+                         <Image
+                          src="/1.png"
+                          alt="Additional content"
+                          width={160}
+                          height={80}
+                          className="w-1/5 h-auto rounded-lg"
+                        />
                       </div>
                     </div>
                     <div className="col-span-1">
