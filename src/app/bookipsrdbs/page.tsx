@@ -104,6 +104,9 @@ const BookipsrdbsPage: NextPage = () => {
 <Link href="/bookipsrdbs/Resources" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded-md">
   Resources
 </Link>
+<Link href="/bookipsrdbs/pdf" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded-md">
+  Pdf
+</Link>
 <Link href="/bookipsrdbs/Corrections" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded-md">
   Corrections
 </Link>
@@ -199,6 +202,15 @@ const BookipsrdbsPage: NextPage = () => {
 </Link>
 <Link href="/bookipsrdbs/chap19" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded-md">
   19. Analysis of Variance
+</Link>
+<Link href="/bookipsrdbs/Resources" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded-md">
+  Resources
+</Link>
+<Link href="/bookipsrdbs/pdf" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded-md">
+  Pdf
+</Link>
+<Link href="/bookipsrdbs/Corrections" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded-md">
+  Corrections
 </Link>
 </div>
 

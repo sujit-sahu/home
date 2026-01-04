@@ -40,7 +40,7 @@ const Pdf: NextPage = () => {   // <-- rename component to match export
                   
                   <div className="space-y-6">
                     <p className="text-gray-600 mb-6">
-                        Additional PDF documents can be found here.
+                        Lecture slides (pdf) for my Stats Modelling I course be found here.
                     </p>
                   </div>
                 </div>

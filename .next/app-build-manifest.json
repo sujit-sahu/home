@@ -1,110 +1,30 @@
 {
   "pages": {
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
-    ],
-    "/error": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/error.js"
-    ],
     "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/not-found": [
+    "/error": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/not-found.js"
+      "static/chunks/app/error.js"
     ],
     "/loading": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/loading.js"
     ],
-    "/books/[bookId]/error": [
+    "/not-found": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/books/[bookId]/error.js"
+      "static/chunks/app/not-found.js"
     ],
-    "/books/[bookId]/loading": [
+    "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/books/[bookId]/loading.js"
-    ],
-    "/books/[bookId]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/books/[bookId]/page.js"
-    ],
-    "/bookbmstdr/chap1/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/bookbmstdr/chap1/page.js"
-    ],
-    "/bookbmstdr/chap1/chapter1/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/bookbmstdr/chap1/chapter1/page.js"
-    ],
-    "/bookbmstdr/chap3/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/bookbmstdr/chap3/page.js"
-    ],
-    "/bookbmstdr/chap8/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/bookbmstdr/chap8/page.js"
-    ],
-    "/bookbmstdr/chap11/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/bookbmstdr/chap11/page.js"
-    ],
-    "/bookbmstdr/chap7/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/bookbmstdr/chap7/page.js"
-    ],
-    "/bookbmstdr/chap12/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/bookbmstdr/chap12/page.js"
-    ],
-    "/bookbmstdr/chap10/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/bookbmstdr/chap10/page.js"
-    ],
-    "/bookbmstdr/chap5/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/bookbmstdr/chap5/page.js"
-    ],
-    "/bookbmstdr/chap6/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/bookbmstdr/chap6/page.js"
-    ],
-    "/bookbmstdr/chap9/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/bookbmstdr/chap9/page.js"
-    ],
-    "/bookbmstdr/chap8/chapter8.4/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/bookbmstdr/chap8/chapter8.4/page.js"
-    ],
-    "/bookbmstdr/chap8/chapter8.1/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/bookbmstdr/chap8/chapter8.1/page.js"
+      "static/chunks/app/page.js"
     ]
   }
 }
