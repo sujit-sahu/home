@@ -1,5 +1,6 @@
 'use client';
 
+import { useEffect } from 'react';
 import type { NextPage } from 'next';
 import Image from 'next/image';
 import Layout from '@/components/layout/Layout';
@@ -58,6 +59,12 @@ const booksList = [
 ];
 
 export default function Home() {
+  useEffect(() => {
+    if (typeof window !== 'undefined' && (window as any)._altmetric_embed_init) {
+      (window as any)._altmetric_embed_init();
+    }
+  }, []);
+
   return (
     <Layout>
       <main className="min-h-screen bg-gray-50">
@@ -160,12 +167,13 @@ export default function Home() {
                         This textbook is one of the top 20 winners of the{' '}
                         <a href="https://bookauthority.org/books/best-bayesian-statistics-books?t=158olq&s=award&book=0367277980#book-0367277980" className="text-blue-600 hover:text-blue-800" target="_blank" rel="noopener noreferrer">Book Authority Best Bayesian Statistics Books of All Time</a>.
                       </p>
-                      <div className="mt-4">
-                        <span
-                          className="__dimensions_badge_embed__"
-                          data-doi="10.1201/9780429318443"
-                        />
-                      </div>
+                      <div
+                        className="mt-4"
+                        dangerouslySetInnerHTML={{
+                          __html:
+                            '<span class="__dimensions_badge_embed__" data-doi="10.1201/9780429318443"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>',
+                        }}
+                      />
                     </div>
                     <div className="col-span-1">
                       <Image
