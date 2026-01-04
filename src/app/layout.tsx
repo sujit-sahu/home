@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from 'next/font/google';
+import Script from 'next/script';
 import "./globals.css";
 
 const inter = Inter({
@@ -24,6 +25,10 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <script async src="https://badge.dimensions.ai/badge.js" />
+        <Script
+          src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"
+          strategy="afterInteractive"
+        />
       </head>
       <body suppressHydrationWarning className={`${inter.variable} font-sans antialiased min-h-screen`}>
         {children}
