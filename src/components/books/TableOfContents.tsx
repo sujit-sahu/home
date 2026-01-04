@@ -64,6 +64,13 @@ const TableOfContents: React.FC<TableOfContentsProps> = ({ chapters, bookId }) =
             Resources
           </Link>
           <Link
+            href={`/${bookId}/Pdf`}
+            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded-md"
+            onClick={() => isMobile && setIsOpen(false)}
+          >
+            Pdf
+          </Link>
+          <Link
             href={`/${bookId}/Corrections`}
             className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded-md"
             onClick={() => isMobile && setIsOpen(false)}
