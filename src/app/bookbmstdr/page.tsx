@@ -248,7 +248,7 @@ const BookBMSTDRPage: NextPage = () => {
                         </a>
                       </span>
                       <p className="mt-2">
-                        <a href="https://badge.dimensions.ai/details/id/pub.1144241223" className="text-blue-600 hover:text-blue-800">Dimensions badge (citation counts and impact).</a>
+                        <a href="https://badge.dimensions.ai/details/id/pub.1144241223" className="text-blue-600 hover:text-blue-800">Dimensions badge (with an inaccurate citation (under) count).</a>
                       </p>
                     </li>
 
