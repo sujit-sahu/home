@@ -251,7 +251,7 @@ const BookipsrdbsPage: NextPage = () => {
                   The book contains many examples and exercises, and it is suitable for self-study as well as classroom use.
                 </div>
                 <div className="text-gray-600 mb-6 space-y-6">
-                This book has been accessed 75,000 times as of November 14, 2025. <a href="https://link.springer.com/book/10.1007/978-3-031-37865-2?_gl=1*17rnx1i*_up*MQ..&gclid=Cj0KCQjw2a6wBhCVARIsABPeH1vT1jB8a8B-8flWTBxuryQYtkto1SFKqS2SNTzhL8FutIK7z72FYx4aAsTpEALw_wcB" className="text-blue-600 hover:text-blue-800" target="_blank" rel="noopener noreferrer">View the book on Springer</a>.
+                This book has been accessed 85,000 times as of February 27, 2026. <a href="https://link.springer.com/book/10.1007/978-3-031-37865-2?_gl=1*17rnx1i*_up*MQ..&gclid=Cj0KCQjw2a6wBhCVARIsABPeH1vT1jB8a8B-8flWTBxuryQYtkto1SFKqS2SNTzhL8FutIK7z72FYx4aAsTpEALw_wcB" className="text-blue-600 hover:text-blue-800" target="_blank" rel="noopener noreferrer">View the book on Springer</a>.
                 </div>
 
                 <div className="bg-gray-50 rounded-lg p-6">
